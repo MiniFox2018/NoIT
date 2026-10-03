@@ -6,6 +6,7 @@ tags:
   - Stripe Atlas
   - 公司运营
   - 美国公司
+type: resource
 status: active
 updated: 2026-10-03
 ---
@@ -180,8 +181,9 @@ Atlas 中最基础的公司运营知识已融合到：
 
 ---
 
-## 状态
+## 来源与状态
 
+- 官方入口：https://stripe.com/guides/atlas-guides
 - 官方资源：是
 - 需要联网更新：是
 - 法律 / 税务信息：执行前必须重新核验

@@ -4,11 +4,12 @@ aliases:
   - Depth Of Field Simulator
   - 景深模拟器
 tags:
-  - 资源
+  - 资源库
   - 影像创作
   - 摄影
   - 景深
   - 可视化工具
+type: resource
 status: active
 updated: 2026-10-03
 ---
@@ -36,7 +37,7 @@ Depth of Field Simulator 是 Jack Herrington 制作的浏览器端交互工具�
 
 它的价值不只是“帮你算一个数字”，而是可以拖动参数，直接建立**镜头参数变化 → 画面空间变化**的直觉。
 
-## 官方入口
+## 来源与状态
 
 - 在线版：https://jherr.github.io/depth-of-field/
 - 源代码：https://github.com/jherr/depth-of-field

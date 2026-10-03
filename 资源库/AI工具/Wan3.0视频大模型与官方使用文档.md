@@ -244,8 +244,9 @@ Wan3.0 最值得长期关注的不是单一画质指标，而是：
 
 ---
 
-## 官方来源
+## 来源与状态
 
+- 核验日期：2026-10-03
 - 用户提供的钉钉官方使用文档  
   https://alidocs.dingtalk.com/i/nodes/qnYMoO1rWxrkmoj2IjExdZLBJ47Z3je9
 - 阿里云百炼：万相3.0视频生成Prompt指南  

@@ -3,7 +3,9 @@ title: Skill 教程与实践笔记
 date: 2026-10-01
 updated: 2026-10-03
 tags:
-  - skill
+  - Skill
+type: resource-index
+status: active
 ---
 
 # Skill 教程与实践笔记
