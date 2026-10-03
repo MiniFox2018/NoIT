@@ -47,6 +47,8 @@ status: active
 | 围绕主题检索最近 30 天的讨论与互动信号，覆盖 Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub 和网页；综合近期用户观点并提供来源健康检查，实际覆盖取决于可用后端与配置。 | [last30days](https://github.com/mvanhorn/last30days-skill/blob/main/skills/last30days/SKILL.md) · [仓库](https://github.com/mvanhorn/last30days-skill) | 未安装 |
 | 通过浏览器采集小红书搜索框的联想词，从词根到一级建议词再做第二层扩展，逐次截图并保留排序、来源路径和 JSON 检查点；按行业转化目标评估相对商业意图，交付 Excel、JSON 与截图。评分不代表搜索量或成交额，适合关键词拓展，不用于笔记热度或账号排名分析。 | [yao-geo-xiaohongshu](https://github.com/yaojingang/yao-geo-skills/blob/main/skills/yao-geo-xiaohongshu/SKILL.md) · [技能目录](https://github.com/yaojingang/yao-geo-skills/tree/main/skills/yao-geo-xiaohongshu) | 未安装 |
 
+| 在豆包工作中通过真实浏览器采集抖音公开主页/视频的标题、文案、互动、日期与完整逐字稿；支持飞书多维表或本地 Markdown/JSON，并包含长文本分页完整性、去重、受控标签与写后校验。仅处理有权访问和使用的内容，需遵守平台规则与法律要求。 | [douyin-transcript-exporter](https://github.com/jinchenma94/social-media-data-tools/blob/main/skills/douyin-transcript-exporter/SKILL.md) · [仓库](https://github.com/jinchenma94/social-media-data-tools) | 未安装（2026-10-03 已核验仓库与 SKILL.md） |
+
 ## 学术研究流程
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
