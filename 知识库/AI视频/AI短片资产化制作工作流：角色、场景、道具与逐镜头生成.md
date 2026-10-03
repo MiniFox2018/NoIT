@@ -112,6 +112,51 @@ Higgsfield 的 Seedance 4K 短片拆解真正值得长期保留的，不是某�
 
 如果只提供一个半身头像，后续全身镜头就需要模型自己补足大量信息，漂移概率会上升。
 
+
+### 为重复角色建立“唯一当前版”角色 Sheet
+
+Magnific 的角色一致性案例给出了一种更明确的最小角色 Sheet：
+
+- 左：正面头肩；
+- 中：标准侧脸；
+- 右：最终服装下的完整全身。
+
+三格应满足：
+
+- 同一人物身份；
+- 同一套当前服装；
+- 统一中性背景；
+- 柔和、稳定的光线；
+- 无多余道具与文字。
+
+真正重要的不是“三格”这个固定形式，而是：
+
+> **角色的身份信息必须在一份正式主参考里足够完整，后续所有镜头都从这份主参考出发。**
+
+如果角色发生长期变化，例如：
+
+- 新发型；
+- 新年龄阶段；
+- 新固定服装；
+- 新长期配饰；
+
+应该先更新角色 Sheet，再继续生成后续镜头，而不是让不同镜头分别“记住”不同版本。
+
+因此可以把角色资产理解为一个带版本的单一真相源：
+
+~~~text
+Character Sheet v1
+      ↓
+正式变化
+      ↓
+更新为 Character Sheet v2
+      ↓
+后续全部引用 v2
+~~~
+
+同一时间尽量只保留一个“当前正式版本”，避免多个角色版本同时作为参考造成身份和造型冲突。
+
+
 ### 中性背景是减少变量的一种方法
 
 Higgsfield 团队在这篇案例里声称，他们经过大量测试后发现**中性灰背景**比纯白或纯黑的角色 Sheet 更稳定。
@@ -607,6 +652,8 @@ Higgsfield 在这篇文章及其 Academy 中把当前功能称为“Seedance 4K�
 ---
 
 ## 来源与版本记录
+
+- Magnific Studios：《The Prompting Handbook — The 2026 guide to the frontier image and video models》，用户提供 PDF：prompt-guide-v1-2.pdf，July 2026 · V1.2，处理于 2026-10-03；其中 Character Sheet 案例用于补充“唯一当前版角色资产”的版本管理方法。
 
 - Higgsfield：《Recreate Our 1-Minute Seedance 4K Film - The Full Seedance 4K Breakdown With All Prompts》，2026-07-02，核验于 2026-10-03  
   https://higgsfield.ai/blog/seedance4k-breakdown
