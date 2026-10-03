@@ -27,6 +27,12 @@ updated: 2026-10-03
 | CodexThemes | [打开](https://codexthemes.ai/zh) | 浏览与预览 Codex 桌面端主题和皮肤，按视觉风格挑选并分享作品；适合寻找配色和工作台外观参考。属于独立社区资源，不是 OpenAI 官方项目，也不等于主题已在本机安装。 |
 | Agent.Space | [打开](https://agent.space/app?ref=SCC4-889L) | 提供云端 Agent 工作空间，集中保存会话、文件、任务进度和预览，支持多 Agent 与团队协作；另提供模型套餐、余额及 API 接入。属于第三方云服务，本地客户端接入不代表平台本身是桌面应用；模型来源、额度和实际任务执行未独立验证。 |
 
+## 机器人与具身智能
+
+| 工具 | 链接 | 用途说明 |
+| --- | --- | --- |
+| Microduck | [打开](https://github.com/pollen-robotics/microduck) | Pollen Robotics 的开源小型双足机器人项目。主仓库是机器人的运行软件与系统“大脑”，在 RK3566 上用多个 Rust daemon 管理约 50 Hz 控制循环、15 个舵机、蓝牙、相机、配置与可回滚更新；强化学习策略训练另在 microduck_rl 仓库，采用 MuJoCo、PPO、sim-to-real 与 ONNX 导出。适合研究具身控制、机器人软件架构、强化学习策略部署和仿真到实机链路；它是可运行开源项目，不按普通教程处理。 |
+
 ## AI 工具导航与资源
 
 | 工具 | 链接 | 用途说明 |
@@ -41,6 +47,7 @@ updated: 2026-10-03
 
 | 工具 | 链接 | 用途说明 |
 | --- | --- | --- |
+| Awesome Opus 5.5 Videos | [打开](https://github.com/yihui-dev/awesome-opus5-5-videos) | 持续收集使用 Claude Opus 5.5 以 HTML、Canvas、SVG、Three.js、GLSL 等代码生成的视频案例，并保存创作者公开的原始提示词或原帖。2026-10-03 核验时仓库含 475 份 Prompt，覆盖 motion graphics、explainers、3D scenes、games & interactive，并给出原作与可运行重制对照；适合研究“任务描述 → 技术栈 → 成片”的关系。它是案例与提示词实验库，不把单个爆款案例或简短 Prompt 当成稳定能力证明；可复用规律已同步吸收到代码视频知识文档。 |
 | AIART.PICS | [打开](https://aiart.pics/) | 展示 AI 生成图像及对应提示词，覆盖人像、产品摄影和艺术风格等场景，支持复制参考；适合从效果图反推描述方式。收录模型标签与案例效果来自社区，不能保证同提示词在不同模型中复现一致。 |
 | awesome-gpt-image-2（freestylefly） | [打开](https://github.com/freestylefly/awesome-gpt-image-2) | 按案例、场景和风格组织 GPT Image 图像提示词、模板及生成记录，并提供在线图库和版本对比示例；适合学习提示词结构与改写应用。与 YouMind 的同名仓库区分，本条收藏资源，附带 Skill 不自动安装。 |
 | EvoLink：GPT Image 2 提示词 | [打开](https://evolink.ai/gpt-image-2-prompts) | 展示图像案例、提示词和场景模板，适合参考商业图、设计及风格化表达，配合 EvoLink 的生成服务入口使用；收藏的是特定提示词页面，不等于已接入其 API，生成成本和模型来源未实测。 |

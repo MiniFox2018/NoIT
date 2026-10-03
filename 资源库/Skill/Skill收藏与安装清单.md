@@ -227,6 +227,13 @@ status: active
 | 查看、选择、下载或删除 ChatGPT Work 中的动画宠物；用于管理已存在的宠物库条目。 | `work-pets:pets` | 已安装 |
 | 检查、验证和修复 ChatGPT Work 自定义动画宠物，更新名称、说明或精灵图；适合修改已有宠物。 | `work-pets:update-pet` | 已安装 |
 
+## 游戏与 3D 制作
+
+| 用途 | Skill · 点击查看说明 | 安装状态 |
+|---|---|---|
+| 以真实已发行游戏截图建立锁定参考和 Visual Bar，按 Orchestrator → Planner → Builder → Critic → Diagnoser 的分离角色循环制作、审查并持续打磨可玩的致敬型游戏或垂直切片；可玩只是底线，视觉对标通过才结束。要求宿主能提供独立子 Agent / 新鲜上下文，并需要可查看全分辨率图片的 Critic；不用于普通 App 脚手架或只验证玩法的原型。 | [game-builder](https://github.com/ericzakariasson/skills/blob/main/skills/game-builder/SKILL.md) · [仓库](https://github.com/ericzakariasson/skills) | 未安装 |
+| 作为 game-builder 的 3D 资产伴随技能，只在锁定参考确实需要 3D 时，为主角、第一人称武器、车辆等镜头关键资产在 Blender 中独立建模、UV、简单绑定并导出 GLB；每个关键资产交给独立 specialist，并在接入游戏前做 turnaround gate。2D、像素风或不需要 3D 的参考应跳过；运行依赖 Blender 和可读取 glTF 2.0 GLB 的引擎/渲染器。 | [game-builder-blender-assets](https://github.com/ericzakariasson/skills/blob/main/skills/game-builder-blender-assets/SKILL.md) · [仓库](https://github.com/ericzakariasson/skills) | 未安装 |
+
 ## 软件规格与代码设计
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
@@ -275,6 +282,7 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
+| 面向高完成度游戏视觉制作的两技能合集：game-builder 用锁定真实参考、分离 Planner/Builder/Critic/Diagnoser 和多轮视觉硬门槛打磨可玩作品；game-builder-blender-assets 在确需 3D 时把镜头关键模型交给 Blender specialist 制作并以 GLB 接入。两个实际 Skill 已分别登记，收藏合集不代表已安装或已运行验证。 | [ericzakariasson/skills](https://github.com/ericzakariasson/skills) | 未安装 |
 | 面向软件开发全过程的技能合集，覆盖需求澄清、规格与计划、增量实现、测试、调试、审查和发布；还包含接口设计、性能、安全及上下文工程。按开发阶段选择技能，强调质量门槛与验证。 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 未安装 |
 | 包含六个技能：leader 编写目标任务书，neat-freak 做项目知识收尾，hv-analysis 做历史与竞品双轴研究，khazix-writer 写公众号长文，aihot 获取 AI 资讯，storage-analyzer 分析磁盘空间。 | [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) | 未安装 |
 | 以小而可组合的工程技能组织需求访谈、规格、任务拆分、实现、TDD、调试、代码审查和交接；可按需选择和修改。目录另含 in-progress 技能，收藏合集不等于所有条目都已成熟。 | [mattpocock/skills](https://github.com/mattpocock/skills) | 未安装 |
