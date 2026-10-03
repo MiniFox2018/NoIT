@@ -618,3 +618,8 @@ Higgsfield 在这篇文章及其 Academy 中把当前功能称为“Seedance 4K�
   https://seed.bytedance.com/zh/seedance2_0
 
 > 来源说明：Higgsfield 是第三方 AI 创作平台，其关于“native 4K”、灰背景表现、3/4 场景视角等描述主要来自自身产品测试与营销材料；本文将这些内容作为经验性制作方法，而非字节官方模型规格或普遍适用的客观定律。
+
+
+## 相关知识
+
+- [[AI长片规模化制作：Prompt规范、连续性与工程档案]]：当影片从短片扩展到长片规模后，负责 Prompt Bible、状态连续性、失败规则和工程档案。
