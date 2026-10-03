@@ -238,6 +238,7 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
+| 把 Vibe Coding 中的口语化需求改写成可直接发给 Agent 的准确表达，并在开发任务里主动提示最相关的 1–3 个 UI、网页、软件、Git、AI 或设计术语；先从上下文推断少量候选，再通过 bundled resolver 向 VibeHub 批量验证名称和链接。保留用户原意，不擅自增加框架、参数或实现方案；需要 Node.js 20+ 与联网，无需账号或 API Key，查询前会去除代码块、密钥、URL、邮箱、本地路径等敏感内容。 | [vibehub](https://github.com/oil-oil/vibe-hub-skill/blob/main/skills/vibehub/SKILL.md) · [仓库](https://github.com/oil-oil/vibe-hub-skill) | 未安装 |
 | 将想法、PRD、会议转录或混合笔记压缩成规格核心与配套文件；核心明确原因、能力、约束、非目标和成功信号，供后续 BMad 技能实现，也支持更新与验证已有规格，依赖项目的 BMad 配置。 | [bmad-spec](https://github.com/bmad-code-org/bmad-method/blob/main/skills/bmad-spec/SKILL.md) · [仓库](https://github.com/bmad-code-org/bmad-method) | 未安装 |
 | 澄清项目的领域术语、概念边界和关系，用具体边界场景检验模型并核对代码；将确定的术语写入 GLOSSARY.md、设计决策记入 ADR，适合建立或修改领域模型。 | [domain-modeling](https://github.com/mattpocock/skills/blob/main/skills/engineering/domain-modeling/SKILL.md) · [仓库](https://github.com/mattpocock/skills) | 未安装 |
 | 用“小接口承载大量行为”的深模块原则设计代码，明确接口、实现、可替换接缝和适配器；重点改善模块封装、可测试性和代码导航，并非只规划文件夹结构。 | [codebase-design](https://github.com/mattpocock/skills/blob/main/skills/engineering/codebase-design/SKILL.md) · [仓库](https://github.com/mattpocock/skills) | 未安装 |
