@@ -544,4 +544,6 @@ NoIT 不需要机械采用这四个实体目录，因为当前仓库已经有自
   https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 - MindMux：BRAIN.md，核验于 2026-10-03  
   https://projectbrain.md/
-  https://github.com/mindmuxai/brain.md\n- Miles Ma（@miles_mazy）：《零基础入门 AI，看完这篇就够了（避免花钱买课被割韭菜版）》，2026-09-21，处理于 2026-10-03  \n  https://x.com/miles_mazy/article/2102018333499707492
+  https://github.com/mindmuxai/brain.md
+- Miles Ma（@miles_mazy）：《零基础入门 AI，看完这篇就够了（避免花钱买课被割韭菜版）》，2026-09-21，处理于 2026-10-03  
+  https://x.com/miles_mazy/article/2102018333499707492

@@ -683,4 +683,6 @@ Waza 是一组面向 AI Agent 的工作习惯 Skills，支持 Claude Code、Code
 - Fiorella & Mayer：The relative benefits of learning by teaching and teaching expectancy，2013  
   https://doi.org/10.1016/j.cedpsych.2013.06.001
 - Fiorella & Mayer：Role of expectations and explanations in learning by teaching，2014  
-  https://doi.org/10.1016/j.cedpsych.2014.01.001\n- Miles Ma（@miles_mazy）：《零基础入门 AI，看完这篇就够了（避免花钱买课被割韭菜版）》，2026-09-21，处理于 2026-10-03  \n  https://x.com/miles_mazy/article/2102018333499707492
+  https://doi.org/10.1016/j.cedpsych.2014.01.001
+- Miles Ma（@miles_mazy）：《零基础入门 AI，看完这篇就够了（避免花钱买课被割韭菜版）》，2026-09-21，处理于 2026-10-03  
+  https://x.com/miles_mazy/article/2102018333499707492
