@@ -770,3 +770,8 @@ Keep / Post / Edit / Re-roll / Rewrite / Stop
 - 字节跳动 Seed：Seedance 2.5 官方页面与发布说明，核验于 2026-10-03  
   https://seed.bytedance.com/zh/seedance2_5
   https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5
+
+
+## 相关知识
+
+- [[Wan3.0全模态参考与文档生视频工作流]]：补充 Wan3.0 的时间戳、多模态参考和文档/网页生视频能力。
