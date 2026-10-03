@@ -143,13 +143,11 @@ for path in all_md:
             continue
         clean_path = Path(clean)
         if "/" in clean or "\\" in clean:
-            candidate = path.parent / clean_path
-            if candidate.suffix != ".md":
-                candidate = candidate.with_suffix(".md")
+            candidate = path.parent / (clean if clean.endswith(".md") else clean + ".md")
             if not candidate.exists():
                 errors.append(f"{rel(path)}: Obsidian 断链 [[{target}]]")
         else:
-            stem = clean_path.stem
+            stem = clean[:-3] if clean.endswith(".md") else clean
             matches = stem_index.get(stem, [])
             if not matches:
                 errors.append(f"{rel(path)}: Obsidian 断链 [[{target}]]")
