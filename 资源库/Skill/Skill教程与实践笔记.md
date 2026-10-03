@@ -82,3 +82,122 @@ Skill 明确要求通过豆包工作内置浏览器读取抖音公开页面，�
 
 具体资源条目见 [[Skill收藏与安装清单]]；豆包工作本身见 [[豆包工作：桌面Agent与飞书协作工作台]]。
 
+## Plugin、Skill 与 MCP：按“流程、工具、分发”分层
+
+2026-10-03 重新核验《ChatGPT 橙皮书》中关于 Plugin、Skill、MCP 的说明，并与 OpenAI 当前开发者文档对照。原教程的核心判断仍然有价值，但当前产品体系已经更明确地把三者拆成不同层。
+
+### 1. Skill 负责“怎么做”
+
+Skill 是一个可复用工作流目录。当前 OpenAI 文档要求核心文件 SKILL.md 至少包含：
+
+- name；
+- description，用于告诉模型什么时候考虑这个 Skill；
+- 具体工作指令；
+- 可选的 references、scripts、templates、assets 等支持文件。
+
+Skill 适合保存“同类任务每次都要按一套方法执行”的流程，例如代码 Review、研究、README 生成、发布检查或固定内容生产。
+
+一次性要求仍应放在当前 prompt；项目硬规则优先放 AGENTS.md，而不是为了“看起来体系化”把所有规则都做成 Skill。
+
+### 2. MCP 负责“连什么实时能力”
+
+MCP Server 提供外部数据、认证、授权和受控动作。Skill 可以围绕 MCP 的工具补充：
+
+- 什么情况下调用；
+- 先调用哪个工具；
+- 返回不完整时怎么办；
+- 如何组合多次调用；
+- 最终结果必须包含什么。
+
+因此更精确的判断不是“Skill 和 MCP 二选一”，而是：
+
+> **MCP 提供能力，Skill 组织能力。**
+
+没有外部实时数据或受控动作时，一个 Skill 可以完全不依赖 MCP。
+
+### 3. Plugin 负责“怎么打包和分发”
+
+当前 OpenAI Plugin 架构可以把 Skill、MCP Server、连接应用和其他扩展能力组合成一个可安装、可发布的能力包。
+
+长期理解：
+
+- Skill：工作方法层；
+- MCP：数据 / 工具 / 动作层；
+- Plugin：组合与分发层。
+
+不要再把“Plugin = 一个单独工具”当作固定定义。
+
+### 4. 选择载体的最小决策表
+
+| 需求 | 更合适的载体 |
+| --- | --- |
+| 本次临时要求 | Prompt / Thread |
+| 仓库长期硬规则 | AGENTS.md |
+| 可重复专项流程 | Skill |
+| 实时外部数据或动作 | MCP / connected app |
+| 一组能力需要安装和共享 | Plugin |
+| 定期或条件触发的重复任务 | Automation |
+
+这和 [[工程Agent工作流：从任务边界到可审查交付]] 中的上下文分层保持一致。
+
+### 5. Skill 不应越写越厚
+
+OpenAI 在 2026-09 针对 GPT-6 Astra 的实践更新中明确建议重新审视过去积累的 Skill、AGENTS.md 和任务提示词。模型变强后，一些旧式“手把手脚手架”会变成上下文噪声。
+
+维护 Skill 时优先：
+
+- description 只负责准确触发；
+- 主文件保存必要步骤和决策点；
+- 大块参考资料拆到 references；
+- 确实需要确定性处理时再放 scripts；
+- 不重复项目本身已经清楚表达的信息；
+- 模型和工具升级后重新验证旧规则；
+- 删除失效约束，而不是无限追加“补丁”。
+
+### 6. Skill 要同时测试“该触发”和“不该触发”
+
+当前官方构建指南建议至少测试：
+
+1. 明确点名 Skill 的请求；
+2. 没点名但意图相同的请求；
+3. 输入不完整、应先补信息的请求；
+4. 不应该触发该 Skill 的请求；
+5. 容易产生幻觉、越权或异常动作的边界情况。
+
+触发错误通常先改 description；已经触发但流程不稳定，再改正文指令。
+
+### 7. OpenAI Docs MCP：变化信息不要写死
+
+OpenAI 当前提供只读开发者文档 MCP：
+
+https://developers.openai.com/mcp
+
+Codex CLI 当前可用：
+
+~~~bash
+codex mcp add openaiDeveloperDocs --url https://developers.openai.com/mcp
+codex mcp list
+~~~
+
+处理 OpenAI API、Codex、Plugin 等快速变化主题时，优先从 Docs MCP / 官方文档获取当前信息，再把真正长期稳定的结论沉淀进知识库。
+
+### 8. 本次核验的外部 Skill 资源
+
+《ChatGPT 橙皮书》推荐的一组 Skill / 技能包已分别核对：
+
+- obra/superpowers：实际包含多项软件开发 Skill，并形成从需求澄清、设计、计划、TDD、Review 到完成分支的完整工程方法；作为上游原版合集登记。
+- JimLiu/baoyu-skills：实际包含 20+ 内容创作、生成与效率 Skill；README 明确建议按需安装，避免全量安装造成额外上下文负担。
+- Panniantong/Agent-Reach：实际存在 agent_reach/skill/SKILL.md，定位为多平台互联网能力路由与工具选择层；现有清单中的 agent-reach 条目补充上游来源。
+- vercel-labs/skills/find-skills：实际存在独立 SKILL.md，用于发现和安装开放 Agent Skills；其推荐逻辑只是辅助筛选，最终仍应核查实际 SKILL.md、来源和适用边界。
+
+具体收藏与安装状态见 [[Skill收藏与安装清单]]。
+
+### 来源与核验
+
+- 《ChatGPT 橙皮书》，v0.2.0，原资料最后校验 2026-07-13。
+- OpenAI Skills：https://developers.openai.com/plugins/concepts/skills
+- OpenAI Plugin architecture：https://developers.openai.com/plugins/concepts/plugins
+- OpenAI Build skills：https://developers.openai.com/plugins/build/skills
+- OpenAI Docs MCP：https://developers.openai.com/learn/docs-mcp
+- OpenAI《Rethinking skills and prompts for GPT-6 Astra》：https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+- 外部资源核验日期：2026-10-03。

@@ -22,6 +22,7 @@ status: active
 | 只读审查指定代码变更，覆盖未提交修改、分支差异或某次提交；优先找实际缺陷，并返回可执行的修复意见。 | `review-agent` | 已安装 |
 | 创建或更新 Codex Skill，明确任务范围、触发条件和执行指引，并补充所需资源；适合把重复工作整理成可复用技能。 | `skill-creator` | 已安装 |
 | 列出可安装技能，或从精选目录、GitHub 仓库路径安装到 Codex 技能目录；支持来自私有仓库的技能。 | `skill-installer` | 已安装 |
+| 发现可安装的 Agent Skills：先理解用户需要的能力，再通过开放技能目录 / CLI 搜索候选，并在推荐前检查真实来源与实际 SKILL.md；适合“有没有某类 Skill”“帮我找技能”等任务。 | [find-skills](https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md) · [仓库](https://github.com/vercel-labs/skills) | 未安装 |
 | 约束 AI 编码行为，突出先说明假设、保持实现简单、仅修改必要代码及定义可验证的成功标准；适合写代码、审查和重构。本仓库虽同时提供 CLAUDE.md，但已核实含独立的 karpathy-guidelines 技能。 | [karpathy-guidelines](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/skills/karpathy-guidelines/SKILL.md) · [仓库](https://github.com/multica-ai/andrej-karpathy-skills) | 未安装 |
 | 调整编码助手的输出方式：把下一步行动放在首行，多步骤用编号，跨轮重述当前状态，减少旁支并展示进展；显式调用后在会话中持续生效，直到用户关闭。属于输出与任务呈现规则，不是医疗诊断或治疗工具。 | [i-have-adhd](https://github.com/ayghri/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md) · [仓库](https://github.com/ayghri/i-have-adhd) | 未安装 |
 | 创建和迭代优化 Agent、系统、开发者提示词及可复用模板；先确定任务契约、输出、约束和失败案例，再用评估检查改动，支持 OpenAI、Claude、Gemini 提示词迁移。 | [prompt-optimizer](https://github.com/getsentry/skills/blob/main/skills/prompt-optimizer/SKILL.md) · [仓库](https://github.com/getsentry/skills) | 未安装 |
@@ -43,7 +44,7 @@ status: active
 |---|---|---|
 | 通过 Defuddle CLI 将普通网页提取成干净的 Markdown，去除导航和页面杂项；适合读取文章、博客和在线文档。 | `defuddle` | 已安装 |
 | 检索论文、收集研究资料并核对科学信息；按任务选用 Parallel 网页搜索、深度研究或 Perplexity 学术搜索后端。 | `research-lookup` | 已安装 |
-| 按平台选择 OpenCLI、专用 CLI 或 API 获取互联网内容，覆盖社交平台、招聘、视频和网页等；侧重内容获取，支持后端可用性检查。 | `agent-reach` | 已安装 |
+| 按平台选择 OpenCLI、专用 CLI 或 API 获取互联网内容，覆盖社交平台、招聘、视频和网页等；侧重内容获取与多后端路由，复杂平台先体检可用后端，不负责后续写作或分析加工。 | [agent-reach](https://github.com/Panniantong/Agent-Reach/blob/main/agent_reach/skill/SKILL.md) · [仓库](https://github.com/Panniantong/Agent-Reach) | 已安装 |
 | 围绕主题检索最近 30 天的讨论与互动信号，覆盖 Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub 和网页；综合近期用户观点并提供来源健康检查，实际覆盖取决于可用后端与配置。 | [last30days](https://github.com/mvanhorn/last30days-skill/blob/main/skills/last30days/SKILL.md) · [仓库](https://github.com/mvanhorn/last30days-skill) | 未安装 |
 | 通过浏览器采集小红书搜索框的联想词，从词根到一级建议词再做第二层扩展，逐次截图并保留排序、来源路径和 JSON 检查点；按行业转化目标评估相对商业意图，交付 Excel、JSON 与截图。评分不代表搜索量或成交额，适合关键词拓展，不用于笔记热度或账号排名分析。 | [yao-geo-xiaohongshu](https://github.com/yaojingang/yao-geo-skills/blob/main/skills/yao-geo-xiaohongshu/SKILL.md) · [技能目录](https://github.com/yaojingang/yao-geo-skills/tree/main/skills/yao-geo-xiaohongshu) | 未安装 |
 
@@ -291,6 +292,8 @@ status: active
 | 以 PUA/PIP 角色话术配合系统化排障和主动执行规则的技能包；针对连续失败、重复尝试或过早放弃，要求改变方法、读取证据并验证结果。提供 Codex 适配；宣传中的效率提升不作为已验证效果。 | [tanweai/pua](https://github.com/tanweai/pua) | 未安装 |
 | 包含五个技能：网页设计、可录制的网页视频演示、图片生成、本地知识库检索和文章制作。网页设计侧重设计系统与视觉前端，知识库检索采用分层索引并按文件类型处理资料。 | [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills) | 未安装 |
 | 中文增强的编程工作流技能合集，覆盖头脑风暴、计划执行、TDD、系统调试、代码审查、Git worktree 和完成验证；另含中文提交、文档与 Git 流程，以及 MCP 构建和工作流执行技能。 | [jnMetaCode/superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | 未安装 |
+| Superpowers 上游原版：把需求澄清、设计确认、Git worktree、实现计划、TDD、分阶段 Review 与完成分支组织成可自动触发的组合式软件工程工作流；当前 README 明确支持 Codex App / CLI 等多种 Agent 环境。与 superpowers-zh 分开登记，避免把中文增强版误当上游原版。 | [obra/superpowers](https://github.com/obra/superpowers) | 未安装（上游原版） |
+| 宝玉维护的内容创作、AI 生成与日常效率技能合集，包含 20+ Skill，覆盖文章配图、社交图文、公众号发布、网页转 Markdown、字幕、AI 生图等；README 明确建议按需安装而非全量导入，以减少上下文负担。现有清单已有 baoyu-image-gen 安装记录，但不能据此认定整个合集已安装。 | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) · [示例技能](https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-image-gen/SKILL.md) | 未核验完整合集（已有相关技能安装记录） |
 | 前端视觉设计技能合集，覆盖版式、字体、动效、不同设计风格及参考图生成。主技能实际名为 design-taste-frontend，侧重落地页、作品集和改版，先判断需求与受众、改版前先审查；主技能明确不用于仪表盘、数据表或多步骤产品界面。 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) · [主技能说明](https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/SKILL.md) | 未安装 |
 | 科学研究技能合集，涵盖生物、化学、医学、物理、工程、地球科学、数据分析及科学写作；为专门库、数据库和工作流提供操作指引与验证要求。本机已有 geomaster、literature-review、pyzotero 等对应技能，未安装完整合集；同名 Office 技能不自动视为同一来源。 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 已安装（部分） |
 | 独立社区维护的网络安全技能库，覆盖安全监控、事件响应、取证、云与应用安全及授权测试；技能包含步骤、前置条件和相关安全框架映射。虽然名称含 Anthropic，README 明确说明并非 Anthropic 官方项目。 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 未安装 |
