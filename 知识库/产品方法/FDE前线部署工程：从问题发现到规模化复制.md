@@ -1079,7 +1079,7 @@ MVD 范围：
 
 FDE4.AI 的生态地图可以简化为四类：
 
-#### 模式源头
+### 模式源头
 - Palantir：FDE、Deployment Strategist、Foundry / AIP、Bootcamp。
 
 #### 模型公司自建部署能力
