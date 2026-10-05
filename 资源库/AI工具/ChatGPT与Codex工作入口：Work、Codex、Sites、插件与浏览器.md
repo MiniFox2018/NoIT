@@ -9,6 +9,7 @@ tags:
 type: resource
 status: active
 updated: 2026-10-03
+verified: 2026-10-03
 ---
 
 # ChatGPT与Codex工作入口：Work、Codex、Sites、插件与浏览器
