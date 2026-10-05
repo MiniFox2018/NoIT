@@ -13,6 +13,7 @@ tags:
 type: resource
 status: active
 updated: 2026-10-03
+verified: 2026-10-03
 ---
 
 # BRAIN.md：项目级持久化记忆层
