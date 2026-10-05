@@ -16,7 +16,8 @@ NoIT 与 Study 当前暂时独立维护，未来计划合并为统一仓库。�
 - 长期处理规则统一见 [PROJECT_RULES.md](./PROJECT_RULES.md)。
 - AI 工具入口见 [AGENTS.md](./AGENTS.md)。
 - 新增、删除或重命名正式知识 / 资源文档时，同步检查本 README 索引。
-- 仓库基础一致性由 `scripts/audit_repository.py` 配合 GitHub Actions 自动检查，包括正式文档元数据、标题一致性、日期与状态、唯一 H1、README 索引、内部链接、本机绝对路径，并对来源记录、标题层级、知识孤岛和长期未核验资源给出治理提醒。
+- 仓库基础一致性由 `scripts/audit_repository.py` 配合 GitHub Actions 自动检查，包括正式文档元数据、标题一致性、日期与状态、唯一 H1、README 索引、内部链接、本机绝对路径，并对来源记录、标题层级、知识孤岛、`verified` 一致性和长期未核验资源给出治理提醒。
+- 外部 URL 由 `scripts/audit_external_links.py` 通过独立的周期性 GitHub Actions 做非阻塞巡检；`404/410` 优先人工复核，登录墙、限流、反爬、网络或 TLS 异常只作为待复查信号，不自动删除资源。
 
 ### 分类边界
 

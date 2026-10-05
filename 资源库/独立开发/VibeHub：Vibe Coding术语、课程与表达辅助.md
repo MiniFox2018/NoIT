@@ -9,6 +9,7 @@ tags:
 type: resource
 status: active
 updated: 2026-10-03
+verified: 2026-10-03
 ---
 
 # VibeHub：Vibe Coding术语、课程与表达辅助
