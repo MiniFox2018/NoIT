@@ -11,7 +11,7 @@ tags:
   - 欺诈
   - 风险管理
 status: active
-updated: 2026-10-03
+updated: 2026-10-05
 ---
 
 # AI Token中转站与转售滥用生态
@@ -374,17 +374,6 @@ Vectoral 的文章给出了具体折扣、流量和运营规模数据。
 
 ---
 
-## 来源与版本记录
-
-- Vectoral / Matt Lenhard：《An Inside Look at the Relay Market Powering Token Resellers and Fraud》，2026-06-28  
-  https://vectoral.com/blog/token-relay-market
-- Vectoral 官方产品页，核验于 2026-10-03  
-  https://vectoral.com/
-
-> 来源限制：原始文章属于安全厂商的威胁研究，部分行业规模、折扣和参与者描述来自其自行追踪及 V2EX 社区材料，应视为时点性调查，不作为全行业精确统计。
-
----
-
 ## 九、消费级AI订阅的“交付形态风险”
 
 第三方“AI会员”不能只按“价格高低”判断，因为同一个商品名可能对应完全不同的交付形态。
@@ -442,9 +431,19 @@ Vectoral 的文章给出了具体折扣、流量和运营规模数据。
 
 > 优先使用自己合法持有、规则允许、可核对账单的支付方式，在官方订阅页面完成交易；涉及身份认证、账单地址、地区与税务信息时，应提交真实且符合服务条款的信息。
 
-### 新增来源
-
+### 来源补充
 - 叫我阿杭：《月入百万的GPT代充生意，如何不交学费被割韭菜，自己也能实现，万字长文（附保姆级完整操作指南）》，2026-09-11，用户提供 Markdown，处理于 2026-10-03。  
   https://x.com/Astronaut_1216/article/2098321000828150136
 
 > 原文是带推荐链接和推荐码的商业内容。仓库吸收其“黑箱交付 / 账号控制权 / 支付透明度”的风险框架，不把品牌推荐与促销权益视为中立结论。
+
+---
+
+## 来源与版本记录
+
+- Vectoral / Matt Lenhard：《An Inside Look at the Relay Market Powering Token Resellers and Fraud》，2026-06-28  
+  https://vectoral.com/blog/token-relay-market
+- Vectoral 官方产品页，核验于 2026-10-03  
+  https://vectoral.com/
+
+> 来源限制：原始文章属于安全厂商的威胁研究，部分行业规模、折扣和参与者描述来自其自行追踪及 V2EX 社区材料，应视为时点性调查，不作为全行业精确统计。
