@@ -253,33 +253,33 @@ for path in formal_docs:
 
     if not is_resource:
         headings = [
-            match.group(2).strip()
+            (len(match.group(1)), match.group(2).strip())
             for line in lines
             if (match := re.match(r"^(#{1,6})\s+(.+?)\s*$", line))
         ]
         source_indexes = [
             index
-            for index, heading in enumerate(headings)
-            if SOURCE_SECTION_RE.fullmatch(heading)
+            for index, (level, heading) in enumerate(headings)
+            if level == 2 and SOURCE_SECTION_RE.fullmatch(heading)
         ]
         new_source_count = sum(
-            1 for heading in headings if heading == "新增来源"
+            1 for _, heading in headings if heading == "新增来源"
         )
         if new_source_count > 1:
             warnings.append(
                 f"{r}: 出现 {new_source_count} 个“新增来源”章节，"
-                "建议归并到统一来源记录"
+                "建议归并到稳定的来源补充或统一来源记录"
             )
         if source_indexes:
             first_source_index = source_indexes[0]
             later_numbered = [
                 heading
-                for heading in headings[first_source_index + 1 :]
-                if NUMBERED_HEADING_RE.match(heading)
+                for level, heading in headings[first_source_index + 1 :]
+                if level == 2 and NUMBERED_HEADING_RE.match(heading)
             ]
             if later_numbered:
                 warnings.append(
-                    f"{r}: 来源章节之后仍出现正文编号标题 "
+                    f"{r}: 文档级来源章节之后仍出现正文编号标题 "
                     f"{later_numbered[0]!r}，建议把新增知识归回正文、"
                     "来源统一放在文末"
                 )
