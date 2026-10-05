@@ -14,6 +14,7 @@ tags:
 type: resource
 status: active
 updated: 2026-10-03
+verified: 2026-10-03
 ---
 
 # Lemo-Opuscar：Agent代码视频制作与风格库
