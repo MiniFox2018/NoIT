@@ -13,6 +13,7 @@ tags:
 type: resource
 status: active
 updated: 2026-10-03
+verified: 2026-10-03
 ---
 
 # Seedance 2.0 Skill OS：Agent导演与Prompt编译工具
