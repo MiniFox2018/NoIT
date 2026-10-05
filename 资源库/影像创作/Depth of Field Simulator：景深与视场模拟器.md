@@ -12,6 +12,7 @@ tags:
 type: resource
 status: active
 updated: 2026-10-03
+verified: 2026-10-03
 ---
 
 # Depth of Field Simulator：景深与视场模拟器
