@@ -12,6 +12,7 @@ tags:
 type: resource
 status: active
 updated: 2026-10-03
+verified: 2026-10-03
 ---
 
 # Wan3.0视频大模型与官方使用文档
