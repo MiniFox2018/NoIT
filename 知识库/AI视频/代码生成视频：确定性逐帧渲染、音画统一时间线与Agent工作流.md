@@ -13,7 +13,7 @@ tags:
   - 音画同步
   - 程序化动画
 status: active
-updated: 2026-10-03
+updated: 2026-10-05
 ---
 
 # 代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流
@@ -1189,50 +1189,6 @@ ASR / Loudness / Black Frame / Readability 检查
 
 ---
 
-## 来源与版本记录
-
-### 用户提供文章
-
-- 《开源了39种风格视频库后，我学会了如何用Opus5.5稳定出片》，用户提供 Markdown，处理于 2026-10-03。
-- 原文当时记录 39 种风格。
-
-### 当前开源仓库核验
-
-- yihui-dev / awesome-opus5-5-videos  
-  https://github.com/yihui-dev/awesome-opus5-5-videos
-- 核验日期：2026-10-03；README 当时记录 475 份 Prompt，最近一次内容更新标注为 2026-09-29。本文只吸收跨案例可复用的任务表达、技术栈选择与评测方法，不保存 475 份提示词副本。
-- LemoLab / lemomo-ai：Lemo-Opuscar
-  https://github.com/lemomo-ai/lemo-opuscar
-- 核验日期：2026-10-03。
-- 当前 README 已显示 **43 种**风格，因此原文“39 种”视为发布时快照，而不是当前固定数量。
-- 重点读取：
-  - AGENTS.md
-  - DIRECTOR.md
-  - TECHNIQUE.md
-  - styles/README.md
-  - styles/ink-wash/STYLE.md
-  - styles/watercolor/STYLE.md
-  - styles/swiss-motion/STYLE.md
-  - styles/spy-titles/STYLE.md
-  - MAINTAINING.md
-- 当前 README / LICENSE 标记代码仓库为 MIT License；Demo 所含第三方资产保留各自许可证，并要求查看每个 Demo 的 CREDITS。
-
-### 证据边界
-
-以下内容属于该项目自己的导演 / 工程启发式，不能直接视为行业硬标准：
-
-- 默认 30–60 秒；
-- 字幕最小停留时间；
-- 至少四种运镜；
-- 至少两处静音；
-- −14 LUFS；
-- “对标提升大于任何规则”；
-- 强模型做导演、普通模型执行。
-
-这些规则在该工作流里高度可操作，但应根据平台、片型、发布渠道、受众和音频规范调整，而不是机械照搬。
-
----
-
 ## 三十五、旁白先行的知识视频制作闭环
 
 对于教程、产品演示、课程重点动画等知识视频，新增实战资料进一步验证了统一时间线原则：**先锁定真实口播，再让画面服从声音，而不是先做动画再硬塞配音。**
@@ -1316,8 +1272,7 @@ ASR / Loudness / Black Frame / Readability 检查
 
 以后真正执行时仍应读取最新 README，而不是长期依赖本页命令快照。
 
-### 新增来源
-
+### 来源补充
 - 路飞 AI 研究员：《Codex 自动剪辑接单月入过万，整套流程已跑通【附提示词】》，2026-10-01，用户提供 Markdown，处理于 2026-10-03。  
   https://x.com/0xluffy_eth/article/2105619742560276908
 - HeyGen / HyperFrames 官方仓库，核验于 2026-10-03。  
@@ -1388,3 +1343,47 @@ ASR / Loudness / Black Frame / Readability 检查
 ~~~
 
 这样案例数量增加时，仓库增长的是**经过验证的规律**，而不是越来越长的收藏堆积。
+
+---
+
+## 来源与版本记录
+
+### 用户提供文章
+
+- 《开源了39种风格视频库后，我学会了如何用Opus5.5稳定出片》，用户提供 Markdown，处理于 2026-10-03。
+- 原文当时记录 39 种风格。
+
+### 当前开源仓库核验
+
+- yihui-dev / awesome-opus5-5-videos  
+  https://github.com/yihui-dev/awesome-opus5-5-videos
+- 核验日期：2026-10-03；README 当时记录 475 份 Prompt，最近一次内容更新标注为 2026-09-29。本文只吸收跨案例可复用的任务表达、技术栈选择与评测方法，不保存 475 份提示词副本。
+- LemoLab / lemomo-ai：Lemo-Opuscar
+  https://github.com/lemomo-ai/lemo-opuscar
+- 核验日期：2026-10-03。
+- 当前 README 已显示 **43 种**风格，因此原文“39 种”视为发布时快照，而不是当前固定数量。
+- 重点读取：
+  - AGENTS.md
+  - DIRECTOR.md
+  - TECHNIQUE.md
+  - styles/README.md
+  - styles/ink-wash/STYLE.md
+  - styles/watercolor/STYLE.md
+  - styles/swiss-motion/STYLE.md
+  - styles/spy-titles/STYLE.md
+  - MAINTAINING.md
+- 当前 README / LICENSE 标记代码仓库为 MIT License；Demo 所含第三方资产保留各自许可证，并要求查看每个 Demo 的 CREDITS。
+
+### 证据边界
+
+以下内容属于该项目自己的导演 / 工程启发式，不能直接视为行业硬标准：
+
+- 默认 30–60 秒；
+- 字幕最小停留时间；
+- 至少四种运镜；
+- 至少两处静音；
+- −14 LUFS；
+- “对标提升大于任何规则”；
+- 强模型做导演、普通模型执行。
+
+这些规则在该工作流里高度可操作，但应根据平台、片型、发布渠道、受众和音频规范调整，而不是机械照搬。
