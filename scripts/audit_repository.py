@@ -15,6 +15,21 @@ ALLOWED_STATUS = {"active", "draft", "deprecated", "archived"}
 ALLOWED_RESOURCE_TYPES = {"resource", "resource-index"}
 STALE_RESOURCE_DAYS = 180
 
+SOURCE_SECTION_RE = re.compile(
+    r"^(?:"
+    r"来源与版本记录|来源记录|来源与状态|来源与核验|来源补充|"
+    r"来源、版本与吸收边界|来源完整性说明|新增来源|"
+    r"参考资料|参考来源"
+    r")$"
+)
+NUMBERED_HEADING_RE = re.compile(
+    r"^(?:\\d+[.、]\\s*|[一二三四五六七八九十百]+、)"
+)
+VERIFICATION_EVIDENCE_RE = re.compile(
+    r"(?:本次重新核验日期|重新核验日期|核验日期|当前核验|核验于|核验：)"
+    r"\\s*[：:]?\\s*(\\d{4}-\\d{2}-\\d{2})"
+)
+
 errors: list[str] = []
 warnings: list[str] = []
 
@@ -166,6 +181,7 @@ for path in formal_docs:
                 f"{r}: 资源文档 type 应为 resource 或 resource-index"
             )
         verified_raw = scalar_field(fm, "verified")
+        verified = None
         if verified_raw is not None:
             verified = parse_iso_date(verified_raw)
             if verified is None:
@@ -175,9 +191,29 @@ for path in formal_docs:
                     f"{r}: 距离上次资源有效性核验已超过 "
                     f"{STALE_RESOURCE_DAYS} 天"
                 )
+            if verified and updated and verified > updated:
+                warnings.append(
+                    f"{r}: verified 晚于 updated，建议同步更新文档修改日期"
+                )
+        elif doc_type == "resource":
+            evidence_dates = [
+                parse_iso_date(match.group(1))
+                for match in VERIFICATION_EVIDENCE_RE.finditer(text)
+            ]
+            evidence_dates = [item for item in evidence_dates if item]
+            if evidence_dates:
+                latest = max(evidence_dates)
+                warnings.append(
+                    f"{r}: 正文存在明确核验日期 {latest.isoformat()}，"
+                    "但 Frontmatter 未记录 verified"
+                )
+            elif updated and (date.today() - updated).days > STALE_RESOURCE_DAYS:
+                warnings.append(
+                    f"{r}: 动态资源长期未更新且无 verified，建议重新核验当前状态"
+                )
         elif updated and (date.today() - updated).days > STALE_RESOURCE_DAYS:
             warnings.append(
-                f"{r}: 动态资源长期未更新且无 verified，建议重新核验当前状态"
+                f"{r}: 动态资源索引长期未更新且无 verified，建议按条目或批次重新核验"
             )
     else:
         knowledge_docs.append(path)
@@ -214,6 +250,39 @@ for path in formal_docs:
         warnings.append(
             f"{r}: 未发现明确的来源/参考章节，建议核对可追溯性"
         )
+
+    if not is_resource:
+        headings = [
+            match.group(2).strip()
+            for line in lines
+            if (match := re.match(r"^(#{1,6})\s+(.+?)\s*$", line))
+        ]
+        source_indexes = [
+            index
+            for index, heading in enumerate(headings)
+            if SOURCE_SECTION_RE.fullmatch(heading)
+        ]
+        new_source_count = sum(
+            1 for heading in headings if heading == "新增来源"
+        )
+        if new_source_count > 1:
+            warnings.append(
+                f"{r}: 出现 {new_source_count} 个“新增来源”章节，"
+                "建议归并到统一来源记录"
+            )
+        if source_indexes:
+            first_source_index = source_indexes[0]
+            later_numbered = [
+                heading
+                for heading in headings[first_source_index + 1 :]
+                if NUMBERED_HEADING_RE.match(heading)
+            ]
+            if later_numbered:
+                warnings.append(
+                    f"{r}: 来源章节之后仍出现正文编号标题 "
+                    f"{later_numbered[0]!r}，建议把新增知识归回正文、"
+                    "来源统一放在文末"
+                )
 
 for title, paths in title_index.items():
     if len(paths) > 1:
