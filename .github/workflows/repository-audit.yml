@@ -17,8 +17,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
       - name: Compile audit scripts
-        run: python -m py_compile scripts/audit_repository.py scripts/audit_external_links.py scripts/test_audit_repository.py
+        run: python -m py_compile scripts/audit_repository.py scripts/audit_external_links.py scripts/test_audit_repository.py scripts/test_audit_external_links.py
       - name: Run audit regression tests
         run: python -m unittest discover -s scripts -p 'test_audit_repository.py' -v
+      - name: Run link-audit offline tests
+        run: python -m unittest discover -s scripts -p 'test_audit_external_links.py' -v
       - name: Run repository audit
         run: python scripts/audit_repository.py
