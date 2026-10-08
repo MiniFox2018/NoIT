@@ -171,6 +171,34 @@ for path in formal_docs:
     elif updated > date.today():
         errors.append(f"{r}: updated 不能晚于今天 ({updated.isoformat()})")
 
+    # Verification is evidence of a completed review, not a document edit.
+    verified_raw = scalar_field(fm, "verified")
+    verified = parse_iso_date(verified_raw)
+    if verified_raw is not None:
+        if verified is None:
+            errors.append(f"{r}: verified 应为有效 YYYY-MM-DD 日期")
+        elif verified > date.today():
+            errors.append(f"{r}: verified 不能晚于今天 ({verified.isoformat()})")
+
+    verified_scope = scalar_field(fm, "verified_scope")
+    if verified_scope is not None and verified_scope != "full":
+        errors.append(f"{r}: verified_scope 只支持 full；局部核验应在正文记录")
+    if verified_scope is not None and verified_raw is None:
+        errors.append(f"{r}: verified_scope 缺少对应的 verified 日期")
+    if r.startswith("知识库/") and verified_raw is not None and verified_scope != "full":
+        errors.append(f"{r}: 知识文档全文核验须标注 verified_scope: full")
+
+    review_after_raw = scalar_field(fm, "review_after")
+    if review_after_raw is not None:
+        review_after = parse_iso_date(review_after_raw)
+        if review_after is None:
+            errors.append(f"{r}: review_after 应为有效 YYYY-MM-DD 日期")
+        else:
+            if review_after <= date.today():
+                warnings.append(f"{r}: 已达到风险复核提醒日期 {review_after.isoformat()}；到期不代表失效")
+        if not scalar_field(fm, "review_reason"):
+            errors.append(f"{r}: review_after 必须有 review_reason 说明风险依据")
+
     is_resource = r.startswith("资源库/")
     if is_resource:
         resource_docs.append(path)
@@ -179,22 +207,11 @@ for path in formal_docs:
             errors.append(
                 f"{r}: 资源文档 type 应为 resource 或 resource-index"
             )
-        verified_raw = scalar_field(fm, "verified")
-        verified = None
-        if verified_raw is not None:
-            verified = parse_iso_date(verified_raw)
-            if verified is None:
-                errors.append(f"{r}: verified 应为有效 YYYY-MM-DD 日期")
-            elif verified > date.today():
-                errors.append(f"{r}: verified 不能晚于今天 ({verified.isoformat()})")
-            elif (date.today() - verified).days > STALE_RESOURCE_DAYS:
+        if verified is not None:
+            if (date.today() - verified).days > STALE_RESOURCE_DAYS:
                 warnings.append(
-                    f"{r}: 距离上次资源有效性核验已超过 "
-                    f"{STALE_RESOURCE_DAYS} 天"
-                )
-            if verified and updated and verified > updated:
-                warnings.append(
-                    f"{r}: verified 晚于 updated，建议同步更新文档修改日期"
+                    f"{r}: 资源核验距今超过暂行提醒阈值 "
+                    f"{STALE_RESOURCE_DAYS} 天；不代表失效"
                 )
         elif doc_type == "resource":
             evidence_dates = [
