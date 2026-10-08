@@ -124,7 +124,7 @@ verified: 2999-01-01
         self.document.write_text(
             BASE_DOCUMENT.replace(
                 "updated: 2026-10-03",
-                "updated: 2026-10-03\\nverified: 2026-10-08\\nverified_scope: full",
+                "updated: 2026-10-03\nverified: 2026-10-08\nverified_scope: full",
             ),
             encoding="utf-8",
         )
@@ -134,7 +134,7 @@ verified: 2999-01-01
 
     def test_knowledge_verified_needs_whole_document_scope(self) -> None:
         self.document.write_text(
-            BASE_DOCUMENT.replace("updated: 2026-10-03", "updated: 2026-10-03\\nverified: 2026-10-08"),
+            BASE_DOCUMENT.replace("updated: 2026-10-03", "updated: 2026-10-03\nverified: 2026-10-08"),
             encoding="utf-8",
         )
         result = self.run_audit()
@@ -143,7 +143,7 @@ verified: 2999-01-01
 
     def test_partially_verified_knowledge_must_not_use_document_verified(self) -> None:
         self.document.write_text(
-            BASE_DOCUMENT.replace("updated: 2026-10-03", "updated: 2026-10-03\\nverified: 2026-10-08\\nverified_scope: partial"),
+            BASE_DOCUMENT.replace("updated: 2026-10-03", "updated: 2026-10-03\nverified: 2026-10-08\nverified_scope: partial"),
             encoding="utf-8",
         )
         result = self.run_audit()
@@ -152,7 +152,7 @@ verified: 2999-01-01
 
     def test_risk_based_review_requires_reason_not_fixed_cadence(self) -> None:
         self.document.write_text(
-            BASE_DOCUMENT.replace("updated: 2026-10-03", "updated: 2026-10-03\\nreview_after: 2026-10-07"),
+            BASE_DOCUMENT.replace("updated: 2026-10-03", "updated: 2026-10-03\nreview_after: 2026-10-07"),
             encoding="utf-8",
         )
         result = self.run_audit()
@@ -161,7 +161,7 @@ verified: 2999-01-01
         self.document.write_text(
             BASE_DOCUMENT.replace(
                 "updated: 2026-10-03",
-                "updated: 2026-10-03\\nreview_after: 2026-10-07\\nreview_reason: 风险变化较快",
+                "updated: 2026-10-03\nreview_after: 2026-10-07\nreview_reason: 风险变化较快",
             ),
             encoding="utf-8",
         )
@@ -173,7 +173,7 @@ verified: 2999-01-01
         self.document.write_text(
             BASE_DOCUMENT.replace(
                 "updated: 2026-10-03",
-                "updated: 2026-10-03\\nverified: 2999-01-01\\nverified_scope: full",
+                "updated: 2026-10-03\nverified: 2999-01-01\nverified_scope: full",
             ),
             encoding="utf-8",
         )
