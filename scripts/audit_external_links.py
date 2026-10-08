@@ -19,7 +19,7 @@ TIMEOUT_SECONDS = 12
 MAX_WORKERS = 20
 USER_AGENT = "Mozilla/5.0 (compatible; NoIT-Link-Audit/1.0; +https://github.com/MiniFox2018/NoIT)"
 SOFT_HTTP_CODES = {401, 403, 405, 406, 409, 418, 425, 429}
-BROKEN_HTTP_CODES = {404, 410}
+SUSPECT_HTTP_CODES = {404, 410}
 SKIP_HOSTS = {"localhost", "0.0.0.0"}
 
 
@@ -92,8 +92,8 @@ def request_url(url: str) -> tuple[str, int | None, str]:
             code = getattr(response, "status", 200)
             return ("ok", code, "reachable")
     except urllib.error.HTTPError as exc:
-        if exc.code in BROKEN_HTTP_CODES:
-            return ("broken", exc.code, "not found or gone")
+        if exc.code in SUSPECT_HTTP_CODES:
+            return ("suspect", exc.code, "HTTP 404/410; not independent evidence of permanent failure")
         if exc.code in SOFT_HTTP_CODES:
             return ("soft", exc.code, "blocked/authenticated/rate-limited; manual review only")
         if 500 <= exc.code <= 599:
@@ -119,7 +119,7 @@ def build_report(
 ) -> dict:
     """A durable snapshot for comparison across scheduled runs."""
     records = []
-    totals = {"ok": 0, "broken": 0, "soft": 0, "skip": 0}
+    totals = {"ok": 0, "suspect": 0, "soft": 0, "skip": 0}
     for url in sorted(results):
         status, code, detail = results[url]
         totals[status] += 1
@@ -131,7 +131,8 @@ def build_report(
             "source_files": sorted(sources[url]),
         })
     return {
-        "schema_version": 1,
+        "schema_version": 2,
+        "permanent_failure_verified": False,  # Network scans alone cannot establish permanence.
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "repository": "MiniFox2018/NoIT",
         "commit_sha": os.environ.get("GITHUB_SHA"),
@@ -167,14 +168,14 @@ def main() -> int:
             url = future_map[future]
             results[url] = future.result()
 
-    broken = []
+    suspect = []
     soft = []
     skipped = []
     for url in sorted(results):
         status, code, detail = results[url]
         record = (url, code, detail, sorted(sources[url]))
-        if status == "broken":
-            broken.append(record)
+        if status == "suspect":
+            suspect.append(record)
         elif status == "soft":
             soft.append(record)
         elif status == "skip":
@@ -182,11 +183,11 @@ def main() -> int:
 
     print(
         f"External link audit: {len(results)} unique URLs, "
-        f"{len(broken)} likely broken, {len(soft)} manual-review, "
+        f"{len(suspect)} suspect URLs (not confirmed permanently invalid), {len(soft)} manual-review, "
         f"{len(skipped)} skipped."
     )
-    for url, code, detail, paths in broken:
-        print(f"WARNING: likely broken [{code}] {url} :: {detail} :: {', '.join(paths)}")
+    for url, code, detail, paths in suspect:
+        print(f"WARNING: suspect (unconfirmed) [{code}] {url} :: {detail} :: {', '.join(paths)}")
     for url, code, detail, paths in soft:
         print(f"NOTICE: review [{code}] {url} :: {detail} :: {', '.join(paths)}")
 
@@ -194,15 +195,15 @@ def main() -> int:
         "## External link audit",
         "",
         f"- Unique URLs checked: **{len(results)}**",
-        f"- Likely broken (404/410): **{len(broken)}**",
+        f"- Suspect only (404/410, NOT confirmed permanent): **{len(suspect)}**",
         f"- Manual review (auth/rate-limit/server/network): **{len(soft)}**",
         f"- Skipped local URLs: **{len(skipped)}**",
         "",
-        "> This workflow is advisory. A failed network request is not treated as proof that a resource is invalid.",
+        "> This workflow is advisory: HTTP errors do not prove permanent failure. Independent reliable evidence is required before any permanent-failure decision; no resource is automatically deleted.",
     ]
-    if broken:
-        summary.extend(["", "### Likely broken URLs"])
-        for url, code, _, paths in broken[:100]:
+    if suspect:
+        summary.extend(["", "### Suspect URLs — requires independent evidence"])
+        for url, code, _, paths in suspect[:100]:
             summary.append(f"- {code} {url} — {', '.join(paths)}")
     write_summary(summary)
     write_report(build_report(sources, results))
