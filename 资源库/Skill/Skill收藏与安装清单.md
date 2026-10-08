@@ -1,7 +1,7 @@
 ---
 title: Skill 收藏与安装清单
 date: 2026-10-01
-updated: 2026-10-08
+updated: 2026-10-09
 tags:
   - Skill
 type: resource-index
@@ -107,6 +107,7 @@ status: active
 |---|---|---|
 | 将架构、流程、时序、数据流或状态关系做成可浏览的独立 HTML 图；支持明暗主题、多种图像导出及 Mermaid 转换，反映代码时核对仓库证据。 | [archify](https://github.com/tt-a1i/archify) | 已安装 |
 | 将技术系统或流程说明绘制为架构图、流程图、时序图、数据流图和概念图；以 SVG 与 PNG 作为导出成果。 | [fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) | 已安装 |
+| 将 JSON 配置渲染成持续运行风格的动态架构图或 Agent 关系面板：固定布局中呈现连线数据流、日志、计数器和状态变化；支持深色终端与浅色图解、MP4 视频或独立网页。包含真实 `SKILL.md`、渲染脚本和逐帧检查；依赖 Python 3.8+、Chrome/Chromium 与 ffmpeg，非实时遥测或可编辑交互图。复用示例设计须保留相应署名；仅核验公开源码说明，未安装、未运行。 | [live-panel](https://github.com/ythx-101/live-panel-skill/blob/main/SKILL.md) · [仓库](https://github.com/ythx-101/live-panel-skill) | 未核实（仅收藏） |
 | 提供 Markdown 科学报告和 Mermaid 图表的写作规范；内含多种图表参考与文档模板，适合用可编辑文本表达结构与流程。 | `markdown-mermaid-writing` | 已安装 |
 | 直接在对话中制作交互图表、模拟、地图或原型；适合比较方案、探索变量变化以及演示“改变条件会怎样”。 | `visualize:visualize` | 已安装 |
 | 按品牌设计规范制作架构、流程、时序、状态、ER、数据流及多种图表，输出含内联 SVG 的独立 HTML，并支持 SVG、PNG 与 drawio、Excalidraw 导入；首次使用先确认项目风格，突出编辑式版面与品牌一致性。 | [diagram-design](https://github.com/cathrynlavery/diagram-design/blob/main/skills/diagram-design/SKILL.md) · [仓库](https://github.com/cathrynlavery/diagram-design) | 未安装 |
