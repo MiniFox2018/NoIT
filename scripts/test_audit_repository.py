@@ -119,5 +119,67 @@ verified: 2999-01-01
         self.assertIn("Markdown 断链", result.stdout)
 
 
+    def test_verified_later_than_updated_is_valid_with_full_scope(self) -> None:
+        # Rechecking facts does not imply editing the document.
+        self.document.write_text(
+            BASE_DOCUMENT.replace(
+                "updated: 2026-10-03",
+                "updated: 2026-10-03\nverified: 2026-10-08\nverified_scope: full",
+            ),
+            encoding="utf-8",
+        )
+        result = self.run_audit()
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertNotIn("verified 晚于 updated", result.stdout)
+
+    def test_knowledge_verified_needs_whole_document_scope(self) -> None:
+        self.document.write_text(
+            BASE_DOCUMENT.replace("updated: 2026-10-03", "updated: 2026-10-03\nverified: 2026-10-08"),
+            encoding="utf-8",
+        )
+        result = self.run_audit()
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("verified_scope: full", result.stdout)
+
+    def test_partially_verified_knowledge_must_not_use_document_verified(self) -> None:
+        self.document.write_text(
+            BASE_DOCUMENT.replace("updated: 2026-10-03", "updated: 2026-10-03\nverified: 2026-10-08\nverified_scope: partial"),
+            encoding="utf-8",
+        )
+        result = self.run_audit()
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("局部核验应在正文记录", result.stdout)
+
+    def test_risk_based_review_requires_reason_not_fixed_cadence(self) -> None:
+        self.document.write_text(
+            BASE_DOCUMENT.replace("updated: 2026-10-03", "updated: 2026-10-03\nreview_after: 2026-10-07"),
+            encoding="utf-8",
+        )
+        result = self.run_audit()
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("review_reason", result.stdout)
+        self.document.write_text(
+            BASE_DOCUMENT.replace(
+                "updated: 2026-10-03",
+                "updated: 2026-10-03\nreview_after: 2026-10-07\nreview_reason: 风险变化较快",
+            ),
+            encoding="utf-8",
+        )
+        result = self.run_audit()
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertIn("到期不代表失效", result.stdout)
+
+    def test_future_knowledge_verification_is_an_error(self) -> None:
+        self.document.write_text(
+            BASE_DOCUMENT.replace(
+                "updated: 2026-10-03",
+                "updated: 2026-10-03\nverified: 2999-01-01\nverified_scope: full",
+            ),
+            encoding="utf-8",
+        )
+        result = self.run_audit()
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("verified 不能晚于今天", result.stdout)
+
 if __name__ == "__main__":
     unittest.main()

@@ -55,7 +55,8 @@ class ExternalLinkAuditTests(unittest.TestCase):
             "https://a.example.com": ("ok", 200, "reachable"),
         }
         report = build_report(sources, results)
-        self.assertEqual(report["schema_version"], 1)
+        self.assertEqual(report["schema_version"], 2)
+        self.assertFalse(report["permanent_failure_verified"])
         self.assertEqual(report["totals"]["unique_urls"], 2)
         self.assertEqual(report["totals"]["ok"], 1)
         self.assertEqual(report["totals"]["soft"], 1)
@@ -80,6 +81,20 @@ class ExternalLinkAuditTests(unittest.TestCase):
                 write_report(report)
             self.assertFalse(path.exists())
 
+
+    def test_404_is_only_suspect_not_a_permanent_failure(self):
+        import urllib.error
+
+        url = "https://example.com/missing"
+        error = urllib.error.HTTPError(url, 404, "Not Found", None, None)
+        with patch("audit_external_links.urllib.request.urlopen", side_effect=error):
+            status, code, detail = request_url(url)
+        self.assertEqual((status, code), ("suspect", 404))
+        self.assertIn("not independent evidence", detail)
+
+        report = build_report({url: {"资源库/测试.md"}}, {url: (status, code, detail)})
+        self.assertEqual(report["totals"]["suspect"], 1)
+        self.assertFalse(report["permanent_failure_verified"])
 
 if __name__ == "__main__":
     unittest.main()
