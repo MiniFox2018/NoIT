@@ -2,12 +2,15 @@
 from __future__ import annotations
 
 import concurrent.futures
+import ipaddress
+import json
 import os
 import re
 import ssl
 import urllib.error
 import urllib.request
 from collections import defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -17,7 +20,7 @@ MAX_WORKERS = 20
 USER_AGENT = "Mozilla/5.0 (compatible; NoIT-Link-Audit/1.0; +https://github.com/MiniFox2018/NoIT)"
 SOFT_HTTP_CODES = {401, 403, 405, 406, 409, 418, 425, 429}
 BROKEN_HTTP_CODES = {404, 410}
-SKIP_HOSTS = {"localhost", "127.0.0.1", "0.0.0.0"}
+SKIP_HOSTS = {"localhost", "0.0.0.0"}
 
 
 def outside_fences(text: str) -> str:
@@ -60,9 +63,20 @@ def extract_urls(text: str) -> set[str]:
     return cleaned
 
 
+def non_public_host(host: str) -> bool:
+    """Skip literal non-public addresses; a network response is not needed."""
+    host = host.lower().rstrip(".")
+    if not host or host in SKIP_HOSTS or host.endswith((".local", ".localhost")):
+        return True
+    try:
+        return not ipaddress.ip_address(host).is_global
+    except ValueError:
+        return False
+
+
 def request_url(url: str) -> tuple[str, int | None, str]:
     host = (urlsplit(url).hostname or "").lower()
-    if host in SKIP_HOSTS or host.endswith(".local"):
+    if non_public_host(host):
         return ("skip", None, "local or non-public host")
 
     headers = {
@@ -99,58 +113,102 @@ def write_summary(lines: list[str]) -> None:
         handle.write("\n".join(lines) + "\n")
 
 
-sources: dict[str, set[str]] = defaultdict(set)
-for path in sorted(ROOT.rglob("*.md")):
-    if ".git" in path.parts:
-        continue
-    text = path.read_text(encoding="utf-8")
-    for url in extract_urls(text):
-        sources[url].add(path.relative_to(ROOT).as_posix())
+def build_report(
+    sources: dict[str, set[str]],
+    results: dict[str, tuple[str, int | None, str]],
+) -> dict:
+    """A durable snapshot for comparison across scheduled runs."""
+    records = []
+    totals = {"ok": 0, "broken": 0, "soft": 0, "skip": 0}
+    for url in sorted(results):
+        status, code, detail = results[url]
+        totals[status] += 1
+        records.append({
+            "url": url,
+            "status": status,
+            "http_status": code,
+            "detail": detail,
+            "source_files": sorted(sources[url]),
+        })
+    return {
+        "schema_version": 1,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "repository": "MiniFox2018/NoIT",
+        "commit_sha": os.environ.get("GITHUB_SHA"),
+        "totals": {"unique_urls": len(results), **totals},
+        "results": records,
+    }
 
-results: dict[str, tuple[str, int | None, str]] = {}
-with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-    future_map = {executor.submit(request_url, url): url for url in sorted(sources)}
-    for future in concurrent.futures.as_completed(future_map):
-        url = future_map[future]
-        results[url] = future.result()
 
-broken = []
-soft = []
-skipped = []
-for url in sorted(results):
-    status, code, detail = results[url]
-    record = (url, code, detail, sorted(sources[url]))
-    if status == "broken":
-        broken.append(record)
-    elif status == "soft":
-        soft.append(record)
-    elif status == "skip":
-        skipped.append(record)
+def write_report(report: dict) -> None:
+    """Store locally for Actions upload; never commit scan output."""
+    target = os.environ.get("NOIT_LINK_AUDIT_REPORT")
+    if not target:
+        return
+    path = Path(target)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-print(
-    f"External link audit: {len(results)} unique URLs, "
-    f"{len(broken)} likely broken, {len(soft)} manual-review, "
-    f"{len(skipped)} skipped."
-)
-for url, code, detail, paths in broken:
-    print(f"WARNING: likely broken [{code}] {url} :: {detail} :: {', '.join(paths)}")
-for url, code, detail, paths in soft:
-    print(f"NOTICE: review [{code}] {url} :: {detail} :: {', '.join(paths)}")
 
-summary = [
-    "## External link audit",
-    "",
-    f"- Unique URLs checked: **{len(results)}**",
-    f"- Likely broken (404/410): **{len(broken)}**",
-    f"- Manual review (auth/rate-limit/server/network): **{len(soft)}**",
-    f"- Skipped local URLs: **{len(skipped)}**",
-    "",
-    "> This workflow is advisory. A failed network request is not treated as proof that a resource is invalid.",
-]
-if broken:
-    summary.extend(["", "### Likely broken URLs"])
-    for url, code, _, paths in broken[:100]:
-        summary.append(f"- {code} {url} — {', '.join(paths)}")
-write_summary(summary)
 
-raise SystemExit(0)
+def main() -> int:
+    sources: dict[str, set[str]] = defaultdict(set)
+    for path in sorted(ROOT.rglob("*.md")):
+        if ".git" in path.parts:
+            continue
+        text = path.read_text(encoding="utf-8")
+        for url in extract_urls(text):
+            sources[url].add(path.relative_to(ROOT).as_posix())
+
+    results: dict[str, tuple[str, int | None, str]] = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        future_map = {executor.submit(request_url, url): url for url in sorted(sources)}
+        for future in concurrent.futures.as_completed(future_map):
+            url = future_map[future]
+            results[url] = future.result()
+
+    broken = []
+    soft = []
+    skipped = []
+    for url in sorted(results):
+        status, code, detail = results[url]
+        record = (url, code, detail, sorted(sources[url]))
+        if status == "broken":
+            broken.append(record)
+        elif status == "soft":
+            soft.append(record)
+        elif status == "skip":
+            skipped.append(record)
+
+    print(
+        f"External link audit: {len(results)} unique URLs, "
+        f"{len(broken)} likely broken, {len(soft)} manual-review, "
+        f"{len(skipped)} skipped."
+    )
+    for url, code, detail, paths in broken:
+        print(f"WARNING: likely broken [{code}] {url} :: {detail} :: {', '.join(paths)}")
+    for url, code, detail, paths in soft:
+        print(f"NOTICE: review [{code}] {url} :: {detail} :: {', '.join(paths)}")
+
+    summary = [
+        "## External link audit",
+        "",
+        f"- Unique URLs checked: **{len(results)}**",
+        f"- Likely broken (404/410): **{len(broken)}**",
+        f"- Manual review (auth/rate-limit/server/network): **{len(soft)}**",
+        f"- Skipped local URLs: **{len(skipped)}**",
+        "",
+        "> This workflow is advisory. A failed network request is not treated as proof that a resource is invalid.",
+    ]
+    if broken:
+        summary.extend(["", "### Likely broken URLs"])
+        for url, code, _, paths in broken[:100]:
+            summary.append(f"- {code} {url} — {', '.join(paths)}")
+    write_summary(summary)
+    write_report(build_report(sources, results))
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
