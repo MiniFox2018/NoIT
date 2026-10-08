@@ -1,7 +1,7 @@
 ---
 title: Skill 收藏与安装清单
 date: 2026-10-01
-updated: 2026-10-03
+updated: 2026-10-08
 tags:
   - Skill
 type: resource-index
@@ -267,7 +267,7 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
-| 为 B2B 和多租户应用接入 Clerk Organizations，覆盖组织切换、成员邀请、角色权限、组织级路由、域名验证和企业 SSO；适合团队工作空间与租户隔离，需先启用组织功能并确定成员模式。 | [clerk-orgs](https://github.com/clerk/skills/blob/main/skills/features/clerk-orgs/SKILL.md) · [仓库](https://github.com/clerk/skills) | 未安装 |
+| 为 B2B 和多租户应用接入 Clerk Organizations，覆盖组织切换、成员邀请、角色权限、组织级路由、域名验证和企业 SSO；适合团队工作空间与租户隔离，需先启用组织功能并确定成员模式。 | [clerk-orgs](https://github.com/clerk/skills/blob/main/skills/clerk-orgs/SKILL.md) · [仓库](https://github.com/clerk/skills) | 未安装 |
 | 指导产品邮件的送达与使用体验，覆盖 SPF/DKIM/DMARC、订阅与同意记录、退信和投诉处理、webhook、幂等重试及无障碍；帮助区分事务邮件与营销邮件，并提供相关合规检查参考。 | [email-best-practices](https://github.com/resend/resend-skills/blob/main/skills/email-best-practices/SKILL.md) · [仓库](https://github.com/resend/resend-skills) | 未安装 |
 
 ## 监控分析与代码安全
