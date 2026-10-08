@@ -14,6 +14,7 @@ NoIT 与 Study 当前暂时独立维护，未来计划合并为统一仓库。�
 - 正式知识应尽量做到脱离原始网页也能独立学习和查阅。
 - 文档默认使用 Markdown，并兼顾 GitHub 与 Obsidian。
 - 长期处理规则统一见 [PROJECT_RULES.md](./PROJECT_RULES.md)。
+- 44 篇知识正文的审计范围、材料缺口和复核优先级见 [2026-10-08 知识内容审计记录](./.github/audits/2026-10-08-knowledge-44.md)；该记录不代表所有原始资料已再次逐章验收。
 - AI 工具入口见 [AGENTS.md](./AGENTS.md)。
 - 新增、删除或重命名正式知识 / 资源文档时，同步检查本 README 索引。
 - 仓库基础一致性由 `scripts/audit_repository.py` 配合 GitHub Actions 自动检查，包括正式文档元数据、标题一致性、日期与状态、唯一 H1、README 索引、内部链接、本机绝对路径，并对来源记录、标题层级、知识孤岛、`verified` 一致性和长期未核验资源给出治理提醒。
