@@ -5,7 +5,7 @@ tags:
   - 工具库
 type: resource-index
 status: active
-updated: 2026-10-03
+updated: 2026-10-08
 ---
 
 # AI、办公与研究工具
@@ -18,7 +18,6 @@ updated: 2026-10-03
 
 | 工具 | 链接 | 用途说明 |
 | --- | --- | --- |
-| ChatGPT | [打开](https://chatgpt.com/) | 通过对话进行问答、写作修改、资料解释和文件分析；可上传文件与图片，网页入口也可使用。具体功能随账号与套餐变化，桌面版不等于离线模型。 |
 | WorkBuddy | [打开](https://www.workbuddy.ai/document/privacy-policy) | 以自然语言处理办公任务，结合文件、工具和工作流程生成可查看的结果；适合资料整理和任务执行。官方说明有桌面、Web 和移动版本，当前国内账号的网页入口与功能待核实。 |
 | DoubaoWork | 公开入口待核实 | 名称来自既有收藏；具体工作功能与独立官方入口尚未获得充分证据，暂不将普通豆包网站直接视为该应用的在线版。 |
 | Visual Studio Code | [打开](https://code.visualstudio.com/docs/remote/vscode-web) | 编辑代码，提供语法提示、调试、Git 和扩展支持；网页版适合浏览仓库与轻量编辑，本机终端、调试及部分扩展能力不能直接照搬到纯浏览器环境。 |

@@ -8,7 +8,7 @@ tags:
   - Agent
 type: resource
 status: active
-updated: 2026-10-03
+updated: 2026-10-08
 verified: 2026-10-03
 ---
 
@@ -222,24 +222,7 @@ Plugin 是更高一层的分发与组合单位。当前 ChatGPT 与 Codex 共享
 
 更详细的实践规则见 [[Skill教程与实践笔记]]。
 
-## 九、官方 Docs MCP：处理 OpenAI 变化信息的优先入口
-
-OpenAI 当前提供只读的官方开发者文档 MCP：
-
-https://developers.openai.com/mcp
-
-Codex CLI 当前配置示例：
-
-~~~bash
-codex mcp add openaiDeveloperDocs --url https://developers.openai.com/mcp
-codex mcp list
-~~~
-
-它适合在处理 OpenAI API、Codex、Plugin 等快速变化主题时检索当前官方文档，而不是依赖旧教程或模型记忆。
-
-NoIT 已有 openai-docs Skill 安装记录。长期原则仍然是：**产品状态问题先查当前官方来源，静态笔记负责保存稳定方法和入口，不负责假装实时。**
-
-## 十、Automations、Goal 与重复工作
+## 九、Automations、Goal 与重复工作
 
 教程把 Automations 作为“让 Agent 按规则定期工作”的能力，这个抽象仍然成立。
 
@@ -255,7 +238,7 @@ NoIT 已有 openai-docs Skill 安装记录。长期原则仍然是：**产品状
 
 对于路径不确定但终点清楚的长任务，Codex 当前还提供 Goal 一类持续目标机制。其本质也是把“完成条件”与中间对话分开，让 Agent 持续围绕目标推进。具体命令和最低版本要求应以当前 Codex 文档为准。
 
-## 十一、哪些信息不要长期硬编码
+## 十、哪些信息不要长期硬编码
 
 下面这些信息变化较快：
 
@@ -271,7 +254,7 @@ NoIT 已有 openai-docs Skill 安装记录。长期原则仍然是：**产品状
 
 NoIT 只保留理解和选择这些能力所需的稳定知识；真正使用前重新核验官方文档和账号实际界面。
 
-## 十二、第三方模型与 CC Switch
+## 十一、第三方模型与 CC Switch
 
 《ChatGPT 橙皮书》附录使用 CC Switch + DeepSeek 演示第三方模型路由。这个方向属于**第三方扩展**，不是 OpenAI 官方 Codex 能力。
 
@@ -283,19 +266,13 @@ NoIT 工具库已经存在 CC Switch 条目，因此不重复创建资源文档�
 - 工具调用、上下文长度、模型能力可能与官方路径不同；
 - 重要项目先用测试仓库验证，不直接切生产项目。
 
-## 十三、当前官方入口
+## 十二、当前官方入口
 
 建议优先使用下列当前官方资料：
 
-- ChatGPT Work 与 Codex：https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex
-- Codex 计划与可用性：https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan
 - Codex Cloud：https://help.openai.com/en/articles/20001545-using-codex-cloud
-- ChatGPT Sites：https://help.openai.com/en/articles/20001339-creating-and-using-chatgpt-sites
-- 内置浏览器：https://help.openai.com/en/articles/20001277-using-the-built-in-browser-in-the-chatgpt-desktop-app
-- Plugins：https://help.openai.com/en/articles/20001256-plugins-in-chatgpt
 - Plugin / Skill 架构：https://developers.openai.com/plugins/concepts/plugins
 - Skills：https://developers.openai.com/plugins/concepts/skills
-- Docs MCP：https://developers.openai.com/learn/docs-mcp
 - Codex App：https://openai.com/index/introducing-the-codex-app/
 
 ## 来源记录
