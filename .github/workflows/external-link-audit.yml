@@ -16,4 +16,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
       - name: Check external links
+        env:
+          NOIT_LINK_AUDIT_REPORT: ${{ runner.temp }}/noit-external-links.json
         run: python scripts/audit_external_links.py
+      - name: Upload link audit snapshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: noit-external-links-${{ github.run_id }}
+          path: ${{ runner.temp }}/noit-external-links.json
+          if-no-files-found: warn
+          retention-days: 90
