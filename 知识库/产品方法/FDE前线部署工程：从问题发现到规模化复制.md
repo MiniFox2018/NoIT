@@ -1120,6 +1120,28 @@ FDE4.AI 的生态地图可以简化为四类：
 
 ---
 
+## 原书章节去向核对（结构级，非逐章内容验收）
+
+2026-10-08 以公开仓库 `xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer` **commit `d8a3eab` / v1.0.24** 为基准，重新获取并检查 13 份原书章节/附录 Markdown 的结构与主要主题。下表是**从来源章节到 NoIT 现有知识的位置对应**，不是对 13 份原文所有独立有效知识已无遗漏的证明；书中未明确开放商业改编授权的内容仍仅按知识吸收规则整理。
+
+| 原书章节（版本固定） | 核心范围 | NoIT 对应位置 | 本轮验收边界 |
+|---|---|---|---|
+| [00-自序.md](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/d8a3eab849747a3cbbc5d976c3f2e01773faa169/00-%E8%87%AA%E5%BA%8F.md) | 阅读目的与范围 | 本页「一、FDE 到底是什么」及导读 | 仅定位主题 |
+| [01-第1章-FDE的崛起.md](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/d8a3eab849747a3cbbc5d976c3f2e01773faa169/01-%E7%AC%AC1%E7%AB%A0-FDE%E7%9A%84%E5%B4%9B%E8%B5%B7.md) | FDE 起源、定位、人才、工具 | 本页 FDE 定义、七个能力域、人才与生态 | 仅定位主题 |
+| [02-第2章-解决正确的问题.md](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/d8a3eab849747a3cbbc5d976c3f2e01773faa169/02-%E7%AC%AC2%E7%AB%A0-%E8%A7%A3%E5%86%B3%E6%AD%A3%E7%A1%AE%E7%9A%84%E9%97%AE%E9%A2%98.md) | PSF、MVD、需求发现 | 本页「第一阶段：解决正确的问题」「第二阶段：用 MVD 证明价值」 | 仅定位主题 |
+| [03-第3章-赢得客户.md](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/d8a3eab849747a3cbbc5d976c3f2e01773faa169/03-%E7%AC%AC3%E7%AB%A0-%E8%B5%A2%E5%BE%97%E5%AE%A2%E6%88%B7.md) | 灯塔客户、采购、安全审查 | 本页「第四阶段：赢得客户与进场权」 | 仅定位主题 |
+| [04-第4章-激活部署.md](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/d8a3eab849747a3cbbc5d976c3f2e01773faa169/04-%E7%AC%AC4%E7%AB%A0-%E6%BF%80%E6%B4%BB%E9%83%A8%E7%BD%B2.md) | 热修复、评估、集成、组织采用 | 本页「第五阶段：激活部署」 | 仅定位主题 |
+| [05-第5章-守住续约.md](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/d8a3eab849747a3cbbc5d976c3f2e01773faa169/05-%E7%AC%AC5%E7%AB%A0-%E5%AE%88%E4%BD%8F%E7%BB%AD%E7%BA%A6.md) | 稳定性、流失、客户健康 | 本页「第六阶段：守住续约」 | 仅定位主题 |
+| [06-第6章-扩大收入.md](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/d8a3eab849747a3cbbc5d976c3f2e01773faa169/06-%E7%AC%AC6%E7%AB%A0-%E6%89%A9%E5%A4%A7%E6%94%B6%E5%85%A5.md) | 结果计价、续扩容与价值核算 | 本页「第七阶段：扩大收入」 | 仅定位主题 |
+| [07-第7章-规模化复制.md](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/d8a3eab849747a3cbbc5d976c3f2e01773faa169/07-%E7%AC%AC7%E7%AB%A0-%E8%A7%84%E6%A8%A1%E5%8C%96%E5%A4%8D%E5%88%B6.md) | 复用、案例传播、组织与产品化 | 本页「第八阶段：规模化复制」 | 仅定位主题 |
+| [08-第8章-完整案例集.md](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/d8a3eab849747a3cbbc5d976c3f2e01773faa169/08-%E7%AC%AC8%E7%AB%A0-%E5%AE%8C%E6%95%B4%E6%A1%88%E4%BE%8B%E9%9B%86.md) | Palantir / OpenAI / 中国企业实战 | [[FDE案例与证据库：企业AI落地模式与反模式]] | 部分案例已摘录，证据链待补 |
+| [09-后记-FDE的职业道德.md](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/d8a3eab849747a3cbbc5d976c3f2e01773faa169/09-%E5%90%8E%E8%AE%B0-FDE%E7%9A%84%E8%81%8C%E4%B8%9A%E9%81%93%E5%BE%B7.md) | 隐私、安全与职业伦理 | 本页「职业伦理与治理边界」 | 仅定位主题 |
+| [10-附录A-FDE应当关注的常用指标.md](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/d8a3eab849747a3cbbc5d976c3f2e01773faa169/10-%E9%99%84%E5%BD%95A-FDE%E5%BA%94%E5%BD%93%E5%85%B3%E6%B3%A8%E7%9A%84%E5%B8%B8%E7%94%A8%E6%8C%87%E6%A0%87.md) | 交付、客户、商业与组织指标 | 本页「运营指标」 | 指标口径与适用期需进一步查证 |
+| [11-附录B-FDE人物与团队名单.md](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/d8a3eab849747a3cbbc5d976c3f2e01773faa169/11-%E9%99%84%E5%BD%95B-FDE%E4%BA%BA%E7%89%A9%E4%B8%8E%E5%9B%A2%E9%98%9F%E5%90%8D%E5%8D%95.md) | 关键人物、标志性团队、薪酬 | 本页「生态与典型组织」 | 名单与薪酬未证明全量覆盖 |
+| [12-附录C-全书案例索引与资料出处.md](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/d8a3eab849747a3cbbc5d976c3f2e01773faa169/12-%E9%99%84%E5%BD%95C-%E5%85%A8%E4%B9%A6%E6%A1%88%E4%BE%8B%E7%B4%A2%E5%BC%95%E4%B8%8E%E8%B5%84%E6%96%99%E5%87%BA%E5%A4%84.md) | 案例索引、证据来源及待补源 | [[FDE案例与证据库：企业AI落地模式与反模式]] | 作者来源和案例标签并非全部独立核验 |
+
+**待补的实质验收**：按每份章节中的案例、条件、参数和失败经验再与 NoIT 正文逐项核对；其中附录 B 的人物/团队名单、薪酬和附录 C 的来源追溯尤其不能以“找到了对应主题”视为完整吸收。原站新版本应单独复核变更，不覆盖 v1.0.24 的历史证据。
+
 ## 来源、版本与吸收边界
 
 ### 主要来源
