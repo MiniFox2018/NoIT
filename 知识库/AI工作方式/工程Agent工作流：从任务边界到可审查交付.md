@@ -6,7 +6,7 @@ tags:
   - Codex
   - Git
 status: active
-updated: 2026-10-03
+updated: 2026-10-08
 ---
 
 # 工程 Agent 工作流：从任务边界到可审查交付
@@ -436,8 +436,6 @@ Codex Cloud 等云端执行方式可以在 OpenAI 管理的环境中处理仓库
 
 - 《ChatGPT 橙皮书：从安装到实战案例的全链路使用指南》，v0.2.0，原资料最后校验 2026-07-13；本次处理文件：ChatGPT橙皮书.md。
 - 原资料在线入口：https://bozhoudev.github.io/codex-orange-book/
-- OpenAI Codex App：https://openai.com/index/introducing-the-codex-app/
-- OpenAI Codex 安全实践：https://openai.com/index/running-codex-safely/
 - Codex 基础配置：https://developers.openai.com/zh-Hans/docs/config-file/config-basic
 - OpenAI 关于 Skills / AGENTS / Prompt 的 2026-09 更新：https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
 
