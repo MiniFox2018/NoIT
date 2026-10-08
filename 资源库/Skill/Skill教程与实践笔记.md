@@ -1,7 +1,7 @@
 ---
 title: Skill 教程与实践笔记
 date: 2026-10-01
-updated: 2026-10-08
+updated: 2026-10-03
 tags:
   - Skill
 type: resource-index
@@ -166,7 +166,22 @@ OpenAI 在 2026-09 针对 GPT-6 Astra 的实践更新中明确建议重新审视
 
 触发错误通常先改 description；已经触发但流程不稳定，再改正文指令。
 
-### 7. 本次核验的外部 Skill 资源
+### 7. OpenAI Docs MCP：变化信息不要写死
+
+OpenAI 当前提供只读开发者文档 MCP：
+
+https://developers.openai.com/mcp
+
+Codex CLI 当前可用：
+
+~~~bash
+codex mcp add openaiDeveloperDocs --url https://developers.openai.com/mcp
+codex mcp list
+~~~
+
+处理 OpenAI API、Codex、Plugin 等快速变化主题时，优先从 Docs MCP / 官方文档获取当前信息，再把真正长期稳定的结论沉淀进知识库。
+
+### 8. 本次核验的外部 Skill 资源
 
 《ChatGPT 橙皮书》推荐的一组 Skill / 技能包已分别核对：
 
@@ -183,5 +198,6 @@ OpenAI 在 2026-09 针对 GPT-6 Astra 的实践更新中明确建议重新审视
 - OpenAI Skills：https://developers.openai.com/plugins/concepts/skills
 - OpenAI Plugin architecture：https://developers.openai.com/plugins/concepts/plugins
 - OpenAI Build skills：https://developers.openai.com/plugins/build/skills
+- OpenAI Docs MCP：https://developers.openai.com/learn/docs-mcp
 - OpenAI《Rethinking skills and prompts for GPT-6 Astra》：https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
 - 外部资源核验日期：2026-10-03。
