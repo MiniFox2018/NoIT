@@ -12,7 +12,7 @@ tags:
   - 连续性
   - 影视制作
 status: active
-updated: 2026-10-03
+updated: 2026-10-08
 ---
 
 # AI长片规模化制作：Prompt规范、连续性与工程档案
@@ -782,6 +782,10 @@ Scene Continuity State
 
 ---
 
+## 相关知识
+
+- [[AI视频导演式Prompt编译：镜头表、参考权、连续性与返工]]：补充 accepted footage 驱动连续性、Prompt Compiler 与 Take Review 机制。
+
 ## 来源与版本记录
 
 - Higgsfield Studio：《HELL GRIND》公开项目，核验于 2026-10-03  
@@ -794,8 +798,3 @@ Scene Continuity State
   https://best.xiaohu.ai/article/higgsfield-hell-grind-opensource/
 
 > 来源说明：Higgsfield 官方确认 Hell Grind 为完整公开项目，可查看 Prompt、资产和生成记录，项目页面报告 115,446 次 generation。关于“108 个场次文件夹”“4 万余条提示词”“高频 Prompt 模块比例”等更细统计，来自小互 AI 对公开工程接口的二次抓取和分析，本文仅将其用于识别制作模式，不把这些统计视为 Higgsfield 官方规格或通用行业数据。
-
-
-## 相关知识
-
-- [[AI视频导演式Prompt编译：镜头表、参考权、连续性与返工]]：补充 accepted footage 驱动连续性、Prompt Compiler 与 Take Review 机制。
