@@ -270,10 +270,8 @@ NoIT 工具库已经存在 CC Switch 条目，因此不重复创建资源文档�
 
 建议优先使用下列当前官方资料：
 
-- Codex Cloud：https://help.openai.com/en/articles/20001545-using-codex-cloud
 - Plugin / Skill 架构：https://developers.openai.com/plugins/concepts/plugins
 - Skills：https://developers.openai.com/plugins/concepts/skills
-- Codex App：https://openai.com/index/introducing-the-codex-app/
 
 ## 来源记录
 
