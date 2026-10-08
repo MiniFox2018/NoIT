@@ -12,7 +12,7 @@ tags:
   - 连续性
   - 返工
 status: active
-updated: 2026-10-03
+updated: 2026-10-08
 ---
 
 # AI视频导演式Prompt编译：镜头表、参考权、连续性与返工
@@ -1538,47 +1538,6 @@ J-cut / L-cut 也值得进入 AI 视频编排：
 
 ---
 
-## 来源与版本记录
-
-- Emily2040 / Iamemily2050：Seedance 2.0 Skill OS，仓库根版本 v6.7.0，核验于 2026-10-03  
-  https://github.com/Emily2040/seedance-2.0
-- 重点参考：
-  - `SKILL.md`
-  - `references/shot-table.md`
-  - `references/reference-workflow.md`
-  - `references/prompt-compiler.md`
-  - `references/retake-protocol.md`
-  - `references/directing-engine.md`
-  - `references/multishot-grammar.md`
-  - `references/continuation-handoff.md`
-- 字节跳动 Seed：Seedance 2.0 官方页面与发布说明，核验于 2026-10-03  
-  https://seed.bytedance.com/zh/seedance2_0
-  https://seed.bytedance.com/zh/blog/seedance-2-0-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83
-- 字节跳动 Seed：Seedance 2.5 官方页面与发布说明，核验于 2026-10-03  
-  https://seed.bytedance.com/zh/seedance2_5
-  https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5
-
-
-
-- LemoLab / lemomo-ai：Lemo-Opuscar，DIRECTOR.md / TECHNIQUE.md / AGENTS.md，核验于 2026-10-03  
-  https://github.com/lemomo-ai/lemo-opuscar
-
-- Magnific Studios：《The Prompting Handbook — The 2026 guide to the frontier image and video models》，用户提供 PDF：prompt-guide-v1-2.pdf，封面标注 July 2026 · V1.2，处理于 2026-10-03。
-- ByteDance Seed：Seedance 2.5 官方页面与发布说明，核验于 2026-10-03：
-  https://seed.bytedance.com/zh/seedance2_5
-  https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5
-- Magnific Blog：Seedance 2.5 prompts / Guides，核验于 2026-10-03：
-  https://www.magnific.com/blog/seedance-2-5-review/
-
-> 补充来源说明：Handbook 中关于具体模型“最好”“最强”“最多参考数”“分辨率”等结论属于 2026-07 的平台测试快照；本文只把已核验或可长期迁移的方法写入主知识，具体模型规格仍以生产时官方资料为准。
-
-
-## 相关知识
-
-- [[Wan3.0全模态参考与文档生视频工作流]]：补充 Wan3.0 的时间戳、多模态参考和文档/网页生视频能力。
-
----
-
 ## 新增：角色一致性、动作里程碑与材质物理
 
 现有“镜头合同”解决了谁在何时做什么、参考素材分别负责什么。新增实战资料进一步说明：如果目标是连续产出同一个虚构角色，只靠一张参考图和“保持人物一致”仍然过于模糊。
@@ -1670,7 +1629,47 @@ J-cut / L-cut 也值得进入 AI 视频编排：
 
 提示词无法补齐工具本身没有的控制能力。如果已经明确人物、路径、动作里程碑、参考职责和保持项，仍然连续失败，应缩短动作、降低幅度、单主体生成、提高参考主体朝向一致性，或换更适合动作参考的工具，而不是无限增加“必须”“绝对”等词。
 
-### 新增来源
+## 相关知识
+
+- [[Wan3.0全模态参考与文档生视频工作流]]：补充 Wan3.0 的时间戳、多模态参考和文档/网页生视频能力。
+
+---
+
+## 来源与版本记录
+
+- Emily2040 / Iamemily2050：Seedance 2.0 Skill OS，仓库根版本 v6.7.0，核验于 2026-10-03  
+  https://github.com/Emily2040/seedance-2.0
+- 重点参考：
+  - `SKILL.md`
+  - `references/shot-table.md`
+  - `references/reference-workflow.md`
+  - `references/prompt-compiler.md`
+  - `references/retake-protocol.md`
+  - `references/directing-engine.md`
+  - `references/multishot-grammar.md`
+  - `references/continuation-handoff.md`
+- 字节跳动 Seed：Seedance 2.0 官方页面与发布说明，核验于 2026-10-03  
+  https://seed.bytedance.com/zh/seedance2_0
+  https://seed.bytedance.com/zh/blog/seedance-2-0-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83
+- 字节跳动 Seed：Seedance 2.5 官方页面与发布说明，核验于 2026-10-03  
+  https://seed.bytedance.com/zh/seedance2_5
+  https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5
+
+
+
+- LemoLab / lemomo-ai：Lemo-Opuscar，DIRECTOR.md / TECHNIQUE.md / AGENTS.md，核验于 2026-10-03  
+  https://github.com/lemomo-ai/lemo-opuscar
+
+- Magnific Studios：《The Prompting Handbook — The 2026 guide to the frontier image and video models》，用户提供 PDF：prompt-guide-v1-2.pdf，封面标注 July 2026 · V1.2，处理于 2026-10-03。
+- ByteDance Seed：Seedance 2.5 官方页面与发布说明，核验于 2026-10-03：
+  https://seed.bytedance.com/zh/seedance2_5
+  https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5
+- Magnific Blog：Seedance 2.5 prompts / Guides，核验于 2026-10-03：
+  https://www.magnific.com/blog/seedance-2-5-review/
+
+> 补充来源说明：Handbook 中关于具体模型“最好”“最强”“最多参考数”“分辨率”等结论属于 2026-07 的平台测试快照；本文只把已核验或可长期迁移的方法写入主知识，具体模型规格仍以生产时官方资料为准。
+
+### 补充来源
 
 - 路飞 AI 研究员：《AI 短视频实战：36 条视频涨 70 万粉【附 7 段提示词】》，2026-09-15，用户提供 Markdown，处理于 2026-10-03。  
   https://mp.weixin.qq.com/s/HC8XaZucfFWXJvSubDNbZA

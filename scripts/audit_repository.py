@@ -22,9 +22,6 @@ SOURCE_SECTION_RE = re.compile(
     r"参考资料|参考来源"
     r")$"
 )
-NUMBERED_HEADING_RE = re.compile(
-    r"^(?:\\d+[.、]\\s*|[一二三四五六七八九十百]+、)"
-)
 VERIFICATION_EVIDENCE_RE = re.compile(
     r"(?:本次重新核验日期|重新核验日期|核验日期|当前核验|核验于|核验：)"
     r"\\s*[：:]?\\s*(\\d{4}-\\d{2}-\\d{2})"
@@ -171,6 +168,8 @@ for path in formal_docs:
     updated = parse_iso_date(updated_raw)
     if updated is None:
         errors.append(f"{r}: updated 应为有效 YYYY-MM-DD 日期")
+    elif updated > date.today():
+        errors.append(f"{r}: updated 不能晚于今天 ({updated.isoformat()})")
 
     is_resource = r.startswith("资源库/")
     if is_resource:
@@ -186,6 +185,8 @@ for path in formal_docs:
             verified = parse_iso_date(verified_raw)
             if verified is None:
                 errors.append(f"{r}: verified 应为有效 YYYY-MM-DD 日期")
+            elif verified > date.today():
+                errors.append(f"{r}: verified 不能晚于今天 ({verified.isoformat()})")
             elif (date.today() - verified).days > STALE_RESOURCE_DAYS:
                 warnings.append(
                     f"{r}: 距离上次资源有效性核验已超过 "
@@ -272,16 +273,16 @@ for path in formal_docs:
             )
         if source_indexes:
             first_source_index = source_indexes[0]
-            later_numbered = [
+            later_main_sections = [
                 heading
                 for level, heading in headings[first_source_index + 1 :]
-                if level == 2 and NUMBERED_HEADING_RE.match(heading)
+                if level == 2
             ]
-            if later_numbered:
+            if later_main_sections:
                 warnings.append(
-                    f"{r}: 文档级来源章节之后仍出现正文编号标题 "
-                    f"{later_numbered[0]!r}，建议把新增知识归回正文、"
-                    "来源统一放在文末"
+                    f"{r}: 文档级来源章节之后仍出现 H2 标题 "
+                    f"{later_main_sections[0]!r}，请确认正文、使用边界和关联知识"
+                    "已安排妥当，再把文档级来源记录置于末尾"
                 )
 
 for title, paths in title_index.items():
