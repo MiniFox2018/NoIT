@@ -255,6 +255,26 @@ updated: 2026-10-03
 14. **失败试点只有进入下一次流程、清单和产品，才算产生研发价值。**
 15. **中国市场的关键不是把实施工程师改名 FDE，而是补齐平台底座、价值验收、产品回流与知识转移。**
 
+## 2026-10-08：重点案例原始证据入口（阶段性补充）
+
+当前已恢复下列关键编号的**具体来源链接**。它们足以追溯对应官方披露或作者原文，但**不能自动证明案例全部数字和因果表述准确**；客户案例视为企业披露，行业比例仍须检查统计口径。
+
+| 案例编号 | 已定位来源 | 证据类型与边界 |
+|---|---|---|
+| #3 | [Stanford HAI《2026 AI Index》](https://hai.stanford.edu/ai-index/2026-ai-index-report) | 研究发布页，可回到报告核对采用率；未核对全部百分比 |
+| #10—#12 | [Colossus《The Patriot》](https://colossus.com/article/the-patriot-shyam-sankar-palantir/) | 当事人叙述/媒体采访，不能替代 Palantir 内部记录 |
+| #21 | [Palantir SEC 2025 Q4 业绩披露](https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/a2025q4ex991earningsrelease.htm) | 上市公司财务披露，有明确报告期，不可当作今天的实时数字 |
+| #32、#48、#98 | [OpenAI Deployment Company 官方发布](https://openai.com/index/openai-launches-the-deployment-company/) | 2026-05-11 官方声明，收购交易注明预期交割，不能将预期描述成已经交割 |
+| #50—#53、#96、#133 | [OpenAI John Deere 客户访谈](https://openai.com/index/john-deere-justin-rose/) | 供应商与客户采访；成果指标需分别核对时间和分母 |
+| #54、#55、#65、#97 | [OpenAI × BBVA 合作公告](https://openai.com/index/bbva-collaboration-expansion/) | 客户合作口径：2025-12-12 公告全员 120,000 的**扩展计划**；并非已经全部完成部署的证明 |
+| #144 | [Anthropic 工程博客：Claude Code Auto Mode](https://www.anthropic.com/engineering/claude-code-auto-mode) | 官方文章可确认权限请求约 93% 获批；当前所链接文章**未定位到“25 次钓鱼演习成功 24 次”原始数据**，后半数字仅作为待补证据，不应单独引用 |
+
+### 明确的来源链问题：#2 MIT NANDA 研究
+
+2026-10-08 复核 [FDE4.AI 案例库](https://fde4.ai/cases) 发现：#2 所标「源头」指向 [MIT Media Lab NANDA 团队介绍页](https://www.media.mit.edu/groups/nanda/overview/)，**不是**《The GenAI Divide: State of AI in Business 2025》的报告正文。原来的“95% 无回报”等高冲击数字应回到研究报告的统计定义和样本方法核实，不能以该团队介绍页当作直接证据，亦不能据此说全部企业 AI 项目有 95% 失败。报告的二次转载与原报告可访问性须另行核实。
+
+**本轮覆盖边界**：上述只是部分高影响案例的“编号→原始证据”映射；其余编号仍只有本文件的知识摘录与源站 [编号总页](https://fde4.ai/cases) 可追溯。不得宣称 165 条已全部脱离原站完成逐项证据验收。未来补齐剩余编号时，优先补真实来源而非复制原站长文本。
+
 ## 证据使用建议
 
 当需要在项目、方案或文章里引用具体数字时，按下面顺序处理：
