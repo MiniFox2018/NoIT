@@ -33,6 +33,8 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
+| 使用文稿、用途、平台比例和明确的视觉风格生成中文封面提示词与图片；两项实际技能分别为 punk-cover 与 punk-avatar，共用可复用风格库。**个人非商业用途与客户/变现用途的许可不同，商用前需逐项查看 LICENSE。** | [punk-cover](https://github.com/adrianpunk/Punk-Skill/blob/main/skills/punk-cover/SKILL.md) · [punk-avatar](https://github.com/adrianpunk/Punk-Skill/blob/main/skills/punk-avatar/SKILL.md) · [仓库](https://github.com/adrianpunk/Punk-Skill) | 未安装（2026-10-09 核对实际 SKILL.md 与个人用途许可） |
+| 读取中文文章先生成画面方案，把关键概念、结构和隐喻做成白底“小黑”手绘正文配图；含风格 DNA、原创构图要求和人工质量检查，默认不平均给每段配图。 | [ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations/blob/main/ian-xiaohei-illustrations/SKILL.md) · [仓库](https://github.com/helloianneo/ian-xiaohei-illustrations) | 未安装（2026-10-09 核对 SKILL.md；未试运行） |
 | 按文字描述生成图片，或编辑现有图片、制作参考图变体与透明背景素材；适合照片、插画、纹理和精灵等位图资产。 | `imagegen` | 已安装 |
 | 通过已配置的图片 API 和保存的提示词生成图片；支持多种供应商与批量提示词，适合需要指定提供商或控制 API 的任务。 | `baoyu-image-gen` | 已安装 |
 | 将 Markdown、纯文本或粗糙笔记转成微信兼容的内联样式 HTML；可选主题并复制到后台，封面生成和草稿推送是可选步骤。 | `xiaohu-wechat-format` | 已安装 |
@@ -45,12 +47,14 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
+| 把研究、提纲、引用、段落写作、Hook 与逐节审稿组织成协作工作流；实际包含 content-research-writer/SKILL.md，适合行业长文和技术文章，不替代对来源的交叉核验。 | [content-research-writer](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/content-research-writer/SKILL.md) | 未安装（2026-10-09 核对 SKILL.md） |
 | **辞达**：中文写作、重写、口述成文、平台适配与文体校准；先检查意义逻辑，再修结构、语气、节奏与措辞，不把工整本身视为问题。 | [cida / 辞达](https://github.com/mizzlelover/cida/blob/main/SKILL.md) | 未核实（仅收藏；未执行安装） |
 
 ## 检索与网页内容
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
+| 通过浏览器自动化访问用户自己的 NotebookLM 笔记本、管理资料并进行基于笔记的问答，依赖登录状态与浏览器运行环境；**上游仓库 2026-10-09 已归档**，不把宣传的“减少幻觉”当作性能证明。 | [notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill/blob/master/SKILL.md) · [仓库](https://github.com/PleasePrompto/notebooklm-skill) | 未安装（已归档；2026-10-09 核对仓库与 SKILL.md） |
 | 通过 Defuddle CLI 将普通网页提取成干净的 Markdown，去除导航和页面杂项；适合读取文章、博客和在线文档。 | `defuddle` | 已安装 |
 | 检索论文、收集研究资料并核对科学信息；按任务选用 Parallel 网页搜索、深度研究或 Perplexity 学术搜索后端。 | `research-lookup` | 已安装 |
 | 检索最新且指定版本的框架、SDK 与 API 文档并用于代码生成。Context7 主要是文档检索 MCP 服务，也提供 `context7-cli`、`context7-mcp` 与 `find-docs` 三个实际 Skill；可依使用环境选择 CLI / MCP，文档仍须按版本和来源复核。 | [context7-cli](https://github.com/upstash/context7/blob/master/skills/context7-cli/SKILL.md) · [context7-mcp](https://github.com/upstash/context7/blob/master/skills/context7-mcp/SKILL.md) · [find-docs](https://github.com/upstash/context7/blob/master/skills/find-docs/SKILL.md) · [仓库](https://github.com/upstash/context7) | 未核实（仅收藏；未安装、未运行） |
@@ -310,6 +314,7 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
+| **HTML Anything 既是本地优先的 HTML 编辑/导出应用，也包含多个实际 SKILL.md 模板**，可将 Markdown 与结构化内容转为文章、卡片、演示、简历、信息图、网页及视频；其 README 的数量和 CLI 支持是版本快照，不能将一整个项目误记为单个已安装 Skill。 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) · [模板目录](https://github.com/nexu-io/html-anything/tree/main/next/src/lib/templates/skills) | 未安装（2026-10-09 核对 README 和多项 SKILL.md 路径） |
 | 面向高完成度游戏视觉制作的两技能合集：game-builder 用锁定真实参考、分离 Planner/Builder/Critic/Diagnoser 和多轮视觉硬门槛打磨可玩作品；game-builder-blender-assets 在确需 3D 时把镜头关键模型交给 Blender specialist 制作并以 GLB 接入。两个实际 Skill 已分别登记，收藏合集不代表已安装或已运行验证。 | [ericzakariasson/skills](https://github.com/ericzakariasson/skills) | 未安装 |
 | 面向软件开发全过程的技能合集，覆盖需求澄清、规格与计划、增量实现、测试、调试、审查和发布；还包含接口设计、性能、安全及上下文工程。按开发阶段选择技能，强调质量门槛与验证。 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 未安装 |
 | 包含六个技能：leader 编写目标任务书，neat-freak 做项目知识收尾，hv-analysis 做历史与竞品双轴研究，khazix-writer 写公众号长文，aihot 获取 AI 资讯，storage-analyzer 分析磁盘空间。 | [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) | 未安装 |
@@ -375,3 +380,9 @@ status: active
 
 来源：龙海《写在严肃阅读之后：我是如何“严肃听播客”》，2026-09-22，https://x.com/longhaiqwe123/article/2102261485837967482 。
 
+
+## 2026-10-09 中文创作者十技能清单核对
+
+- 原文《Codex 中文创作者 10 个顶级 Skills》（@JackQi82772，2026-06-24，https://x.com/JackQi82772/article/2069599178926522741 ）中的 10 个候选均已处理。stop-slop、guizang-social-card-skill 及 KKKKhazix/khazix-skills 原已收录，本次不重复；dbskill 原已作为多技能包收藏；baoyu-skills 原已作为合集并有部分独立技能安装记录，未扩大为“全套已安装”。
+- 新增：content-research-writer、notebooklm-skill、punk-cover、punk-avatar、ian-xiaohei-illustrations；HTML Anything 同时是编辑工具与模板合集，见 [[内容创作、设计与发布工具]]。Punk-Skill 的商用许可约束和 NotebookLM 仓库归档状态不可省略。
+- 文中“前十”“首选三个”是作者面向中文创作者的排序意见，不是独立测试结论，也不是默认安装授权。读者需依据自己的产出类型选少量技能形成流程。
