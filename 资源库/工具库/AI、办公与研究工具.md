@@ -23,6 +23,7 @@ updated: 2026-10-03
 | DoubaoWork | 公开入口待核实 | 名称来自既有收藏；具体工作功能与独立官方入口尚未获得充分证据，暂不将普通豆包网站直接视为该应用的在线版。 |
 | Visual Studio Code | [打开](https://code.visualstudio.com/docs/remote/vscode-web) | 编辑代码，提供语法提示、调试、Git 和扩展支持；网页版适合浏览仓库与轻量编辑，本机终端、调试及部分扩展能力不能直接照搬到纯浏览器环境。 |
 | CC Switch | [打开](https://github.com/farion1231/cc-switch) | 集中管理 AI 编程工具的提供商和服务配置，切换不同 API 连接；适合多工具、多服务管理。它是配置管理应用，本身不是模型推理服务。 |
+| Claude-Mem | [GitHub 仓库](https://github.com/thedotmack/claude-mem) | 为 Claude Code 等支持的智能编码环境提供跨会话记忆与上下文压缩：记录工具操作、生成摘要、在后续对话中检索项目线索。它主要是插件 / 记忆服务而非独立 Skill，可用本地与托管组件；使用前需核查数据存储、隐私、账号与运行依赖。2026-10-09 核验仓库与公开说明，本次仅收藏，未安装 / 实测。 |
 | OpenRouter | [打开](https://openrouter.ai/) | 聚合多个模型提供商，用统一 API 接入并进行路由和调用；也有网页模型交互入口，适合应用接入与模型使用。属于云服务，不能因安装 SDK 就标成已安装本地应用。 |
 | CodexThemes | [打开](https://codexthemes.ai/zh) | 浏览与预览 Codex 桌面端主题和皮肤，按视觉风格挑选并分享作品；适合寻找配色和工作台外观参考。属于独立社区资源，不是 OpenAI 官方项目，也不等于主题已在本机安装。 |
 | Agent.Space | [打开](https://agent.space/app?ref=SCC4-889L) | 提供云端 Agent 工作空间，集中保存会话、文件、任务进度和预览，支持多 Agent 与团队协作；另提供模型套餐、余额及 API 接入。属于第三方云服务，本地客户端接入不代表平台本身是桌面应用；模型来源、额度和实际任务执行未独立验证。 |
