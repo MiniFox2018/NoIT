@@ -1574,8 +1574,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/个人副业与微型业务：从机会筛选到小规模验证.md"
+    ]
   },
   {
     "id": "2101579653232066929",
@@ -1591,8 +1594,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/写作表达/中文表达修订与论文科普转述：诊断、证据与叙事.md"
+    ]
   },
   {
     "id": "2101966806105899316",
@@ -1710,8 +1716,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/高杠杆工作系统：聚焦、时间分层、授权与复盘.md"
+    ]
   },
   {
     "id": "2101844827599933805",
@@ -1727,9 +1736,13 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md",
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2104452381253775418",
@@ -1745,8 +1758,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md"
+    ]
   },
   {
     "id": "2105890160139505916",
@@ -1764,8 +1780,11 @@
       "2103401515822272782"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2100956349601624464",
@@ -1781,8 +1800,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2076475160346149046",
@@ -1800,8 +1822,11 @@
       "2056935656295899299"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2099511297221992587",
@@ -1817,8 +1842,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2101666788505485312",
@@ -1834,8 +1862,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md",
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2099374250461450240",
@@ -1851,8 +1883,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md",
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2045501142269087837",
@@ -1868,8 +1904,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2069963272590340590",
@@ -1885,8 +1924,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2027280903089819878",
@@ -1902,8 +1944,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2097672318936125604",
@@ -1919,8 +1964,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2102373925309338097",
@@ -1936,8 +1984,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2106941943553134889",
@@ -1953,8 +2004,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2100900528482062714",
@@ -1970,8 +2024,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2103823484035956852",
@@ -1987,8 +2044,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2101569255439483166",
@@ -2004,8 +2064,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2101454181685178415",
@@ -2026,8 +2089,11 @@
       "2099164807748575422"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2060928267046060445",
@@ -2043,9 +2109,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2105557352997175719",
@@ -2061,8 +2130,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2105899003359756431",
@@ -2078,8 +2150,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2104911243739853231",
@@ -2095,8 +2170,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2106663726267224453",
@@ -2112,8 +2190,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/个人副业与微型业务：从机会筛选到小规模验证.md"
+    ]
   },
   {
     "id": "2100112102392471614",
@@ -2142,8 +2223,11 @@
       "2097001438736166960"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/个人副业与微型业务：从机会筛选到小规模验证.md"
+    ]
   },
   {
     "id": "2100539160004014535",
@@ -2159,8 +2243,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/个人副业与微型业务：从机会筛选到小规模验证.md"
+    ]
   },
   {
     "id": "2105470970689626519",
@@ -2176,8 +2263,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/个人副业与微型业务：从机会筛选到小规模验证.md"
+    ]
   },
   {
     "id": "2105860654951542945",
@@ -2195,8 +2285,11 @@
       "2105470970689626519"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/个人副业与微型业务：从机会筛选到小规模验证.md"
+    ]
   },
   {
     "id": "2099415429831876747",
@@ -2275,8 +2368,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/产品方法/小程序八类任务界面：信息顺序、交互状态与结果反馈.md"
+    ]
   },
   {
     "id": "2074459150323769843",
@@ -3109,8 +3205,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2008884514009784415",
@@ -5226,8 +5325,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md"
+    ]
   },
   {
     "id": "2099462899379150982",
@@ -5243,8 +5345,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md"
+    ]
   },
   {
     "id": "2085700722197438652",
