@@ -363,3 +363,15 @@ status: active
 - 已核查 cida、simon-skills、directing-stickman-videos、gbro-cover-design、dbskill 的 GitHub 目录和实际技能入口；未进行安装、授权与效果测试。
 - 更名迁移的调查视频项目只保留最新 simon-skills 入口。gbro-cover-design 当前固定 3:4 竖版；火柴人需要人工确认 Phase A 提案后生成 Phase B 提示词。
 - 方法和生产经验见 [[AI内容规模化生产：调查长片、火柴人与儿童绘本]] 和 [[中文表达修订与论文科普转述：诊断、证据与叙事]]。
+
+## 播客文字稿提取 Skill 候选（2026-10-09）
+
+- 项目：[podcast-transcript-txt-skill](https://github.com/KingJing1/podcast-transcript-txt-skill)。
+- 类型：Agent Skill；用于从播客链接、平台字幕、已有官方文字稿或本地转写流程获取 Transcript。
+- 适用：为「严肃听英文播客」提供上游完整稿件；最终中文学习文章仍应人工审阅。
+- 状态：**已登记为候选，未安装、未运行，不声称已通过安全审计或实际兼容所有播客平台**。
+- 同类入口：Scripod 网页服务、Longhai Podscript（Obsidian 插件）。三者按工作环境择一使用。
+- 知识关联：[[AI辅助的系统化学习与输出工作流]]。
+
+来源：龙海《写在严肃阅读之后：我是如何“严肃听播客”》，2026-09-22，https://x.com/longhaiqwe123/article/2102261485837967482 。
+
