@@ -21,6 +21,7 @@ status: active
 | 查询 Codex 设置、技能、自动化及 OpenAI API 的官方说明；强调官方来源核对，适合配置解释、产品使用与故障排查。 | `openai-docs` | 已安装 |
 | 只读审查指定代码变更，覆盖未提交修改、分支差异或某次提交；优先找实际缺陷，并返回可执行的修复意见。 | `review-agent` | 已安装 |
 | 创建或更新 Codex Skill，明确任务范围、触发条件和执行指引，并补充所需资源；适合把重复工作整理成可复用技能。 | `skill-creator` | 已安装 |
+| 面向 Claude 的 Agent Skill 创建、修改、触发描述优化和评测，包含测试与验证流程；这是 Anthropic 官方示例版，现有同名 Codex `skill-creator` 安装记录不等于已安装该来源。 | [skill-creator（Anthropic）](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md) · [官方项目](https://github.com/anthropics/skills) | 未核实（仅收藏官方版本；同名安装状态不直接继承） |
 | 列出可安装技能，或从精选目录、GitHub 仓库路径安装到 Codex 技能目录；支持来自私有仓库的技能。 | `skill-installer` | 已安装 |
 | 发现可安装的 Agent Skills：先理解用户需要的能力，再通过开放技能目录 / CLI 搜索候选，并在推荐前检查真实来源与实际 SKILL.md；适合“有没有某类 Skill”“帮我找技能”等任务。 | [find-skills](https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md) · [仓库](https://github.com/vercel-labs/skills) | 未安装 |
 | 约束 AI 编码行为，突出先说明假设、保持实现简单、仅修改必要代码及定义可验证的成功标准；适合写代码、审查和重构。本仓库虽同时提供 CLAUDE.md，但已核实含独立的 karpathy-guidelines 技能。 | [karpathy-guidelines](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/skills/karpathy-guidelines/SKILL.md) · [仓库](https://github.com/multica-ai/andrej-karpathy-skills) | 未安装 |
@@ -44,6 +45,7 @@ status: active
 |---|---|---|
 | 通过 Defuddle CLI 将普通网页提取成干净的 Markdown，去除导航和页面杂项；适合读取文章、博客和在线文档。 | `defuddle` | 已安装 |
 | 检索论文、收集研究资料并核对科学信息；按任务选用 Parallel 网页搜索、深度研究或 Perplexity 学术搜索后端。 | `research-lookup` | 已安装 |
+| 检索最新且指定版本的框架、SDK 与 API 文档并用于代码生成。Context7 主要是文档检索 MCP 服务，也提供 `context7-cli`、`context7-mcp` 与 `find-docs` 三个实际 Skill；可依使用环境选择 CLI / MCP，文档仍须按版本和来源复核。 | [context7-cli](https://github.com/upstash/context7/blob/master/skills/context7-cli/SKILL.md) · [context7-mcp](https://github.com/upstash/context7/blob/master/skills/context7-mcp/SKILL.md) · [find-docs](https://github.com/upstash/context7/blob/master/skills/find-docs/SKILL.md) · [仓库](https://github.com/upstash/context7) | 未核实（仅收藏；未安装、未运行） |
 | 按平台选择 OpenCLI、专用 CLI 或 API 获取互联网内容，覆盖社交平台、招聘、视频和网页等；侧重内容获取与多后端路由，复杂平台先体检可用后端，不负责后续写作或分析加工。 | [agent-reach](https://github.com/Panniantong/Agent-Reach/blob/main/agent_reach/skill/SKILL.md) · [仓库](https://github.com/Panniantong/Agent-Reach) | 已安装 |
 | 围绕主题检索最近 30 天的讨论与互动信号，覆盖 Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub 和网页；综合近期用户观点并提供来源健康检查，实际覆盖取决于可用后端与配置。 | [last30days](https://github.com/mvanhorn/last30days-skill/blob/main/skills/last30days/SKILL.md) · [仓库](https://github.com/mvanhorn/last30days-skill) | 未安装 |
 | 通过浏览器采集小红书搜索框的联想词，从词根到一级建议词再做第二层扩展，逐次截图并保留排序、来源路径和 JSON 检查点；按行业转化目标评估相对商业意图，交付 Excel、JSON 与截图。评分不代表搜索量或成交额，适合关键词拓展，不用于笔记热度或账号排名分析。 | [yao-geo-xiaohongshu](https://github.com/yaojingang/yao-geo-skills/blob/main/skills/yao-geo-xiaohongshu/SKILL.md) · [技能目录](https://github.com/yaojingang/yao-geo-skills/tree/main/skills/yao-geo-xiaohongshu) | 未安装 |
@@ -127,6 +129,12 @@ status: active
 | 用于新页面设计、现有界面审查与改版，也可从截图或 URL 提取设计特征；强调页面结构差异，而非只给相同模板换颜色。audit 模式只返回问题清单，redesign 模式保留已有实现边界。 | [hallmark](https://github.com/Nutlope/hallmark/blob/main/skills/hallmark/SKILL.md) · [仓库](https://github.com/Nutlope/hallmark) | 未安装 |
 | 用 HTML 制作高保真原型、幻灯片、动画和可视化，并提供设计评审与 MP4/GIF 导出流程；新设计要求先出三个方向初稿供选择。面向视觉制品，生产级 Web App 或需要后端的系统不适用。 | [huashu-design](https://github.com/alchaincyf/huashu-design/blob/master/SKILL.md) · [仓库](https://github.com/alchaincyf/huashu-design) | 未安装 |
 | 为网页、移动端和桌面界面的设计、实现与审查提供可搜索的本地指导库；包含风格、配色、字体组合、UX 规范、图表与技术栈建议，重点覆盖无障碍、交互、响应式布局和设计系统。 | [ui-ux-pro-max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/ui-ux-pro-max/SKILL.md) · [仓库](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 未安装 |
+| 根据受众、内容、视觉方向、字体和布局进行差异化网页 / 界面设计，强调避免通用模板感；为 Anthropic 独立 `frontend-design` Skill，不与 Taste 同名混并。 | [frontend-design](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md) · [官方仓库](https://github.com/anthropics/skills) | 未核实（仅收藏） |
+| 用 React、TypeScript、Tailwind 等创建复杂的 Claude 交互式 Web Artifacts，使用项目脚本打包 HTML；依赖其所设定的运行环境，不等于所有前端项目可直接通用。 | [web-artifacts-builder](https://github.com/anthropics/skills/blob/main/skills/web-artifacts-builder/SKILL.md) · [官方仓库](https://github.com/anthropics/skills) | 未核实（仅收藏） |
+| 将 **Anthropic 自身品牌**的色彩、字体与视觉样式应用到文档和其他视觉成品；它是专用品牌规范，而不是任意公司可照用的通用指南。 | [brand-guidelines](https://github.com/anthropics/skills/blob/main/skills/brand-guidelines/SKILL.md) · [官方仓库](https://github.com/anthropics/skills) | 未核实（仅收藏） |
+| 利用 Python Playwright 验证本地 Web 应用的交互、截图及浏览器日志，并配合启动测试服务器的脚本；需具备对应浏览器、Python 等运行依赖。 | [webapp-testing](https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md) · [官方仓库](https://github.com/anthropics/skills) | 未核实（仅收藏；未运行测试） |
+| 为菜单、对话框、卡片、页面切换和加载提示等界面使用可复用 CSS 过渡；项目既是可交互的动效展示 / CLI，也是实际 Agent Skill，含无障碍减少动效的处理。 | [transitions-dev](https://github.com/Jakubantalik/transitions.dev/blob/main/skills/transitions-dev/SKILL.md) · [网站](https://transitions.dev/) · [仓库](https://github.com/Jakubantalik/transitions.dev) | 未核实（仅收藏） |
+| 审核已有界面的动效时长、缓动、位移、延迟与设计令牌，专门优化已有过渡；与新增 CSS 模板的 `transitions-dev` 是同仓库不同技能。 | [transitions-polish](https://github.com/Jakubantalik/transitions.dev/blob/main/skills/transitions-polish/SKILL.md) · [仓库](https://github.com/Jakubantalik/transitions.dev) | 未核实（仅收藏） |
 | 按 Emil Kowalski 的设计工程方法打磨组件、交互与动画决策；强调默认行为和细节共同形成的体验，审查 UI 代码时以 Before/After 表格呈现建议，适合前端体验精修。 | [emil-design-eng](https://github.com/emilkowalski/skills/blob/main/skills/emil-design-eng/SKILL.md) · [仓库](https://github.com/emilkowalski/skills) | 未安装 |
 | 专门审查动画与动效代码，检查动作目的、触发频率、时长、缓动、运动起点、性能及无障碍；输出问题与通过条件。范围是动效审查，不能将其概括为自动改写动画或通用代码审查。 | [review-animations](https://github.com/emilkowalski/skills/blob/main/skills/review-animations/SKILL.md) · [仓库](https://github.com/emilkowalski/skills) | 未安装 |
 | 为 React 网页接入会跟随鼠标转头、点击后切换表情的吉祥物；可选已有角色，或用图像工具及参考照片生成新角色，制作两张各含九个方向或表情的精灵图并检查对齐。通过 CSS 背景位置切换画面，无需逐帧 JavaScript 或动画库；这是网页组件技能，与 ChatGPT Work 动画宠物不同。 | [page-mascot](https://github.com/nilbuild/page-mascot/blob/main/skills/page-mascot/SKILL.md) · [仓库](https://github.com/nilbuild/page-mascot) | 未安装 |
@@ -252,6 +260,7 @@ status: active
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
 | Google Agents CLI 的开发流程入口，串联脚手架、构建、评估、部署、发布与观测；默认面向 ADK Agent，提供代码保留与排障规则，并按阶段调用对应技能，需 agents-cli 环境。 | [google-agents-cli-workflow](https://github.com/google/agents-cli/blob/main/skills/google-agents-cli-workflow/SKILL.md) · [仓库](https://github.com/google/agents-cli) | 未安装 |
+| 指导设计与实现 MCP Server，涵盖外部服务接口、工具 schema、研究、错误处理与验证；可针对 Python FastMCP 和 TypeScript SDK，属于构建 MCP 的 Skill，本身不是 MCP 服务。 | [mcp-builder](https://github.com/anthropics/skills/blob/main/skills/mcp-builder/SKILL.md) · [官方仓库](https://github.com/anthropics/skills) | 未核实（仅收藏） |
 | 为 ADK Agent 编码提供 API 模式与示例，覆盖 Agent 类型、工具、回调、状态管理和图式工作流；按 Python 或 Go 查阅参考，要求先有脚手架项目，部署由其他技能处理。 | [google-agents-cli-adk-code](https://github.com/google/agents-cli/blob/main/skills/google-agents-cli-adk-code/SKILL.md) · [仓库](https://github.com/google/agents-cli) | 未安装 |
 | 指导使用 Mastra 构建 Agent、工作流、工具、记忆、工作空间与存储；优先核对已安装包内文档和当前 API，覆盖 TypeScript 项目设置、常见错误、迁移及 mastra api CLI 操作。 | [mastra](https://github.com/mastra-ai/skills/blob/main/skills/mastra/SKILL.md) · [仓库](https://github.com/mastra-ai/skills) | 未安装 |
 | 使用 TypeSafe 的 System One API，将自然语言与应用状态转成代码可组合的类型化判断和概率；适合路由、排序、提取与验证。实际技能名为 typesafe-ai，是特定服务的集成指导，并非通用类型安全规范。 | [typesafe-ai](https://github.com/typesafe-ai/skills/blob/main/skills/typesafe-ai/SKILL.md) · [仓库](https://github.com/typesafe-ai/skills) | 未安装 |
@@ -309,3 +318,15 @@ status: active
 | 面向设计师与工程师的界面技能合集，覆盖 UI 细节、动画创建与审查、全代码库动效改进计划、动效术语、原型和原生移动界面；重点帮助选择合适的缓动、时长与交互细节。已单独收藏 emil-design-eng 和 review-animations，本行记录整个合集。 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 未安装 |
 | 内容创作技能工具箱，包含公众号、小红书与视频三组独立技能，覆盖公开内容搜索、账号与热门内容分析、定位选题、标题正文、配图排版及视频脚本、字幕、剪辑和配乐。根技能 creator-buddy 主要调度搜索与分析；成品制作由对应子技能处理，平台访问依赖可用后端，不承诺流量或账号增长。 | [SpaceZephyr/creator-buddy](https://github.com/SpaceZephyr/creator-buddy) · [总控技能](https://github.com/SpaceZephyr/creator-buddy/blob/main/SKILL.md) | 未安装 |
 | 手绘风格与图像提示词技能包，以 handdraw-style-prompter 为总入口，结合编号风格、画廊参考、版式与主题色生成中英双语提示词；子技能覆盖文章配图规划、封面、海报、IP、风格融合与自定义素材管理。默认只制作提示词，实际出图需明确请求并具备图像工具，安装需保留根目录参考资产。 | [yang0/handraw-style](https://github.com/yang0/handraw-style) · [总入口](https://github.com/yang0/handraw-style/blob/master/SKILL.md) | 未安装 |
+| Anthropic 官方 Agent Skills 示例合集，含开发、设计、企业工作流与文档处理的多个真实 `SKILL.md`；本轮涉及的六个具体技能已归入上方各用途分类。部分文档能力仅开放源码供参考，并非所有文件都采用相同的开放许可。 | [anthropics/skills](https://github.com/anthropics/skills) · [技能目录](https://github.com/anthropics/skills/tree/main/skills) | 未核实（仅收藏；未安装整套） |
+| 社交媒体方向的 17 个实际 Skill，覆盖声音风格、LinkedIn 帖子 / 主页优化、短视频脚本、YouTube 缩略图、轮播图、内容矩阵、主题研究与数据回顾；部分流程依赖第三方 API、账号和授权，不保证自动发布或引流效果。 | [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) · [技能目录](https://github.com/charlie947/social-media-skills/tree/main/skills) | 未核实（仅收藏；未安装整套） |
+| **Claude Cowork Finance 插件包（非单个 Skill）**：辅助记账分录、对账、损益表、差异分析及 SOX 工作底稿，通常需接入账务 / 表格来源；结果需要财务专业人士复核。原帖“8 个技能”不作为当前核实的定量结论。 | [Finance 官方插件](https://claude.com/plugins/finance) | 未核实（仅收藏；未执行安装） |
+| **Claude Cowork Small Business 插件包（非单个 Skill）**：涵盖现金流、工资规划、月底关账、逾期账款、营销与客户跟进；目前官方插件页介绍 43 个可执行工作流（不等于 43 个独立 Skill）；不能将原帖“31 个技能”当作已核验数量，涉及资金或客户操作需审批。 | [Small Business 官方插件](https://claude.com/plugins/small-business) | 未核实（仅收藏；未执行安装） |
+| **Claude Cowork Legal 插件包（非单个 Skill）**：合同审阅、NDA 分流、供应商核查、法律简报和模板化回应；须配置团队合同条款与升级规则，结果应由有资格的法律专业人士审核。原帖“9 个技能”未独立核实。 | [Legal 官方插件](https://claude.com/plugins/legal) | 未核实（仅收藏；未执行安装） |
+
+## 2026-10-09 外部清单校核
+
+- 本批来源为用户提供的 [@0xluffy_eth](https://x.com/0xluffy_eth) 整理文字；缺少单条原帖的明确 URL。原帖按“一人公司职能部门”归类，仅是资源组合视角，不能由此认定已有可直接运行的一体化公司系统。
+- 原帖将 `Frontend Design` 误指向 Taste 仓库：Taste 沿用已有记录，新增 Anthropic 官方 `frontend-design` 独立记录。Anthropic `skill-creator` 与本库已有 Codex 同名 Skill 不自动判定为同一安装来源。
+- 已存在 `obra/superpowers`、`nextlevelbuilder/ui-ux-pro-max-skill`、`Leonxlnx/taste-skill`、`coreyhaines31/marketingskills` 等条目，仅复用而不重复新建。Anthropic 六项 Skill 同源不同文件；Transitions 两项同源不同技能；Context7 既包含 MCP，也包含多个 Skill。
+- 本轮核验公开项目、部分 README、实际 Skill 文件和官方插件说明。没有安装、运行、授权或验证效果。动态技能数量以再次核查具体版本为准，不把博主宣传数量当作固定事实。
