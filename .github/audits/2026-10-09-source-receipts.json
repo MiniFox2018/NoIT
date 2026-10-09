@@ -1518,7 +1518,8 @@
     "knowledge_status": "source_linked",
     "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
     "knowledge_targets": [
-      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
+      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md",
+      "资源库/工具库/内容创作、设计与发布工具.md"
     ]
   },
   {
@@ -2545,7 +2546,8 @@
     "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
     "knowledge_targets": [
       "知识库/学习方法/AI辅助的系统化学习与输出工作流.md",
-      "资源库/Skill/Skill收藏与安装清单.md"
+      "资源库/Skill/Skill收藏与安装清单.md",
+      "资源库/工具库/内容创作、设计与发布工具.md"
     ]
   },
   {
@@ -2750,7 +2752,8 @@
     "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
     "knowledge_targets": [
       "资源库/Skill/Skill收藏与安装清单.md",
-      "资源库/Skill/Skill教程与实践笔记.md"
+      "资源库/Skill/Skill教程与实践笔记.md",
+      "资源库/工具库/内容创作、设计与发布工具.md"
     ]
   },
   {
@@ -2882,8 +2885,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "资源库/工具库/AI、办公与研究工具.md"
+    ]
   },
   {
     "id": "2105474375638307119",
@@ -2913,8 +2919,11 @@
       "2098247019265679405"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "资源库/工具库/系统、文件与协作工具.md"
+    ]
   },
   {
     "id": "2086034016281747894",
