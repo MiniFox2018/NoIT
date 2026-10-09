@@ -3109,8 +3109,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "partially_integrated",
+    "knowledge_note": "X Article原文当轮403，用户先前来源采集只见5528字元数据/校验而正文实际不可直接读取；经索引核实ENGSENCE官网及其以短播客练习真实英语表达的定位。现仅融入可独立复用的听力训练工作法与工具入口，明确不声称原文全篇或操作截图完整吸收；该篇需正文补足。",
+    "knowledge_targets": [
+      "知识库/学习方法/AI辅助的系统化学习与输出工作流.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2100533784462737711",
@@ -3529,8 +3533,12 @@
       "2087087352506409055"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "已阅读与原X文章标题主题相符的可读万字教程，按安装权限、九类入口、Skill/伙伴/连接器、PPT/Excel/定时、飞书Base回读、图像文件格式、WorkBuddy/Codex对比、五级实践组织独立中文指南；镜像版本不能证明与原X 8578字采集完全字节同版。未登录产品、使用飞书或执行自动化。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/桌面Agent工作台：豆包工作、Skill与飞书协作.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2101901626252652874",
@@ -5485,8 +5493,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "已读取作者大神网18节可见全文并建独立技术专题，核对CMP型号FBPA/显存折叠、80GB实验/错误、WPR2/PMA、verify假阳性、vLLM/SGLang、170tune、散热、PCIe、采购风险。GitHub API核实PR32/33均于2026-08-26分别合并到非默认分支，纠正作者文章仍Open旧快照；未验证主线发行已包含补丁，也未购卡/刷驱动/跑性能。",
+    "knowledge_targets": [
+      "知识库/独立开发/CMP170HX本地推理服务器：显存解锁、验真与部署风险.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2048700996449382763",
@@ -5829,8 +5841,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "已从公开完整镜像逐章核对选题指南8章：5入口、旧稿与社区、内容矩阵/4A/五问/反向、5项目、四门/BREW、选题卡，融入X运营正文。不代表已安装五个项目、实际运行选题Skill或复制原文配图。",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2027508341153665454",
@@ -5888,8 +5904,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "已阅读完整可读案例，包括MiniMax云TTS、IndexTTS2本地声线比较、冻结参考WAV和manifest、HeyGen数字人/小窗、词级字幕与语音故障；融合现有视频工程主文档。云/本地性能与价格属于作者时点经验，未运行音频/数字人或使用授权声线。",
+    "knowledge_targets": [
+      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2096321538546930077",
@@ -6016,8 +6036,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "已读取作者X游民网站2026.09版可见长文，按被看见/主页/一致性/四类价值/情感/互动/传播等阶段融合。个人5.83万粉/5.58亿曝光及推荐账户成绩未独立证实，原图未逐一核对，平台算法主张不固化。",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2093502767776366755",
