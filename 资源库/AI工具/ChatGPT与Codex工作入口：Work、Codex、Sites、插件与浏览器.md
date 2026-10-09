@@ -8,8 +8,7 @@ tags:
   - Agent
 type: resource
 status: active
-updated: 2026-10-03
-verified: 2026-10-03
+updated: 2026-10-09
 ---
 
 # ChatGPT与Codex工作入口：Work、Codex、Sites、插件与浏览器
@@ -297,6 +296,18 @@ NoIT 工具库已经存在 CC Switch 条目，因此不重复创建资源文档�
 - Skills：https://developers.openai.com/plugins/concepts/skills
 - Docs MCP：https://developers.openai.com/learn/docs-mcp
 - Codex App：https://openai.com/index/introducing-the-codex-app/
+
+## 十四、ChatToCodex 类第三方 Tunnel 用法：技术原理与安全边界
+
+用户提供的 2026-09-29 剪藏描述：创建 Secure MCP Tunnel ID → 设置仅含 Tunnels Read、Tunnels Use 的 Restricted Runtime API Key → 通过第三方 ChatToCodex 本机 Host 暴露文件读取、写入和命令工具 → 从 ChatGPT MCP App 连接 → 操作本地代码项目。
+
+**可核查与未核查内容要分开。** OpenAI 官方 [tunnel-client](https://github.com/openai/tunnel-client) 确有公开仓库和技术文档，支持将私有 MCP 服务通过出站 HTTPS 连接。第三方 ChatToCodex 的原始代码仓库链接不在该剪藏正文中，未核验其实现、更新和权限；不能将文章所述 npm 安装指令视为已审计的当前安全指南。
+
+**重要风险**：本地 run_command、read_file、write_file 可能访问高权限数据与凭据。先确认真实代码来源、权限范围、审批机制和网络流向；Restricted Key 放系统凭据存储，不发到聊天、公开仓库或日志；先在隔离测试目录验证，再决定是否授权正式工程。
+
+**额度问题**：“将 ChatGPT 网页额度接入 Codex”“接近翻倍”仅为博主个人体验，不代表官方额度、授权或计费规则的当前保证。应按官方文档、实际账户计量和服务条款判断。
+
+来源：Jacky，《保姆级教程｜如何将你的Codex额度翻倍？》，X，2026-09-29：https://x.com/JackyCufe/article/2104819548851753085 。2026-10-09 核查官方 tunnel-client，未安装第三方程序或验证额度说法。
 
 ## 来源记录
 
