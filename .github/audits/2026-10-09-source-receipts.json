@@ -3572,8 +3572,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "已读作者网页可见文字11章，融合为Obsidian操作与NoIT适配补充；插图、局部命令/提示词在网页抓取中未完全呈现；不等于原长文全部多媒体取得或实际运行验证。",
+    "knowledge_targets": [
+      "知识库/知识管理/LLM维护型个人知识库：从RAG到持续演化的Wiki.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2104039563719262546",
@@ -3589,8 +3593,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "已读作者网页可见文字15章并建独立可用教程；配图/局部示例代码未逐项获得，GitHub认证、Actions/Pages等时效事实以官方文档纠偏；本轮未实际执行示例。",
+    "knowledge_targets": [
+      "知识库/独立开发/Git与GitHub实践：版本控制、协作、自动化与安全.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2102738292580225350",
@@ -3606,8 +3614,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "partially_integrated",
+    "knowledge_note": "已读作者网页可见文字6章并融合工程Agent入门实践；截图、命令清单与答疑多为未展开标题，缺源细节；明确部分吸收，不伪称完整教程重建。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2100027951618416963",
