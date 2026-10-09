@@ -2982,8 +2982,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "已核对 Hytidel 原帖对应的可读六章+结论：成本三种风险、客户历史预算、价值定价、定金与里程碑、二次外包冗余、客户筛选。已融入 FDE 主文档，补经济下限、情景压力测试、报价卡与法律风险。原文10%容易接受/10%底线矛盾、90%工期、未来收益权出售和两家最低报价均未当作普遍事实。未实际报价签约或查客户数据；原封面视频未实测。覆盖记录:2026-10-09-fde-miniapp-coverage.md",
+    "knowledge_targets": [
+      "知识库/产品方法/FDE前线部署工程：从问题发现到规模化复制.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2096820806957552092",
@@ -5606,8 +5610,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "已逐段读取宋宋作者网站八阶段，以及五项打卡回归、预览/真机/远程调试区分、6项技术自查和四道提审资格门槛。已融入原小程序商业化专题并纠正云开发默认权限、AppID与密钥、原文7天体验/云费/认证与搜索说法的时效性。不等于作者原截图已逐帧核验，未运行小程序/云端/备案/微信审核。覆盖记录:2026-10-09-fde-miniapp-coverage.md",
+    "knowledge_targets": [
+      "知识库/独立开发/AI辅助微信小程序商业化：从规划、开发到支付、备案与上线.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2062301065312407891",
