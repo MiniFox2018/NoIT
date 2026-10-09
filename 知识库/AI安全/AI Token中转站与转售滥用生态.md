@@ -439,6 +439,10 @@ Vectoral 的文章给出了具体折扣、流量和运营规模数据。
 
 ---
 
+## 关联资源入口
+
+- [ChatGPT 与 Codex 工作入口](../../资源库/AI工具/ChatGPT与Codex工作入口：Work、Codex、Sites、插件与浏览器.md)：需要选择使用入口时，先核对平台的官方连接、订阅与授权边界；此链接只是导航，不意味着官方产品完全没有风险或第三方合法网关一概不可信。
+
 ## 来源与版本记录
 
 - Vectoral / Matt Lenhard：《An Inside Look at the Relay Market Powering Token Resellers and Fraud》，2026-06-28  
