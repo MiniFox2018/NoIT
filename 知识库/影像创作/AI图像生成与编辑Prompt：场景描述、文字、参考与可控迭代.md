@@ -984,6 +984,12 @@ XHS Visual Director 的长期价值，不在某一种固定“高级科技风”
 
 来源：[xhs-visual-director-skill](https://github.com/ziguishian/xhs-visual-director-skill) · [SKILL.md](https://github.com/ziguishian/xhs-visual-director-skill/blob/main/skill/SKILL.md)，核验于 2026-10-09。
 
+## 旅行照片的专项扩展
+
+旅行照片需要区分**真实记录修复**与**明确标注的二次创作**：人像修复优先普通局部曝光、去干扰物与保留身份；创意合成则对人物、场景、文字、时间线分别指定参考图，不能把生成的天气、地理路线、五官或菜品细节当作真实恢复。
+
+对应的完整场景表、可复用修改模板、返工检查与 **01—24 类案例及其变体**见 [[旅行照片修复与AI二次创作：真实感、提示词与创意玩法]]。本主文档只保留跨任务普适原理，避免将旅游风格案例重复复制一遍。
+
 ## 与 NoIT 其他知识的关系
 
 - [[AI视频导演式Prompt编译：镜头表、参考权、连续性与返工]]：把同一套“导演式 Prompt”扩展到动态镜头、表演、声音和连续性。
