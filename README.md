@@ -55,9 +55,10 @@ NoIT 与 Study 当前暂时独立维护，未来计划合并为统一仓库。�
 
 ## 正文补全与来源追溯
 
-- [扩展 X 来源对账与下一批吸收队列](./.github/audits/2026-10-09-expansion-reconciliation.md)：132 条有精确文档关联，原先 112 条未关联来源中已处理 7 条、剩余 105 条；不把引用视为全文吸收。
+- [扩展 X 来源对账与下一批吸收队列](./.github/audits/2026-10-09-expansion-reconciliation.md)：132 条有精确文档关联，原先 112 条未关联来源中已处理 9 条、剩余 103 条；不把引用视为全文吸收。
 - [视频 55 Skill 与十项实用 Skill 的逐项核验](./.github/audits/2026-10-09-video55-skills10-coverage.md)：12 个原始功能组、10 个项目、65 个实际技能文件路径及未验证事项。
 - [产品初始化与网页入门的第 6、7 篇吸收记录](./.github/audits/2026-10-09-product-web-guides-coverage.md)：目录与审批状态机、HTML/CSS/JS 实践与技术纠错。
+- [FDE 企业服务定价与小程序上线两篇的逐节核对](./.github/audits/2026-10-09-fde-miniapp-coverage.md)：六项定价与风控、八阶段开发与提审、动态政策降级。
 - [2026-10-09 正文补全同步记录](./.github/audits/2026-10-09-source-completion.md)：67条合集、42处折叠、54条真实入口，以及本轮知识增量与扩展来源状态。
 - [AI创作与变现实操资源索引](./资源库/创业运营/AI创作与变现实操资源索引.md)：按原分组选择54个实际帖文入口。
 
