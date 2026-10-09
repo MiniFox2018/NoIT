@@ -69,8 +69,8 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
-|
-| 自适应苏格拉底式学习：每轮一问、12 关键词结构、视觉黑板及按需生成离线 HTML；STE 启发文字输出不等于正式标准认证。 | [qiaomu-learning](https://github.com/joeseesun/qiaomu-learning) · [Skill 仓库与安装说明](https://github.com/joeseesun/qiaomu-learning#安装) | 未安装（2026-10-09 已核对 README） | 支持论文规划、大纲、摘要、正文、修改和引用检查等模式；包含风格校准与写作质量检查，可输出双语摘要及 LaTeX、DOCX、PDF。 | `academic-paper` | 已安装 |
+| 自适应苏格拉底式学习：每轮一问、12 关键词结构、视觉黑板及按需生成离线 HTML；STE 启发文字输出不等于正式标准认证。 | [qiaomu-learning](https://github.com/joeseesun/qiaomu-learning) · [Skill 仓库与安装说明](https://github.com/joeseesun/qiaomu-learning#安装) | 未安装（2026-10-09 已核对 README） |
+| 支持论文规划、大纲、摘要、正文、修改和引用检查等模式；包含风格校准与写作质量检查，可输出双语摘要及 LaTeX、DOCX、PDF。 | `academic-paper` | 已安装 |
 | 模拟主编、三名同行审稿人和反方审阅者，从不同角色评估论文；支持快速评估、方法专项审阅、修改后复审与审阅校准。 | `academic-paper-reviewer` | 已安装 |
 | 串联研究、写作、完整性检查、审稿和多轮修订，协调相关学术技能；特点是将完整性核验和两阶段审稿纳入完整流程。 | `academic-pipeline` | 已安装 |
 | 提供适配 Codex 的学术研究入口，覆盖研究、写作、审阅、实验规划和统计解释；内含角色提示、模板与交接规范，支持 ARS 命令别名。 | `academic-research-suite` | 已安装 |
@@ -225,8 +225,8 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
-|
-| 在 Apple Silicon Mac 上连接另行安装的 Jianying Headless 核心，编译语义剪辑计划，默认交付可编辑剪映草稿；支持适配版本的原生导出；需合法的剪映安装、核心、相关版本匹配与许可。 | [yichen-jianying-edit](https://github.com/mcncarl/yichen-skills/blob/main/yichen-jianying-edit/SKILL.md) · [核心项目](https://github.com/mcncarl/jianying-headless) | 未安装（2026-10-09 核对 SKILL.md；未执行） | 作为 video-production 的 Remotion 兼容入口，用于明确指定 Remotion、React 视频组件或旧技能名称的任务；实际制作流程沿用主视频技能。 | `remotion-video-production` | 已安装 |
+| 在 Apple Silicon Mac 上连接另行安装的 Jianying Headless 核心，编译语义剪辑计划，默认交付可编辑剪映草稿；支持适配版本的原生导出；需合法的剪映安装、核心、相关版本匹配与许可。 | [yichen-jianying-edit](https://github.com/mcncarl/yichen-skills/blob/main/yichen-jianying-edit/SKILL.md) · [核心项目](https://github.com/mcncarl/jianying-headless) | 未安装（2026-10-09 核对 SKILL.md；未执行） |
+| 作为 video-production 的 Remotion 兼容入口，用于明确指定 Remotion、React 视频组件或旧技能名称的任务；实际制作流程沿用主视频技能。 | `remotion-video-production` | 已安装 |
 | 提供 Remotion 与 React 程序化视频开发方法，覆盖动画、时序、字幕、3D、转场和素材处理；支持命令行、Node.js 及云端渲染。 | `remotion-video-toolkit` | 已安装 |
 | 规划并执行代码、模板或混合方式的视频制作流程；适合批量短视频、个性化视频、字幕与本地化版本及数据驱动视频。 | `video-production` | 已安装 |
 | 下载用户自有或已获授权的抖音原视频，单条可提取并校对 Markdown 逐字稿与 SRT；博主作品可批量归档原片、机器稿、公开指标、标签和封面文字，支持续跑及已有资料库的口播改写。收藏指向 feat/creator-batch-offline 开发分支；批量机器稿未经逐篇听音校对，不能擦除原片已烧录的标识。 | [ah-douyin-clean-downloader](https://github.com/ahang008/ah-douyin-clean-downloader/blob/feat/creator-batch-offline/SKILL.md) · [收藏分支](https://github.com/ahang008/ah-douyin-clean-downloader/tree/feat/creator-batch-offline) · [原短链](https://t.co/BObnXwyvIU) | 未安装 |
@@ -281,8 +281,8 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
-|
-| 在 Claude Code 项目中建立可审阅的 Eval，使用独立未见集逐次改善 Prompt/工具配置与成本；build-eval 与 hillclimb 为同一 claude-api Skill 的子功能，不计作两个独立 Skill。 | [claude-api](https://github.com/anthropics/skills/tree/main/skills/claude-api) · [官方教程](https://claude.dev/blog/automating-eval-design-and-hillclimbing/) | 未安装（仅记录官方来源） | Google Agents CLI 的开发流程入口，串联脚手架、构建、评估、部署、发布与观测；默认面向 ADK Agent，提供代码保留与排障规则，并按阶段调用对应技能，需 agents-cli 环境。 | [google-agents-cli-workflow](https://github.com/google/agents-cli/blob/main/skills/google-agents-cli-workflow/SKILL.md) · [仓库](https://github.com/google/agents-cli) | 未安装 |
+| 在 Claude Code 项目中建立可审阅的 Eval，使用独立未见集逐次改善 Prompt/工具配置与成本；build-eval 与 hillclimb 为同一 claude-api Skill 的子功能，不计作两个独立 Skill。 | [claude-api](https://github.com/anthropics/skills/tree/main/skills/claude-api) · [官方教程](https://claude.dev/blog/automating-eval-design-and-hillclimbing/) | 未安装（仅记录官方来源） |
+| Google Agents CLI 的开发流程入口，串联脚手架、构建、评估、部署、发布与观测；默认面向 ADK Agent，提供代码保留与排障规则，并按阶段调用对应技能，需 agents-cli 环境。 | [google-agents-cli-workflow](https://github.com/google/agents-cli/blob/main/skills/google-agents-cli-workflow/SKILL.md) · [仓库](https://github.com/google/agents-cli) | 未安装 |
 | 指导设计与实现 MCP Server，涵盖外部服务接口、工具 schema、研究、错误处理与验证；可针对 Python FastMCP 和 TypeScript SDK，属于构建 MCP 的 Skill，本身不是 MCP 服务。 | [mcp-builder](https://github.com/anthropics/skills/blob/main/skills/mcp-builder/SKILL.md) · [官方仓库](https://github.com/anthropics/skills) | 未核实（仅收藏） |
 | 为 ADK Agent 编码提供 API 模式与示例，覆盖 Agent 类型、工具、回调、状态管理和图式工作流；按 Python 或 Go 查阅参考，要求先有脚手架项目，部署由其他技能处理。 | [google-agents-cli-adk-code](https://github.com/google/agents-cli/blob/main/skills/google-agents-cli-adk-code/SKILL.md) · [仓库](https://github.com/google/agents-cli) | 未安装 |
 | 指导使用 Mastra 构建 Agent、工作流、工具、记忆、工作空间与存储；优先核对已安装包内文档和当前 API，覆盖 TypeScript 项目设置、常见错误、迁移及 mastra api CLI 操作。 | [mastra](https://github.com/mastra-ai/skills/blob/main/skills/mastra/SKILL.md) · [仓库](https://github.com/mastra-ai/skills) | 未安装 |
