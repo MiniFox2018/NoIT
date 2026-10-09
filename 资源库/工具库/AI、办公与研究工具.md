@@ -5,7 +5,7 @@ tags:
   - 工具库
 type: resource-index
 status: active
-updated: 2026-10-03
+updated: 2026-10-09
 ---
 
 # AI、办公与研究工具

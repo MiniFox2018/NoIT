@@ -321,7 +321,7 @@ status: active
 | Anthropic 官方 Agent Skills 示例合集，含开发、设计、企业工作流与文档处理的多个真实 `SKILL.md`；本轮涉及的六个具体技能已归入上方各用途分类。部分文档能力仅开放源码供参考，并非所有文件都采用相同的开放许可。 | [anthropics/skills](https://github.com/anthropics/skills) · [技能目录](https://github.com/anthropics/skills/tree/main/skills) | 未核实（仅收藏；未安装整套） |
 | 社交媒体方向的 17 个实际 Skill，覆盖声音风格、LinkedIn 帖子 / 主页优化、短视频脚本、YouTube 缩略图、轮播图、内容矩阵、主题研究与数据回顾；部分流程依赖第三方 API、账号和授权，不保证自动发布或引流效果。 | [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) · [技能目录](https://github.com/charlie947/social-media-skills/tree/main/skills) | 未核实（仅收藏；未安装整套） |
 | **Claude Cowork Finance 插件包（非单个 Skill）**：辅助记账分录、对账、损益表、差异分析及 SOX 工作底稿，通常需接入账务 / 表格来源；结果需要财务专业人士复核。原帖“8 个技能”不作为当前核实的定量结论。 | [Finance 官方插件](https://claude.com/plugins/finance) | 未核实（仅收藏；未执行安装） |
-| **Claude Cowork Small Business 插件包（非单个 Skill）**：涵盖现金流、工资规划、月底关账、逾期账款、营销与客户跟进；官方当前描述 15 个指令和 15 个基础 Skill，不照抄原帖“31 个技能”作为事实，涉及资金或客户操作需审批。 | [Small Business 官方插件](https://claude.com/plugins/small-business) | 未核实（仅收藏；未执行安装） |
+| **Claude Cowork Small Business 插件包（非单个 Skill）**：涵盖现金流、工资规划、月底关账、逾期账款、营销与客户跟进；目前官方插件页介绍 43 个可执行工作流（不等于 43 个独立 Skill）；不能将原帖“31 个技能”当作已核验数量，涉及资金或客户操作需审批。 | [Small Business 官方插件](https://claude.com/plugins/small-business) | 未核实（仅收藏；未执行安装） |
 | **Claude Cowork Legal 插件包（非单个 Skill）**：合同审阅、NDA 分流、供应商核查、法律简报和模板化回应；须配置团队合同条款与升级规则，结果应由有资格的法律专业人士审核。原帖“9 个技能”未独立核实。 | [Legal 官方插件](https://claude.com/plugins/legal) | 未核实（仅收藏；未执行安装） |
 
 ## 2026-10-09 外部清单校核
