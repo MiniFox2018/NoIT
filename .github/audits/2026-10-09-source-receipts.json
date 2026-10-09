@@ -888,7 +888,7 @@
     "embedded": [],
     "acquired_on": "2026-10-09",
     "knowledge_status": "partially_integrated",
-    "knowledge_note": "原合集审计#47：部分资源吸收；八个视频 Skills：已有 video-use；其余来源或 SKILL 路径缺失需单独核验。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "knowledge_note": "已找到与清单名称对应的 GitHub 项目及实存 SKILL.md 并归入 Skill 清单；同名项目与原作者指向仍不确定，未安装或运行，保持部分吸收状态。",
     "collection_number": 47,
     "knowledge_target": "资源库/Skill/Skill教程与实践笔记.md"
   },
@@ -1211,9 +1211,9 @@
     "embedded": [],
     "acquired_on": "2026-10-09",
     "knowledge_status": "partially_integrated",
-    "knowledge_note": "原合集审计#64：补全并拆分；Raven、金融与3D为独立相关帖；Raven方法入工程主题，金融只留来源，3D入既有工程来源。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "knowledge_note": "原帖及续帖的不同主题已拆分：Raven 独立相关帖的方法归工程Agent；金融/3D各自保留来源线索。实际执行、成本与模型表现尚未经核验，暂保留部分吸收状态。",
     "collection_number": 64,
-    "knowledge_target": "知识库/AI工作方式/AI产品工程：评测、上下文与系统优化.md"
+    "knowledge_target": "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md"
   },
   {
     "id": "2106506836035727601",
