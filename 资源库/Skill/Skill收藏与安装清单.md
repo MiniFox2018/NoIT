@@ -33,6 +33,7 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
+| **电商视觉与文案编排**：从商品事实/检测资料建立证据账本，经视觉策略、主图与详情页分镜、图上文案、素材/平台边界审查后交设计或生图；有版本和合规变化必须回查平台官方规则，禁止虚构功效、销量和认证。 | [ecommerce-visual-copywriting](https://github.com/feichanggege/ecommerce-visual-copywriting-skill/blob/main/SKILL.md) | 未安装；2026-10-09 核验实际 SKILL.md 和流程，不代表出图已通过 |
 | 使用文稿、用途、平台比例和明确的视觉风格生成中文封面提示词与图片；两项实际技能分别为 punk-cover 与 punk-avatar，共用可复用风格库。**个人非商业用途与客户/变现用途的许可不同，商用前需逐项查看 LICENSE。** | [punk-cover](https://github.com/adrianpunk/Punk-Skill/blob/main/skills/punk-cover/SKILL.md) · [punk-avatar](https://github.com/adrianpunk/Punk-Skill/blob/main/skills/punk-avatar/SKILL.md) · [仓库](https://github.com/adrianpunk/Punk-Skill) | 未安装（2026-10-09 核对实际 SKILL.md 与个人用途许可） |
 | 读取中文文章先生成画面方案，把关键概念、结构和隐喻做成白底“小黑”手绘正文配图；含风格 DNA、原创构图要求和人工质量检查，默认不平均给每段配图。 | [ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations/blob/main/ian-xiaohei-illustrations/SKILL.md) · [仓库](https://github.com/helloianneo/ian-xiaohei-illustrations) | 未安装（2026-10-09 核对 SKILL.md；未试运行） |
 | 按文字描述生成图片，或编辑现有图片、制作参考图变体与透明背景素材；适合照片、插画、纹理和精灵等位图资产。 | `imagegen` | 已安装 |
@@ -47,6 +48,7 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
+| **英文 humanizer（与中文 humanizer-zh 独立）**：逐句检查事实膨胀、机械对比、套路化连接和排版腔，先阅读整篇再保真修订；不许凭润色添加事实或更改语义。适合英文长文或结构性表达改稿，不能自动取代中文规范。 | [blader/humanizer](https://github.com/blader/humanizer/blob/main/SKILL.md) | 未安装；2026-10-09 核实真实 SKILL.md，原有 humanizer-zh 状态不继承 |
 | 把研究、提纲、引用、段落写作、Hook 与逐节审稿组织成协作工作流；实际包含 content-research-writer/SKILL.md，适合行业长文和技术文章，不替代对来源的交叉核验。 | [content-research-writer](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/content-research-writer/SKILL.md) | 未安装（2026-10-09 核对 SKILL.md） |
 | **辞达**：中文写作、重写、口述成文、平台适配与文体校准；先检查意义逻辑，再修结构、语气、节奏与措辞，不把工整本身视为问题。 | [cida / 辞达](https://github.com/mizzlelover/cida/blob/main/SKILL.md) | 未核实（仅收藏；未执行安装） |
 
@@ -225,6 +227,7 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
+| **视频生产 Skill 集合，非 55 个独立视频工具**：覆盖选题→脚本→转写→配音/数字人→剪辑→字幕→封面→动效→QC→复盘；仓库当前 README 记为 61 个顶层技能目录（含别名），递归找到 65 份实际 SKILL.md（含嵌套）；还集成了外部 dbskill，需按原始来源和各项许可分别判断。 | [Pluviobyte/rnskill](https://github.com/Pluviobyte/rnskill) · [制作导演](https://github.com/Pluviobyte/rnskill/blob/main/skills/ra-video-production-director/SKILL.md) · [真实字幕时间戳](https://github.com/Pluviobyte/rnskill/blob/main/skills/ra-audio-to-subtitles/SKILL.md) | 未安装；2026-10-09 核实仓库树、技能与总许可证 CC BY-NC 4.0，未运行 |
 | 在 Apple Silicon Mac 上连接另行安装的 Jianying Headless 核心，编译语义剪辑计划，默认交付可编辑剪映草稿；支持适配版本的原生导出；需合法的剪映安装、核心、相关版本匹配与许可。 | [yichen-jianying-edit](https://github.com/mcncarl/yichen-skills/blob/main/yichen-jianying-edit/SKILL.md) · [核心项目](https://github.com/mcncarl/jianying-headless) | 未安装（2026-10-09 核对 SKILL.md；未执行） |
 | 作为 video-production 的 Remotion 兼容入口，用于明确指定 Remotion、React 视频组件或旧技能名称的任务；实际制作流程沿用主视频技能。 | `remotion-video-production` | 已安装 |
 | 提供 Remotion 与 React 程序化视频开发方法，覆盖动画、时序、字幕、3D、转场和素材处理；支持命令行、Node.js 及云端渲染。 | `remotion-video-toolkit` | 已安装 |
@@ -314,6 +317,8 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
+| **Skill 静态安全审查入口**：调用 NVIDIA SkillSpector 对技能目录、仓库或单文件做安全模式和可选语义分析；报告有误报和漏报，扫描合格不等于可安全执行；处理私有文件时先明确是否调用外部 LLM，建议本地扫描并核对源码。 | [skill-inspector](https://github.com/NVIDIA/SkillSpector/blob/main/skills/skill-inspector/SKILL.md) · [安全扫描器项目](https://github.com/NVIDIA/SkillSpector) | 未安装；2026-10-09 核实实际 Skill；未执行扫描 |
+| **Skill 权限效果审查**：只读解析技能指令的文件读写、命令、网络、密钥和可能越权的组合，按源码行给出证据；独立 CLI 与 Agent 插件的 LLM/运行依赖不完全相同，自动修补须审查 diff。 | [Semia](https://github.com/berabuddies/Semia/blob/main/packages/semia-plugins/codex/skills/semia/SKILL.md) · [项目](https://github.com/berabuddies/Semia) | 未安装；2026-10-09 核实真实 Codex Skill 文件，未执行 |
 | 用 Semgrep 进行基于代码模式的静态分析，查找漏洞、缺陷或规范违规，并编写自定义 YAML 检测规则；可使用内置规则集和污点分析，有 MCP 时优先通过工具，否则使用 CLI。 | [semgrep](https://github.com/semgrep/skills/blob/main/skills/semgrep/SKILL.md) · [仓库](https://github.com/semgrep/skills) | 未安装 |
 | 通过 Sentry MCP 查找并分析生产问题，结合堆栈、breadcrumbs、trace 与代码定位根因并修复；需连接 Sentry 且具有项目访问权限，事件数据只作为证据，修复前核对其与源码是否一致。 | [sentry-fix-issues](https://github.com/getsentry/sentry-agent-skills/blob/main/skills/sentry-fix-issues/SKILL.md) · [仓库](https://github.com/getsentry/sentry-agent-skills) | 未安装 |
 | 为新增或修改功能添加 PostHog 行为事件，识别有业务价值的操作、事件属性和用户身份，并保持客户端与服务端事件关联；未接入时指导 SDK 初始化，已有埋点则补充而不重复，适合功能完成或 PR 审查后的追踪检查。 | [instrument-product-analytics](https://github.com/posthog/skills/blob/main/skills/omnibus/instrument-product-analytics/SKILL.md) · [仓库](https://github.com/posthog/skills) | 未安装 |
@@ -324,6 +329,7 @@ status: active
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |
 |---|---|---|
+| **小红书十技能生产组合**：变现倒推、低粉内容对标、账号记忆、选题与封面、内容表达/合规、视觉路由、小黑图、材质解释图、排期与复盘；实际 10 个 SKILL.md，整套独立存在，不应与 dbskill、视觉导演或封面子项目重复计数；发布前仍需官方规则、资质和证据核查。 | [workbuddy-xhs-skills](https://github.com/jackbauerxu/workbuddy-xhs-skills) · [实际技能目录](https://github.com/jackbauerxu/workbuddy-xhs-skills/tree/main) | 未安装；2026-10-09 核实 10 份 SKILL.md；顶层未见明确许可证，不默认可商用/再分发 |
 | **HTML Anything 既是本地优先的 HTML 编辑/导出应用，也包含多个实际 SKILL.md 模板**，可将 Markdown 与结构化内容转为文章、卡片、演示、简历、信息图、网页及视频；其 README 的数量和 CLI 支持是版本快照，不能将一整个项目误记为单个已安装 Skill。 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) · [模板目录](https://github.com/nexu-io/html-anything/tree/main/next/src/lib/templates/skills) | 未安装（2026-10-09 核对 README 和多项 SKILL.md 路径） |
 | 面向高完成度游戏视觉制作的两技能合集：game-builder 用锁定真实参考、分离 Planner/Builder/Critic/Diagnoser 和多轮视觉硬门槛打磨可玩作品；game-builder-blender-assets 在确需 3D 时把镜头关键模型交给 Blender specialist 制作并以 GLB 接入。两个实际 Skill 已分别登记，收藏合集不代表已安装或已运行验证。 | [ericzakariasson/skills](https://github.com/ericzakariasson/skills) | 未安装 |
 | 面向软件开发全过程的技能合集，覆盖需求澄清、规格与计划、增量实现、测试、调试、审查和发布；还包含接口设计、性能、安全及上下文工程。按开发阶段选择技能，强调质量门槛与验证。 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 未安装 |
@@ -355,7 +361,7 @@ status: active
 | **Claude Cowork Small Business 插件包（非单个 Skill）**：涵盖现金流、工资规划、月底关账、逾期账款、营销与客户跟进；目前官方插件页介绍 43 个可执行工作流（不等于 43 个独立 Skill）；不能将原帖“31 个技能”当作已核验数量，涉及资金或客户操作需审批。 | [Small Business 官方插件](https://claude.com/plugins/small-business) | 未核实（仅收藏；未执行安装） |
 | **Claude Cowork Legal 插件包（非单个 Skill）**：合同审阅、NDA 分流、供应商核查、法律简报和模板化回应；须配置团队合同条款与升级规则，结果应由有资格的法律专业人士审核。原帖“9 个技能”未独立核实。 | [Legal 官方插件](https://claude.com/plugins/legal) | 未核实（仅收藏；未执行安装） |
 | **调查与白板视频合集**：包含 investigation-video、whiteboard-video、video-common 三个实际 Skill，条目已分别登记；安装时须正确处理彼此依赖。 | [trustfuture/simon-skills](https://github.com/trustfuture/simon-skills) | 未核实（仅收藏；未执行安装） |
-| **内容运营多技能包**：含 dbs-xhs-title、dbs-content、dbs-hook 等多个实际 Skill，适合标题、脚本与传播内容诊断；不作为单一技能统计。 | [dontbesilent2025/dbskill](https://github.com/dontbesilent2025/dbskill) | 未核实（仅收藏；未执行安装） |
+| **业务诊断与内容运营多技能包**：截至本轮仓库树可定位 37 份 SKILL.md（README 说明 34 个当前业务技能、2 个兼容旧入口、1 个更新入口）；`dbs-hook` 与 `dbs-xhs-title` 已迁至 `dbs-title-cover-intro`，不可把旧 22 个数量固定为当前版本；作者项目采用 CC BY-NC 4.0，商用需授权。 | [dontbesilent2025/dbskill](https://github.com/dontbesilent2025/dbskill) · [当前 README](https://github.com/dontbesilent2025/dbskill/blob/main/README.md) | 未安装；2026-10-09 复核 README / 37 个实际文件，未执行 |
 | **李继刚中文认知与知识表达技能合集**：2026-10-09 核对 master 分支包含 26 个实际 SKILL.md，覆盖概念解剖、机制研究、论文/书籍解读、写作、知识地图、长图卡片、九宫格商业模式与演讲。master 默认 Org-mode、md 分支便于 Markdown；图卡依赖 Bun 和浏览器；按需挑选。 | [lijigang/ljg-skills](https://github.com/lijigang/ljg-skills) | 未安装（仅收藏合集；未运行） |
 | **Chubby Skills 内容素材库合集**：仓库现有 14 个实际 SKILL.md，配套 chubby CLI 做视频/播客/文章/本地文档的 Markdown 导入、带出处检索、资料包、订阅发现与可选 MCP。平台支持状态、ASR 依赖、会话凭据及版权限制需逐项核验；采集不等于事实查证。 | [chubbyguan/chubbyskills](https://github.com/chubbyguan/chubbyskills) | 未安装（仅收藏合集；2026-10-09 核验结构） |
 
