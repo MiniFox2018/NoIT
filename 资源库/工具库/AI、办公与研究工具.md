@@ -87,6 +87,7 @@ updated: 2026-10-09
 | Zotero 中文社区 | [打开](https://zotero-chinese.com/) | 提供 Zotero 中文教程、插件商店与镜像下载、中文 CSL 引用样式、中文网站转换器及开发指南；适合配置文献管理、排查导入和参考文献格式问题。是志愿者社区资源，不是另一个 Zotero 客户端，也不表示其插件已安装。 |
 | Folo | [打开](https://app.folo.is/) | 将订阅源和内容列表汇集到阅读时间线，按列表组织信息，提供 AI 翻译、摘要等阅读辅助；有桌面和网页入口，适合持续跟踪信息。 |
 | Glasp | [打开](https://glasp.co/) | 通过浏览器扩展高亮网页和 PDF、添加笔记，再在在线知识库组织与导出记录；支持向笔记工具衔接。属于扩展加在线服务组合，不能视为纯离线桌面应用。 |
+| Jev（TypeSafe System One） | [官方入口](https://typesafe.ai/) | 返回 Choice / Score / Noul 等限定类型结构化判断，适合书签、线索和工作流的批量分类及风险分流。分类结果和置信度不保证正确；需要 API 接入、权限控制和人工抽验，2026-10-09 仅核验官网模型定位，未运行 API。相关方法见 [[LLM维护型个人知识库：从RAG到持续演化的Wiki]]。 |
 | Twitter Web Exporter | [打开](https://github.com/prinsss/twitter-web-exporter) | 在本机浏览器捕获 X 页面已加载的数据，导出推文、书签、关注列表等为 JSON / CSV / HTML，也可导出媒体；需滚动加载，私信导出当前失效，非独立在线服务。 |
 | MagazineLib | [打开](https://magazinelib.com/) | 按主题、国家和期次浏览杂志与报刊，覆盖设计、摄影、科技、商业等领域，站点提供在线阅读或 PDF 入口；适合查找期刊与过刊。不是阅读器，具体文件完整性、外链和授权情况未逐项核验。 |
 | awesome-english-ebooks | [打开](https://github.com/hehonghui/awesome-english-ebooks) | 按刊物与日期整理经济学人、纽约客、大西洋月刊、Wired 等英语外刊，提供电子文件资源；适合英语阅读和外刊查找。仓库声明支持多种格式及部分音频，各期以实际文件为准；推荐的阅读 App 是另一个产品。 |

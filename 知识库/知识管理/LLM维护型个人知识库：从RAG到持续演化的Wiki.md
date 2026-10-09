@@ -556,6 +556,42 @@ Yichen Web Research 和 Chubby Skills 展示了两种互补的资料处理工程
 
 来源：[yichen-web-research](https://github.com/mcncarl/yichen-skills/tree/main/yichen-web-research) · [chubbyskills](https://github.com/chubbyguan/chubbyskills)；README、SKILL.md 及目录核验于 2026-10-09。
 
+## 十六、X 书签后置整理：Jev 的结构化判断与复核边界
+
+《用 Jev 管理 X 书签》的核心方法是**先零摩擦收藏，之后统一分类**：收藏时不强制决定目录，避免打断信息流；用已授权的导出/浏览器读取形成结构化书签清单，再做标签、后续动作与风险判断。原文区分本地脚本＋轻界面和 Codex/Grok Bot 浏览器操作两条路线；**Jev 模型本身不会自动登录 X 或采集私有书签**。
+
+### 一套可以直接迁移的字段
+
+| 字段 | 示例选项 | 作用 |
+| --- | --- | --- |
+| `bookmark_kind` | tip、case、opinion、noise | 区分实践方法、案例、观点与低信息量 |
+| `topic_related` | true / false | 是否关联当前主题 |
+| `next_step` | read、cite、archive、drop | 精读、引用候选、留档、建议舍弃 |
+| `risk` | 低／中／高 | 事实、版权、隐私、名誉等公开引用风险 |
+
+作者用 TypeSafe System One 模型 Jev 的 **Choice、Noul、Score** 在给定选项内返回结构化判断；可以用 Python SDK，前端可通过 Streamlit/Gradio 轻量展示。需要注意：输出标签固定不代表判断正确；模型的 confidence 不等于经统计校准的真实准确率。原文自述 8 条合成样本平均约 235ms、30 条真实书签分类平均约 219ms，均不足以证明在大规模中文书签上表现可靠。
+
+### NoIT 的落地边界
+
+```text
+合法导出 X 书签或浏览器有权限读取
+→ 保留原始 URL、时间、可获得的正文/媒介类型
+→ 限定类别与下一步动作
+→ 低置信度或高风险人工核对
+→ 有长期价值的内容再进入 NoIT 全文读取、去重与核验流程
+```
+
+- 由于书签可能只保存链接而原帖会删除/变为不可访问，采集是否完整与内容是否授权再分发必须分开。
+- 不根据 `drop` 自动永久删除仓库原有资源；资源与已吸收的知识独立判断，遵守 NoIT 删除保护。
+- `cite` 仅代表引用候选，引用前还需回看源帖、原始材料、发布日期、语境与版权。
+- 浏览器操作必须基于用户授权登录态，不把 Cookies、私信、私人信息或凭据交给不可信工具；第三方处理内容应评估隐私。
+- 分类选项应与 NoIT 的现有工作流标签和知识/资源双轨规则映射，不新增与当前目录冲突的第二套分类。
+
+2026-10-09 定向核对了 [TypeSafe 官网](https://typesafe.ai/) 的 Jev 结构化决策模型定位，未实际购买调用或独立复测性能。官方 [文档入口](https://docs.typesafe.ai/) 可用于后续核对 SDK/API；X 书签可用 [Twitter Web Exporter](https://github.com/prinsss/twitter-web-exporter) 作为另一种候选采集工具，它和 Jev 不是同一个服务。
+
+来源：蓝哥AI（@0xlangeai），《用 Jev 管理 X 书签》，2026-09-22，https://x.com/0xlangeai/article/2102339022043668855；2026-10-09 用户上传完整 Markdown。已覆盖收藏问题、后置管理、四问题类型、代码调用方案、浏览器路线、两组实验和限制。
+
+
 ## 来源与版本记录
 
 - Andrej Karpathy：`LLM Wiki`，创建于 2026-04-04，核验于 2026-10-03  
