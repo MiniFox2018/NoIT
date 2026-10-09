@@ -39,6 +39,7 @@ status: active
 | 根据文章路径或主题生成公众号封面图；适合已有文章需要配套封面，或先给主题直接出图。 | `xiaohu-wechat-cover` | 已安装 |
 | 从文章、脚本、截图、产品笔记、照片或视频制作小红书图文轮播与社交卡片，支持瑞士风和杂志风；可制作公众号 21:9 与 1:1 配套封面，以及基于视频素材的短 Live Photo 动态卡片和拼图。 | [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill/blob/main/SKILL.md) · [仓库](https://github.com/op7418/guizang-social-card-skill) | 未安装 |
 | **封面设计提示词**：按文章内容、风格选择、人物参考图与其他素材生成生图提示词；当前技能固定 3:4 竖版，只输出提示词，不直接生成封面。 | [gbro-cover-design](https://github.com/pyang5166/gbro-cover-design/blob/main/SKILL.md) | 未核实（仅收藏；未执行安装） |
+| **小红书图文视觉导演**：先梳理内容目标、受众、页面节奏和统一视觉母版，再规划 3:4 多页图文、图像提示词与发布文案；完整项目需先确认样图。带 docs、templates 和 examples，不应把规划当成已出图。 | [xhs-visual-director](https://github.com/ziguishian/xhs-visual-director-skill/blob/main/skill/SKILL.md) · [仓库](https://github.com/ziguishian/xhs-visual-director-skill) | 未安装（仅收藏，2026-10-09 核验 Skill 文件） |
 
 ## 中文写作与表达
 
@@ -56,8 +57,9 @@ status: active
 | 按平台选择 OpenCLI、专用 CLI 或 API 获取互联网内容，覆盖社交平台、招聘、视频和网页等；侧重内容获取与多后端路由，复杂平台先体检可用后端，不负责后续写作或分析加工。 | [agent-reach](https://github.com/Panniantong/Agent-Reach/blob/main/agent_reach/skill/SKILL.md) · [仓库](https://github.com/Panniantong/Agent-Reach) | 已安装 |
 | 围绕主题检索最近 30 天的讨论与互动信号，覆盖 Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub 和网页；综合近期用户观点并提供来源健康检查，实际覆盖取决于可用后端与配置。 | [last30days](https://github.com/mvanhorn/last30days-skill/blob/main/skills/last30days/SKILL.md) · [仓库](https://github.com/mvanhorn/last30days-skill) | 未安装 |
 | 通过浏览器采集小红书搜索框的联想词，从词根到一级建议词再做第二层扩展，逐次截图并保留排序、来源路径和 JSON 检查点；按行业转化目标评估相对商业意图，交付 Excel、JSON 与截图。评分不代表搜索量或成交额，适合关键词拓展，不用于笔记热度或账号排名分析。 | [yao-geo-xiaohongshu](https://github.com/yaojingang/yao-geo-skills/blob/main/skills/yao-geo-xiaohongshu/SKILL.md) · [技能目录](https://github.com/yaojingang/yao-geo-skills/tree/main/skills/yao-geo-xiaohongshu) | 未安装 |
-
 | 在豆包工作中通过真实浏览器采集抖音公开主页/视频的标题、文案、互动、日期与完整逐字稿；支持飞书多维表或本地 Markdown/JSON，并包含长文本分页完整性、去重、受控标签与写后校验。仅处理有权访问和使用的内容，需遵守平台规则与法律要求。 | [douyin-transcript-exporter](https://github.com/jinchenma94/social-media-data-tools/blob/main/skills/douyin-transcript-exporter/SKILL.md) · [仓库](https://github.com/jinchenma94/social-media-data-tools) | 未安装（2026-10-03 已核验仓库与 SKILL.md） |
+| **多阶段互联网研究路由**：将跨平台发现、原文核验、范围限定的归档/转写和证据综合分开；总技能需与 yichen-unified-search、yichen-content-archive、yichen-bookmarks-export、yichen-asr 四个子 Skill 配套，后端另行配置；单阶段搜索直接选子技能。私人书签与下载不能隐式授权，原仓库标注个人非商业使用限制。 | [yichen-web-research](https://github.com/mcncarl/yichen-skills/blob/main/yichen-web-research/SKILL.md) · [说明](https://github.com/mcncarl/yichen-skills/blob/main/yichen-web-research/README.md) | 未安装（仅收藏，2026-10-09 核验） |
+| **生活决策检索**：从《高性价比人生指南》正文检索具体章节与条目，对比成本、收益、证据等级及适用例外；不能凭记忆补医学数字、法条或政策，不取代医生、律师或理财专业判断。需要能够访问原书全文。 | [life-decision-guide](https://github.com/eternity4719/HowToLiveBetter/blob/main/skills/life-decision-guide/SKILL.md) · [书库](https://github.com/eternity4719/HowToLiveBetter) | 未安装（仅收藏，2026-10-09 核验） |
 
 ## 学术研究流程
 
@@ -229,6 +231,8 @@ status: active
 | **白板视频讲解**：逐笔绘制、贴纸、字幕与封面，适合信息说明；与调查长片工具共用 video-common。 | [whiteboard-video](https://github.com/trustfuture/simon-skills/tree/master/skills/whiteboard-video) | 未核实（仅收藏；未执行安装） |
 | **视频共用工序**：提供事实核查、来源台账、版权与发布前验收；本身不负责独立制作完整长片。 | [video-common](https://github.com/trustfuture/simon-skills/tree/master/skills/video-common) | 未核实（仅收藏；未执行安装） |
 | **火柴人导演**：先产出 Phase A 导演提案并等待批准，再输出 Phase B 按时长分段的生视频提示词；默认 60 秒 6 段，仍需外部生成服务与后期合成。 | [directing-stickman-videos](https://github.com/kaomei/stickman-video-director/blob/main/skills/directing-stickman-videos/SKILL.md) | 未核实（仅收藏；未执行安装） |
+| **实拍素材的 Agent 视频剪辑**：逐词转写与按需画面采样→人工确认策略→生成剪辑决策表（EDL）→FFmpeg 剪辑、字幕和动画→切点校验。需要本地运行环境、FFmpeg、ElevenLabs 等，不是生成式视频模型或免配置一键云服务。 | [video-use](https://github.com/browser-use/video-use/blob/main/SKILL.md) · [仓库](https://github.com/browser-use/video-use) | 未安装（仅收藏，2026-10-09 核验） |
+| **Seedance 2.0 中文 Prompt**：依据文字/图片/视频/音频参考、@素材引用、运镜、续片、一镜到底、音乐卡点等生成结构化视频提示词；不直接生成视频。仓库内 2.0 的模型参数不能自动当作 2.5 的最新限制；与 Emily2040 的 Seedance Skill OS 是不同项目。 | [seedance](https://github.com/songguoxs/seedance-prompt-skill/blob/master/.claude/skills/seedance/SKILL.md) · [仓库](https://github.com/songguoxs/seedance-prompt-skill) | 未安装（仅收藏，2026-10-09 核验） |
 
 ## 浏览器、插件与模板
 
@@ -239,6 +243,7 @@ status: active
 | 从参考文档、演示、表格或其他制品创建可复用的个人模板 Skill，也可更新已有模板技能；适合保存版式与制作规则供后续复用。 | `template-creator:template-creator` | 已安装 |
 | 通过 playwright-cli 快照与元素引用控制真实浏览器，支持导航、表单、文件上传、截图及 Playwright 测试工作。与本机已安装的 playwright 技能用途相近，但本条是 Microsoft 仓库中的独立 Skill，不将两者混记为已安装。 | [playwright-cli](https://github.com/microsoft/playwright-cli/blob/main/skills/playwright-cli/SKILL.md) · [仓库](https://github.com/microsoft/playwright-cli) | 未安装 |
 | 为当前任务创建或更新 PR，用一句变更原因、少量注意事项和可视化结构大纲帮助审阅者理解实现；可展示调用树、组件或文件结构及差异。仅在明确点名时使用，流程可能涉及提交、推送和发布 PR 描述。 | [visual-pr](https://github.com/humanlayer/skills/blob/main/plugins/visual-pr/skills/visual-pr/SKILL.md) · [仓库](https://github.com/humanlayer/skills) | 未安装 |
+| **真实浏览器自动化**：Tencent BrowserSkill 通过 bsk CLI、守护进程及 Chrome/Edge 扩展在独立 Agent Window 中操作已登录网页、表单和网络调试；借用用户标签页需明确授权，页面指令不可信。安装 Skill 不等于已有 CLI/扩展，也不可提取凭据与 Cookie。 | [browser-skill](https://github.com/Tencent/BrowserSkill/blob/main/crates/bsk-cli/skill/SKILL.md) · [仓库](https://github.com/Tencent/BrowserSkill) | 未安装（仅收藏，2026-10-09 核验） |
 
 ## 动画宠物
 
@@ -336,6 +341,14 @@ status: active
 | **Claude Cowork Legal 插件包（非单个 Skill）**：合同审阅、NDA 分流、供应商核查、法律简报和模板化回应；须配置团队合同条款与升级规则，结果应由有资格的法律专业人士审核。原帖“9 个技能”未独立核实。 | [Legal 官方插件](https://claude.com/plugins/legal) | 未核实（仅收藏；未执行安装） |
 | **调查与白板视频合集**：包含 investigation-video、whiteboard-video、video-common 三个实际 Skill，条目已分别登记；安装时须正确处理彼此依赖。 | [trustfuture/simon-skills](https://github.com/trustfuture/simon-skills) | 未核实（仅收藏；未执行安装） |
 | **内容运营多技能包**：含 dbs-xhs-title、dbs-content、dbs-hook 等多个实际 Skill，适合标题、脚本与传播内容诊断；不作为单一技能统计。 | [dontbesilent2025/dbskill](https://github.com/dontbesilent2025/dbskill) | 未核实（仅收藏；未执行安装） |
+| **李继刚中文认知与知识表达技能合集**：2026-10-09 核对 master 分支包含 26 个实际 SKILL.md，覆盖概念解剖、机制研究、论文/书籍解读、写作、知识地图、长图卡片、九宫格商业模式与演讲。master 默认 Org-mode、md 分支便于 Markdown；图卡依赖 Bun 和浏览器；按需挑选。 | [lijigang/ljg-skills](https://github.com/lijigang/ljg-skills) | 未安装（仅收藏合集；未运行） |
+| **Chubby Skills 内容素材库合集**：仓库现有 14 个实际 SKILL.md，配套 chubby CLI 做视频/播客/文章/本地文档的 Markdown 导入、带出处检索、资料包、订阅发现与可选 MCP。平台支持状态、ASR 依赖、会话凭据及版权限制需逐项核验；采集不等于事实查证。 | [chubbyguan/chubbyskills](https://github.com/chubbyguan/chubbyskills) | 未安装（仅收藏合集；2026-10-09 核验结构） |
+
+## 2026-10-09 新一批 11 个资源归档说明
+
+- 六个具体 Skill：yichen-web-research、video-use、seedance、browser-skill、life-decision-guide、xhs-visual-director；两个合集：ljg-skills、chubbyskills。合集不按单个 Skill 计数。
+- CardDown 为 Markdown 排版渲染 CLI；ENGSENCE 为英语播客学习 App；grokbot-field-notes 为 Agent 工程经验资料，均不误列为 Skill。
+- 本批仅核对公开源文件、部分配套说明和结构，**没有安装、执行、登录授权或验证实际效果**；其软件工具属性与方法论分别进入既有工具索引和知识主题。
 
 ## 2026-10-09 外部清单校核
 

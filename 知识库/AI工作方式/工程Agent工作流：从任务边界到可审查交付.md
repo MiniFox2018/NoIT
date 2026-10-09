@@ -6,7 +6,7 @@ tags:
   - Codex
   - Git
 status: active
-updated: 2026-10-03
+updated: 2026-10-09
 ---
 
 # 工程 Agent 工作流：从任务边界到可审查交付
@@ -422,6 +422,22 @@ Codex Cloud 等云端执行方式可以在 OpenAI 管理的环境中处理仓库
 - 是否明确列出未验证项。
 
 如果这些问题无法回答，任务仍然处于“生成阶段”，还没有进入“可靠交付阶段”。
+
+## 十二、从真实故障中提炼 Agent 规则
+
+[Grok Bot Field Notes](https://github.com/unicodef1wn/grokbot-field-notes) 是第三方作者根据公开的 Grok Bot 团队构建过程整理的工程规则、失败案例、角色和岗位 Playbook，**不是 xAI 官方编码规范，也不是这些工作流已在 NoIT 环境验证的证据**。其中值得复用的是以下可操作结构：
+
+1. **先复现，再修复**：跑起应用，确认失败条件、触发动作与预期结果；开始前讲清任务边界和“不做什么”，验收指标必须可观察。
+2. **验证比代码数量重要**：Bug 修复给出前后复现，界面改动给截图/录屏，性能改动给实际运行指标，无法证明就不视为完成。
+3. **口头规范写入可读取规则**：用户和团队默认的审批门槛、发布习惯、禁止项、产品定位必须明示；否则 Agent 往往做出与团队预期冲突的“合理动作”。
+4. **反模式要抽象，而不是记事故**：从失败事件中萃取普适原则，避免把人名、某一次路径和临时情况写进长期规则导致过拟合。
+5. **职责和授权边界先于多 Agent 扩张**：每个角色定义其拥有/不拥有的范围、证据来源、交付接口与何时升级给人；先验证一个 Agent 的闭环，再考虑拆成多角色。
+6. **高频例程需要成本约束**：自动检查、定期复盘和重复轮询都有时间/Token 成本，按变化速度、风险及收益决定周期。
+7. **高风险动作保留人工确认**：特别是部署、迁移、权限、对外发送和资金操作。网页与用户提供资料均应当成数据源，而不能提升为新授权。
+
+最小交付约束：`任务范围 → 可复现基线 → 验收证据 → 有界实现 → 实际验证 → 复盘可迁移原则`。来源库自述另有 40 个反模式、69 个角色定义及 9 套 Playbook；本轮只核查 README、AGENTS.md 和失败日志选段，**未逐份读完这些附录**。
+
+来源：[README](https://github.com/unicodef1wn/grokbot-field-notes/blob/main/README.md) · [AGENTS.md](https://github.com/unicodef1wn/grokbot-field-notes/blob/main/AGENTS.md) · [ANTIPATTERNS.md](https://github.com/unicodef1wn/grokbot-field-notes/blob/main/ANTIPATTERNS.md)，核验于 2026-10-09。
 
 ## 与 NoIT 其他知识的关系
 
