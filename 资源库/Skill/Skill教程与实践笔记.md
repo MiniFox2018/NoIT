@@ -1,7 +1,7 @@
 ---
 title: Skill 教程与实践笔记
 date: 2026-10-01
-updated: 2026-10-03
+updated: 2026-10-09
 tags:
   - Skill
 type: resource-index
@@ -201,3 +201,14 @@ codex mcp list
 - OpenAI Docs MCP：https://developers.openai.com/learn/docs-mcp
 - OpenAI《Rethinking skills and prompts for GPT-6 Astra》：https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
 - 外部资源核验日期：2026-10-03。
+
+
+## 2026-10-09 视频和中文表达 Skill 的处理方法
+
+- 文章提到 Skill 时先查看实际 SKILL.md、README、依赖和边界，不凭“开源”“一键”判断能力。
+- cida 作为中文表达 Skill 收录；其 P0—P4 方法已另行融入 [[中文表达修订与论文科普转述：诊断、证据与叙事]]。
+- 调查长片、白板与共享工序分别登记；火柴人导演需要“先提案→人工确认→生成片段提示词”；相关事实链和时间预算方法已融入 [[AI内容规模化生产：调查长片、火柴人与儿童绘本]]。
+- gbro-cover-design 当前只生成 3:4 竖版提示词，dbskill 是多技能合集。安装状态仅表示本库收藏，不代表本机可用。
+- 使用前应审查项目代码、外部 API、凭据权限、素材授权和端到端测试。用户未要求安装时不自动运行。
+
+具体入口与状态见 [[Skill收藏与安装清单]]。

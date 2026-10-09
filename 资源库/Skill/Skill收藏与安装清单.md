@@ -38,6 +38,13 @@ status: active
 | 将 Markdown、纯文本或粗糙笔记转成微信兼容的内联样式 HTML；可选主题并复制到后台，封面生成和草稿推送是可选步骤。 | `xiaohu-wechat-format` | 已安装 |
 | 根据文章路径或主题生成公众号封面图；适合已有文章需要配套封面，或先给主题直接出图。 | `xiaohu-wechat-cover` | 已安装 |
 | 从文章、脚本、截图、产品笔记、照片或视频制作小红书图文轮播与社交卡片，支持瑞士风和杂志风；可制作公众号 21:9 与 1:1 配套封面，以及基于视频素材的短 Live Photo 动态卡片和拼图。 | [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill/blob/main/SKILL.md) · [仓库](https://github.com/op7418/guizang-social-card-skill) | 未安装 |
+| **封面设计提示词**：按文章内容、风格选择、人物参考图与其他素材生成生图提示词；当前技能固定 3:4 竖版，只输出提示词，不直接生成封面。 | [gbro-cover-design](https://github.com/pyang5166/gbro-cover-design/blob/main/SKILL.md) | 未核实（仅收藏；未执行安装） |
+
+## 中文写作与表达
+
+| 用途 | Skill · 点击查看说明 | 安装状态 |
+|---|---|---|
+| **辞达**：中文写作、重写、口述成文、平台适配与文体校准；先检查意义逻辑，再修结构、语气、节奏与措辞，不把工整本身视为问题。 | [cida / 辞达](https://github.com/mizzlelover/cida/blob/main/SKILL.md) | 未核实（仅收藏；未执行安装） |
 
 ## 检索与网页内容
 
@@ -218,6 +225,10 @@ status: active
 | Remotion 官方技能的路由入口，按任务引导到视频创建、React 画面、地图、多媒体处理、Studio 交互与渲染等参考；保留用户已有修改，新视频默认先展示交互预览，不自动等同于导出视频。 | [remotion-best-practices](https://github.com/remotion-dev/skills/blob/main/skills/remotion-best-practices/SKILL.md) · [仓库](https://github.com/remotion-dev/skills) | 未安装 |
 | 用 Hypit 编写和执行视频制作工作流，支持从需求、模板或参考视频组织画面、字幕、B-roll、声音和效果，并组合生成素材与用户提供的素材；包含 SVML/SVS/SVRun 编写、运行环境与服务连接指导。以语义和词语锚点组织时间，生成模型可选，宣传播放量不作为效果保证。 | [hypit](https://github.com/hypit-ai/hypit/blob/main/skills/hypit/SKILL.md) · [仓库](https://github.com/hypit-ai/hypit) · [原短链](https://t.co/TK1gBwFYqP) | 未安装 |
 | 把 SRT 字幕转换成暖米黄纸张底的白板手绘 MP4；按字幕叙事做分镜、统一线稿与区域标注，再通过连续笔迹先落墨后上色，并保护后续区域不提前露出。预览台可调整顺序与时序，分镜、线稿、标注和渲染等阶段逐步等待确认。 | [srt-whiteboard-animation](https://github.com/geeklee/srt-whiteboard-animation/blob/main/SKILL.md) · [仓库](https://github.com/geeklee/srt-whiteboard-animation) | 未安装 |
+| **调查长片制作**：从事实链、来源台账、口播稿、素材覆盖表到火山 TTS、Remotion 与多平台发布；需人工审片和素材授权。原 simontalk-investigation 已迁移至 simon-skills。 | [investigation-video](https://github.com/trustfuture/simon-skills/tree/master/skills/investigation-video) | 未核实（仅收藏；未执行安装） |
+| **白板视频讲解**：逐笔绘制、贴纸、字幕与封面，适合信息说明；与调查长片工具共用 video-common。 | [whiteboard-video](https://github.com/trustfuture/simon-skills/tree/master/skills/whiteboard-video) | 未核实（仅收藏；未执行安装） |
+| **视频共用工序**：提供事实核查、来源台账、版权与发布前验收；本身不负责独立制作完整长片。 | [video-common](https://github.com/trustfuture/simon-skills/tree/master/skills/video-common) | 未核实（仅收藏；未执行安装） |
+| **火柴人导演**：先产出 Phase A 导演提案并等待批准，再输出 Phase B 按时长分段的生视频提示词；默认 60 秒 6 段，仍需外部生成服务与后期合成。 | [directing-stickman-videos](https://github.com/kaomei/stickman-video-director/blob/main/skills/directing-stickman-videos/SKILL.md) | 未核实（仅收藏；未执行安装） |
 
 ## 浏览器、插件与模板
 
@@ -323,6 +334,8 @@ status: active
 | **Claude Cowork Finance 插件包（非单个 Skill）**：辅助记账分录、对账、损益表、差异分析及 SOX 工作底稿，通常需接入账务 / 表格来源；结果需要财务专业人士复核。原帖“8 个技能”不作为当前核实的定量结论。 | [Finance 官方插件](https://claude.com/plugins/finance) | 未核实（仅收藏；未执行安装） |
 | **Claude Cowork Small Business 插件包（非单个 Skill）**：涵盖现金流、工资规划、月底关账、逾期账款、营销与客户跟进；目前官方插件页介绍 43 个可执行工作流（不等于 43 个独立 Skill）；不能将原帖“31 个技能”当作已核验数量，涉及资金或客户操作需审批。 | [Small Business 官方插件](https://claude.com/plugins/small-business) | 未核实（仅收藏；未执行安装） |
 | **Claude Cowork Legal 插件包（非单个 Skill）**：合同审阅、NDA 分流、供应商核查、法律简报和模板化回应；须配置团队合同条款与升级规则，结果应由有资格的法律专业人士审核。原帖“9 个技能”未独立核实。 | [Legal 官方插件](https://claude.com/plugins/legal) | 未核实（仅收藏；未执行安装） |
+| **调查与白板视频合集**：包含 investigation-video、whiteboard-video、video-common 三个实际 Skill，条目已分别登记；安装时须正确处理彼此依赖。 | [trustfuture/simon-skills](https://github.com/trustfuture/simon-skills) | 未核实（仅收藏；未执行安装） |
+| **内容运营多技能包**：含 dbs-xhs-title、dbs-content、dbs-hook 等多个实际 Skill，适合标题、脚本与传播内容诊断；不作为单一技能统计。 | [dontbesilent2025/dbskill](https://github.com/dontbesilent2025/dbskill) | 未核实（仅收藏；未执行安装） |
 
 ## 2026-10-09 外部清单校核
 
@@ -330,3 +343,10 @@ status: active
 - 原帖将 `Frontend Design` 误指向 Taste 仓库：Taste 沿用已有记录，新增 Anthropic 官方 `frontend-design` 独立记录。Anthropic `skill-creator` 与本库已有 Codex 同名 Skill 不自动判定为同一安装来源。
 - 已存在 `obra/superpowers`、`nextlevelbuilder/ui-ux-pro-max-skill`、`Leonxlnx/taste-skill`、`coreyhaines31/marketingskills` 等条目，仅复用而不重复新建。Anthropic 六项 Skill 同源不同文件；Transitions 两项同源不同技能；Context7 既包含 MCP，也包含多个 Skill。
 - 本轮核验公开项目、部分 README、实际 Skill 文件和官方插件说明。没有安装、运行、授权或验证效果。动态技能数量以再次核查具体版本为准，不把博主宣传数量当作固定事实。
+
+
+## 2026-10-09 批量资料关联项目校核
+
+- 已核查 cida、simon-skills、directing-stickman-videos、gbro-cover-design、dbskill 的 GitHub 目录和实际技能入口；未进行安装、授权与效果测试。
+- 更名迁移的调查视频项目只保留最新 simon-skills 入口。gbro-cover-design 当前固定 3:4 竖版；火柴人需要人工确认 Phase A 提案后生成 Phase B 提示词。
+- 方法和生产经验见 [[AI内容规模化生产：调查长片、火柴人与儿童绘本]] 和 [[中文表达修订与论文科普转述：诊断、证据与叙事]]。
