@@ -96,7 +96,6 @@ updated: 2026-10-09
 | 电子书宝藏导航 | [打开](https://shu.baozangdh.com/) | 汇集搜书、推荐书单、杂志漫画、外文书、数字古籍、有声书和文化机构等入口，提供分类导航与自定义网址收藏；适合先找合适的资源站，再查具体书籍。导航不等于自行托管书籍，所列网站可用性与说明需分别核实。 |
 | ClouDocs | [打开](https://www.cloudocs.top/) | 发现和分享来自 Notion、飞书、Obsidian 等平台的公开云文档，提供精选文档、分类发现和链接提交入口；适合寻找公开知识库与模板。它是文档聚合发现平台，不是替代这些产品的协同编辑器，也不表示能访问私人文档。 |
 | 飞搜 | [打开](https://feisou.app/) | 面向飞书文档和知识库的搜索入口，展示公开知识库线索及简介，适合发现 AI 学习等主题的文档资源；与 ClouDocs 的多平台聚合不同。本次未提交查询、登录或验证全文搜索能力，不推定能读取未授权的私有知识库。 |
-
 | BrowserSkill（腾讯） | [打开](https://github.com/Tencent/BrowserSkill) | 用 bsk CLI、守护进程和 Chrome/Edge 扩展，允许受控 Agent 在独立窗口读取已登录网页、执行表单操作与网络调试；附独立 browser-skill，标签页借用需要授权，禁止凭据泄露。并非仅安装 Skill 即可运行，本轮只核查项目结构。 |
 | Chubby Skills / chubby CLI | [打开](https://github.com/chubbyguan/chubbyskills) | 本地素材采集与搜索工具，导入已知视频、播客、文章和文件成为带来源的 Markdown，支持带出处资料包、搜索、订阅发现及可选 MCP；仓库有 14 个真实 Skill。平台能力可能受登录限制与转写依赖影响，采集不等于知识验真或获准再分发。 |
 
