@@ -5849,8 +5849,14 @@
       "2081580929492131947"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "partially_integrated",
+    "knowledge_note": "已完整阅读作者可见12层正文，核对 rnskill README、LICENSE、GitHub递归树65份SKILL.md与3项关键技能正文；源文第11层标6仅列5名，第12层22项分类在图片中且当前 dbskill 已迭代。故保持部分吸收；未逐份读取65个技能全文，未运行任何流水线或验证商单/授权。详见2026-10-09-video55-skills10-coverage.md。",
+    "knowledge_targets": [
+      "资源库/Skill/Skill教程与实践笔记.md",
+      "资源库/Skill/Skill收藏与安装清单.md",
+      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2081929824256643221",
@@ -5900,8 +5906,15 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "已独立阅读作者自有网页全部十项、风险、案例、长示例及结尾，核对十项真实仓库与多项实际SKILL.md；去重既有 last30days/taste/Dashi/dbskill，纠正 AgentSeal/Voicebox 不是单项Skill，新增安全审查、商用/权限和实际触发方法。仅表示可见知识已归档，不代表作者的运行数据/扫描结果由本轮复现。详见2026-10-09-video55-skills10-coverage.md。",
+    "knowledge_targets": [
+      "资源库/Skill/Skill教程与实践笔记.md",
+      "资源库/Skill/Skill收藏与安装清单.md",
+      "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md",
+      "资源库/工具库/AI、办公与研究工具.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2100615977599955328",
