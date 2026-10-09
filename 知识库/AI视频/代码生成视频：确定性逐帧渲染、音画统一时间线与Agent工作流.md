@@ -1594,6 +1594,32 @@ AGENTS.md 定义目标和验证标准；recipe.json、fragment_plan.json、match
 
 ---
 
+## 参考视频 → 可编辑工程：Hypit、剪映与达芬奇如何协作（2026-10-09）
+
+这一节吸收 [#37](https://x.com/GeekCatX/status/2100441337648787854)、[#38](https://x.com/gengdaJ/status/2100748639228367257)、[#39](https://x.com/yyyole/status/2100757673784549461)、[#43](https://x.com/GeekCatX/status/2100812870586142880)、[#44](https://x.com/Astronaut_1216/status/2101150537618198552)、[#45](https://x.com/AYi_AInotes/status/2101484287128207754)、[#47](https://x.com/lxfater/status/2102235224952410287)，以**可编辑、可归因、可复用、可验收**为共同接口，而不是以“爆款复刻”为目标。
+
+### 1. Hypit：风格参考应变成独立工程语法
+
+[Hypit 仓库](https://github.com/hypit-ai/hypit) 与[中文快速开始](https://github.com/hypit-ai/hypit/blob/main/docs/zh/quickstart.md)确认，它可从参考视频、模板或文字需求出发，使 Agent 组织镜头、字幕、语音、B-roll 和动效，并形成可再编辑的组合。核心不等于“复制别人的成片”：把参考拆解成**叙事节奏、题签样式、图解方式、视觉层级和声音逻辑**；替换成自有脚本、素材、角色与可商用内容；先做短样片，再扩展全片。官方方式是 Skill 与执行包分开，Skill 可通过 `npx skills add hypit-ai/hypit -g` 获取，但实际运行还需要 Agent、依赖与可能另付费的生成服务。**许可证并非无附加条款的标准 Apache-2.0**：官方 [LICENSE](https://github.com/hypit-ai/hypit/blob/main/LICENSE) 对多租户服务与商业再分发等设有限制。
+
+### 2. 本地剪辑的第二层：剪映原生草稿或 DaVinci Resolve 时间线
+
+- [Jianying Headless](https://github.com/mcncarl/jianying-headless) 是面向指定 macOS 剪映版本的独立工具，不是剪映官方 SDK；可根据结构化计划构建原生草稿并在受控条件下导出。独立 [yichen-jianying-edit Skill](https://github.com/mcncarl/yichen-skills/tree/main/yichen-jianying-edit) 是调用入口，不能把“看见公开 Skill”误认为自动获得全部运行依赖。以当前公开核心 README 为准：主要适配 11.5.0、兼容 11.4.2，仍存在嵌套片段、帧一致性和商业授权等限制。
+- [DaVinci Resolve MCP](https://github.com/samuelgursky/davinci-resolve-mcp) 使用 Resolve Scripting API，让 Agent 查询项目、媒体池、时间线并按许可修改、渲染；应先只读检查正在打开的工程，再从临时工程试剪、批准剪辑计划、核对轨道与最终导出。Studio 的外部脚本通路与免费版桥接不是同一配置，按官方安装说明分别核对。
+- [OpenCreator](https://github.com/krillinai/OpenCreator) 是原 KrillinAI 的创作工作空间与 Skill/Agent 组合，含图像、声音、字幕、翻译和视频制作入口。二手推文所述“输入任意长视频，一次自动适配所有平台”的效果是场景描述，具体功能、模型费用、字幕时间轴与本机依赖需逐版本验收。
+
+### 3. 从需求到成片的最小验收门
+
+1. **交付合同**：目标受众、时长、画幅、禁用元素、版权、语种、平台、是否必须可二次编辑。
+2. **制作计划**：阅读完整逐字稿，按词或时间标出保留/删除区间及原因；关键金额、名称、限定条件设为不可误删区域。
+3. **脚本负责计算**：帧率、区间切点、轨道偏移、字幕同步和文件哈希用确定性脚本处理；AI 负责语义取舍与创作建议。
+4. **样片关口**：先交付 10—20 秒验证题签、旁白、节奏、素材许可、音画关系，再扩成整片；不把编辑软件能打开当成交付质量通过。
+5. **独立验收**：抽帧查看片段接缝，随机播放时间点核字幕，核对声音归属，完整播放成片，重新打开原生工程验证可编辑性。
+6. **复用归档**：保存 Style/Template、节目数据、源素材来源、字幕样式、字幕/配音字词锚点、动效组件和版本；不重复复制他人受版权保护的画面。
+
+这也说明好 Skill 的真实结构：**交付定义 → 判断规则 → 计划 → 可执行脚本 → 错误拦截 → 验收**。来自 [#44](https://x.com/Astronaut_1216/status/2101150537618198552) 的 23 项测试属于该作者对特定项目的观察，不是对所有视频 Skill 的通用保障。
+
+
 ## 来源与版本记录
 
 ### 用户提供文章
