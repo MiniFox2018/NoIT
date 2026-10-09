@@ -181,5 +181,28 @@ verified: 2999-01-01
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("verified 不能晚于今天", result.stdout)
 
+    def test_joined_markdown_table_rows_are_an_error(self) -> None:
+        self.document.write_text(
+            BASE_DOCUMENT
+            + "\n## 表格核对\n\n| 用途 | 名称 | 状态 |\n"
+            + "| --- | --- | --- |\n"
+            + "|\n| 用途 A | A | 已安装 | 用途 B | B | 未安装 |\n",
+            encoding="utf-8",
+        )
+        result = self.run_audit()
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("Markdown 表格应有 3 列", result.stdout)
+
+    def test_escaped_pipe_and_inline_code_in_table_are_allowed(self) -> None:
+        self.document.write_text(
+            BASE_DOCUMENT
+            + "\n## 表格核对\n\n| 输入 | 说明 |\n| --- | --- |\n"
+            + "| a\\|b | 按输入 " + chr(96) + "a|b" + chr(96) + " 保留代码中的管道符 |\n",
+            encoding="utf-8",
+        )
+        result = self.run_audit()
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()
