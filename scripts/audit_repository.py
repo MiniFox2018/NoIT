@@ -118,6 +118,59 @@ def markdown_links(text: str) -> list[str]:
     return re.findall(r"\[[^\]]*\]\(([^)]+)\)", text)
 
 
+TABLE_SEPARATOR_RE = re.compile(r"^\s*\|(?:\s*:?-{3,}:?\s*\|){2,}\s*$")
+
+
+def markdown_table_errors(text: str, filename: str) -> list[str]:
+    """Catch visibly joined/split GitHub-flavored pipe-table rows, not code blocks."""
+    lines = text.splitlines()
+    visible: list[str] = []
+    fence: str | None = None
+    backtick_fence = chr(96) * 3
+    for line in lines:
+        stripped = line.lstrip()
+        marker = backtick_fence if stripped.startswith(backtick_fence) else "~~~" if stripped.startswith("~~~") else None
+        if marker:
+            if fence is None:
+                fence = marker
+            elif fence == marker:
+                fence = None
+            visible.append("")
+        else:
+            visible.append("" if fence is not None else line)
+
+    def columns(line: str) -> int:
+        # Literal pipes inside inline code or escaped as \| are cell contents.
+        tick = chr(96)
+        without_code = re.sub(tick + "[^" + tick + "]*" + tick, "", line.strip())
+        return len(re.findall(r"(?<!\\)\|", without_code)) - 1
+
+    issues: list[str] = []
+    index = 0
+    while index + 1 < len(visible):
+        if (
+            visible[index].lstrip().startswith("|")
+            and TABLE_SEPARATOR_RE.fullmatch(visible[index + 1])
+        ):
+            expected = columns(visible[index + 1])
+            if columns(visible[index]) != expected:
+                issues.append(
+                    f"{filename}:{index + 1}: Markdown 表头列数与分隔行不一致"
+                )
+            index += 2
+            while index < len(visible) and visible[index].lstrip().startswith("|"):
+                actual = columns(visible[index])
+                if actual != expected:
+                    issues.append(
+                        f"{filename}:{index + 1}: Markdown 表格应有 {expected} 列，"
+                        f"实际 {actual} 列（可能有合并行或多余的 |）"
+                    )
+                index += 1
+        else:
+            index += 1
+    return issues
+
+
 formal_docs: list[Path] = []
 for root in FORMAL_ROOTS:
     if root.exists():
@@ -333,6 +386,7 @@ else:
 for path in all_md:
     text = read(path)
     r = rel(path)
+    errors.extend(markdown_table_errors(text, r))
 
     for target in markdown_links(text):
         if target.startswith("#") or re.match(r"^(?:https?|mailto):", target):
