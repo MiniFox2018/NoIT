@@ -278,3 +278,14 @@ codex mcp list
 最小工作流建议只先选一条完整链路——例如“问题和证据 → 研究/写作 → 人工核查 → 修订 → 封面 → 发布 → 数据复盘”。依赖、模型、图像/声音额度与服务条款发生变化时，逐项复核项目上游而不是沿用文章中的排名。
 
 来源：SakuAI（@JackQi82772），《Codex 中文创作者 10 个顶级 Skills》，2026-06-24，https://x.com/JackQi82772/article/2069599178926522741 。本轮核对了五个先前未收录或未明确登记项目的公开目录/实际 SKILL.md，已归并到 [[Skill收藏与安装清单]]；原有技能不重复登记。
+ 
+## X 收藏补充：视频 Skills 名称与实际来源分离（2026-10-09）
+
+来源：[8 个视频 Skills 清单，@lxfater](https://x.com/lxfater/status/2102235224952410287)。这是一条**技能名称线索清单，不是 8 项真实安装验证**：
+
+- 已核对并已收藏 `video-use`，详情在 Skill 收藏清单；`HyperFrames` 已在工具库登记为代码视频项目，不因营销文案称“Skill”就重新计数。
+- 尚需确定实际 GitHub 仓库与对应 `SKILL.md` 的名称：`talking-head-editor`、`caption-clip`、`claude-shorts`、`video-wrapper`、`product-launch-video`、`Claude Video`。仅凭名称不能排除同名不同项目，不创建虚假链接。
+- 与新入库的 `yichen-jianying-edit`、原本已有的 `hypit` 不是同一技术路线：前者是可编辑剪映工程桥接，后者是视频生产 DSL/编排，既有素材剪辑工具又是另一路线。
+- 待每项源码及真实 Skill 文件核实后，再逐项升级到主 Skill 表。所有工具均未安装或实际制作验证。
+
+来源与更多工程原则见 [[代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流]]，以及 [2026-10-09 X 收藏覆盖记录](../../.github/audits/2026-10-09-x-67.md)。
