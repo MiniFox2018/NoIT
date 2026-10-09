@@ -99,6 +99,7 @@ updated: 2026-10-09
 | 飞搜 | [打开](https://feisou.app/) | 面向飞书文档和知识库的搜索入口，展示公开知识库线索及简介，适合发现 AI 学习等主题的文档资源；与 ClouDocs 的多平台聚合不同。本次未提交查询、登录或验证全文搜索能力，不推定能读取未授权的私有知识库。 |
 | BrowserSkill（腾讯） | [打开](https://github.com/Tencent/BrowserSkill) | 用 bsk CLI、守护进程和 Chrome/Edge 扩展，允许受控 Agent 在独立窗口读取已登录网页、执行表单操作与网络调试；附独立 browser-skill，标签页借用需要授权，禁止凭据泄露。并非仅安装 Skill 即可运行，本轮只核查项目结构。 |
 | Chubby Skills / chubby CLI | [打开](https://github.com/chubbyguan/chubbyskills) | 本地素材采集与搜索工具，导入已知视频、播客、文章和文件成为带来源的 Markdown，支持带出处资料包、搜索、订阅发现及可选 MCP；仓库有 14 个真实 Skill。平台能力可能受登录限制与转写依赖影响，采集不等于知识验真或获准再分发。 |
+| Raven | [项目](https://github.com/EverMind-AI/Raven) | 多 Agent 编排与持续任务项目，定位为整合不同 Agent 工作方式的 harness。2026-10-09 核对仓库入口、项目说明与 Apache-2.0 许可；任务图、共享记忆和自改流程的性能尚未本轮复现，未安装或运行。方法见 [[工程Agent工作流：从任务边界到可审查交付]]。 |
 
 ## 科研检索与写作
 
