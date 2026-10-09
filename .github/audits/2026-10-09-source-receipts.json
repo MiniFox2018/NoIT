@@ -3260,8 +3260,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "已逐段核对作者的项目初始化完整可读示例：编号工作区、gitignore、四种规则、README/AGENTS.md、来源登记与需求池，增加门槛、审批、最小化、唯一事实源及空项目与既有仓库的适用差异。已融合至产品主题，未实际为用户创建产品工程、运行该原 Prompt 或认证跨工具兼容性。见 2026-10-09-product-web-guides-coverage.md。",
+    "knowledge_targets": [
+      "知识库/产品方法/AI产品经理全流程：项目事实、需求决策与交付闭环.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "20455011422690878376",
@@ -5638,8 +5642,12 @@
       "2062804487665029241"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "已按 Adrian Punk 作者原始 X ID 对应的可读转载逐段核对十五部分：网页概念、目录、HTML、CSS、JS、路径、预览、Agent对标/制作/复核、Pages和自定义域名。建有独立学习价值的原创中文教材与连贯三文件示例，修正网页转存中的无效CSS单位和截断的HTML/JS代码；不宣称原媒体/截图逐字取得，示例未浏览器实测或发布。见 2026-10-09-product-web-guides-coverage.md。",
+    "knowledge_targets": [
+      "知识库/独立开发/HTML、CSS与JavaScript入门：从页面结构到Agent建站验收.md"
+    ],
+    "knowledge_reviewed_on": "2026-10-09"
   },
   {
     "id": "2093721706204639272",
