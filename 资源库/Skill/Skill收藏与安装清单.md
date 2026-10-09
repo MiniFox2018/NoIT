@@ -240,6 +240,13 @@ status: active
 | **实拍素材的 Agent 视频剪辑**：逐词转写与按需画面采样→人工确认策略→生成剪辑决策表（EDL）→FFmpeg 剪辑、字幕和动画→切点校验。需要本地运行环境、FFmpeg、ElevenLabs 等，不是生成式视频模型或免配置一键云服务。 | [video-use](https://github.com/browser-use/video-use/blob/main/SKILL.md) · [仓库](https://github.com/browser-use/video-use) | 未安装（仅收藏，2026-10-09 核验） |
 | **Seedance 2.0 中文 Prompt**：依据文字/图片/视频/音频参考、@素材引用、运镜、续片、一镜到底、音乐卡点等生成结构化视频提示词；不直接生成视频。仓库内 2.0 的模型参数不能自动当作 2.5 的最新限制；与 Emily2040 的 Seedance Skill OS 是不同项目。 | [seedance](https://github.com/songguoxs/seedance-prompt-skill/blob/master/.claude/skills/seedance/SKILL.md) · [仓库](https://github.com/songguoxs/seedance-prompt-skill) | 未安装（仅收藏，2026-10-09 核验） |
 
+| **口播素材精剪计划**：按 SRT/逐句稿决定保留、删除、切点与 jump-cut 风险；其 Skill 提供编辑决策与交付规格，不单靠该文件实现成片。 | [talking-head-editor](https://github.com/linyqh/speclip-skills/blob/main/talking-head-editor/SKILL.md) · [Speclip Skills 仓库](https://github.com/linyqh/speclip-skills) | 未安装；2026-10-09 核验实际 Skill |
+| **YouTube 片段字幕**：用 yt-dlp、FFmpeg、Deepgram 做指定区间下载、转写、SRT 校订与字幕烧录；依赖密钥、脚本及素材使用权限。 | [caption-clip](https://github.com/diegosouzapw/awesome-omni-skill/blob/main/skills/tools/caption-clip/SKILL.md) | 未安装；2026-10-09 核验实际 Skill，未执行 |
+| **长视频转 Shorts**：转写并向用户展示候选切片，由用户决定范围，配 Remotion 动态字幕和 FFmpeg 导出；仓库名为 claude-shorts，实际 Skill 标识为 `shorts`。 | [shorts / claude-shorts](https://github.com/AgriciDaniel/claude-shorts/blob/main/SKILL.md) | 未安装；2026-10-09 核验实际 Skill，未执行 |
+| **访谈视频视觉包装**：基于字幕先生成待人工确认的花字、人物条、章节及术语卡，再用 Python/浏览器方案渲染；并非独立视频生成模型。 | [video-wrapper](https://github.com/op7418/Video-Wrapper-Skills/blob/main/SKILL.md) · [中文说明](https://github.com/op7418/Video-Wrapper-Skills/blob/main/README_CN.md) | 未安装；2026-10-09 核验实际 Skill，未执行 |
+| **产品发布短片**：依据产品 brief、真实 UI 截图、分镜先行、Remotion 场景搭建与审片流程；同名 Skill 至少有不同项目，不默认互相兼容。 | [EveryInc 的 product-launch-video](https://github.com/EveryInc/product-launch-video/blob/main/.claude/skills/product-launch-video/SKILL.md) · [HeyGen HyperFrames 同名实现](https://github.com/heygen-com/hyperframes/blob/main/skills/product-launch-video/SKILL.md) | 均未安装；2026-10-09 分别核验实际 Skill，未确认原帖指哪一个 |
+| **视频内容理解**：claude-video 是 GitHub 项目名，其中实存的 `watch` Skill 依据帧、字幕和可选视频模型分析素材；转录文本不能证明画面事实。 | [claude-video / watch](https://github.com/bradautomates/claude-video/blob/main/skills/watch/SKILL.md) | 未安装；2026-10-09 核验实际 Skill，非名为“Claude Video”的独立 Skill |
+
 ## 浏览器、插件与模板
 
 | 用途 | Skill · 点击查看说明 | 安装状态 |

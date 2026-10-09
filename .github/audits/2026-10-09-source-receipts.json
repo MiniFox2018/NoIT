@@ -888,7 +888,7 @@
     "embedded": [],
     "acquired_on": "2026-10-09",
     "knowledge_status": "partially_integrated",
-    "knowledge_note": "原合集审计#47：部分资源吸收；八个视频 Skills：已有 video-use；其余来源或 SKILL 路径缺失需单独核验。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "knowledge_note": "已找到与清单名称对应的 GitHub 项目及实存 SKILL.md 并归入 Skill 清单；同名项目与原作者指向仍不确定，未安装或运行，保持部分吸收状态。",
     "collection_number": 47,
     "knowledge_target": "资源库/Skill/Skill教程与实践笔记.md"
   },
@@ -1211,9 +1211,9 @@
     "embedded": [],
     "acquired_on": "2026-10-09",
     "knowledge_status": "partially_integrated",
-    "knowledge_note": "原合集审计#64：补全并拆分；Raven、金融与3D为独立相关帖；Raven方法入工程主题，金融只留来源，3D入既有工程来源。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "knowledge_note": "原帖及续帖的不同主题已拆分：Raven 独立相关帖的方法归工程Agent；金融/3D各自保留来源线索。实际执行、成本与模型表现尚未经核验，暂保留部分吸收状态。",
     "collection_number": 64,
-    "knowledge_target": "知识库/AI工作方式/AI产品工程：评测、上下文与系统优化.md"
+    "knowledge_target": "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md"
   },
   {
     "id": "2106506836035727601",
@@ -1286,8 +1286,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI短片资产化制作工作流：角色、场景、道具与逐镜头生成.md"
+    ]
   },
   {
     "id": "2105627385387171991",
@@ -1305,8 +1308,11 @@
       "2104440978421784906"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI短片资产化制作工作流：角色、场景、道具与逐镜头生成.md"
+    ]
   },
   {
     "id": "2100857704617316717",
@@ -1322,8 +1328,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI内容规模化生产：调查长片、火柴人与儿童绘本.md"
+    ]
   },
   {
     "id": "2101571088891408767",
@@ -1339,8 +1348,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI内容规模化生产：调查长片、火柴人与儿童绘本.md"
+    ]
   },
   {
     "id": "2102311241046008268",
@@ -1359,8 +1371,11 @@
       "2093893997223923822"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI内容规模化生产：调查长片、火柴人与儿童绘本.md"
+    ]
   },
   {
     "id": "2097969091537719717",
@@ -1376,8 +1391,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI内容规模化生产：调查长片、火柴人与儿童绘本.md"
+    ]
   },
   {
     "id": "2104172387575222768",
@@ -1393,8 +1411,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI视频摄影机语言与运镜控制.md"
+    ]
   },
   {
     "id": "2104523576020017575",
@@ -1412,8 +1433,11 @@
       "2104172387575222768"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI视频摄影机语言与运镜控制.md"
+    ]
   },
   {
     "id": "2105619742560276908",
@@ -1429,8 +1453,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
+    ]
   },
   {
     "id": "2072417062165635433",
@@ -1446,8 +1473,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
+    ]
   },
   {
     "id": "2103030353174630574",
@@ -1463,8 +1493,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
+    ]
   },
   {
     "id": "2081580929492131947",
@@ -1482,8 +1515,12 @@
       "2081328645524668636"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md",
+      "资源库/工具库/内容创作、设计与发布工具.md"
+    ]
   },
   {
     "id": "2073752063591473242",
@@ -1501,8 +1538,11 @@
       "2070051136187621452"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
+    ]
   },
   {
     "id": "2104223930253021355",
@@ -1518,8 +1558,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/家庭教育/家庭系统与青春期养育：关系、边界、情绪与自主成长.md"
+    ]
   },
   {
     "id": "2101295195329646598",
@@ -1535,8 +1578,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/个人副业与微型业务：从机会筛选到小规模验证.md",
+      "知识库/家庭教育/七天亲子阅读打卡：任务卡、提问卡与家庭验证.md"
+    ]
   },
   {
     "id": "2101579653232066929",
@@ -1552,8 +1599,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/写作表达/中文表达修订与论文科普转述：诊断、证据与叙事.md"
+    ]
   },
   {
     "id": "2101966806105899316",
@@ -1569,8 +1619,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/个人发展/求职增长系统：优势定位、目标公司与转化漏斗.md"
+    ]
   },
   {
     "id": "2100188327500714344",
@@ -1588,8 +1641,11 @@
       "2098684757357859217"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/个人发展/香港银行与券商开户：实操核查、费用与合规风险.md"
+    ]
   },
   {
     "id": "2100929584531390723",
@@ -1605,8 +1661,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/个人发展/通信套餐优化：主号保号、流量分离与办卡核查.md"
+    ]
   },
   {
     "id": "2104504457673511409",
@@ -1622,8 +1681,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/个人发展/AI产品经理求职：岗位匹配、简历、投递与面试.md"
+    ]
   },
   {
     "id": "2105454522558792122",
@@ -1639,8 +1701,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/个人发展/思维阶梯：从证据更新到身份防御.md"
+    ]
   },
   {
     "id": "2106289370567418338",
@@ -1656,8 +1721,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/高杠杆工作系统：聚焦、时间分层、授权与复盘.md"
+    ]
   },
   {
     "id": "2101844827599933805",
@@ -1673,9 +1741,14 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md",
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md",
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2104452381253775418",
@@ -1691,8 +1764,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md"
+    ]
   },
   {
     "id": "2105890160139505916",
@@ -1710,8 +1786,11 @@
       "2103401515822272782"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2100956349601624464",
@@ -1727,8 +1806,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2076475160346149046",
@@ -1746,8 +1828,11 @@
       "2056935656295899299"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2099511297221992587",
@@ -1763,8 +1848,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2101666788505485312",
@@ -1780,8 +1868,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md",
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2099374250461450240",
@@ -1797,8 +1889,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md",
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2045501142269087837",
@@ -1814,8 +1910,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2069963272590340590",
@@ -1831,8 +1930,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2027280903089819878",
@@ -1848,8 +1950,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2097672318936125604",
@@ -1865,8 +1970,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2102373925309338097",
@@ -1882,8 +1990,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2106941943553134889",
@@ -1899,8 +2010,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2100900528482062714",
@@ -1916,8 +2030,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2103823484035956852",
@@ -1933,8 +2050,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2101569255439483166",
@@ -1950,8 +2070,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2101454181685178415",
@@ -1972,8 +2095,11 @@
       "2099164807748575422"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2060928267046060445",
@@ -1989,9 +2115,13 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md",
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2105557352997175719",
@@ -2007,8 +2137,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2105899003359756431",
@@ -2024,8 +2157,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2104911243739853231",
@@ -2041,8 +2177,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2106663726267224453",
@@ -2058,8 +2197,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/个人副业与微型业务：从机会筛选到小规模验证.md"
+    ]
   },
   {
     "id": "2100112102392471614",
@@ -2088,8 +2230,11 @@
       "2097001438736166960"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/个人副业与微型业务：从机会筛选到小规模验证.md"
+    ]
   },
   {
     "id": "2100539160004014535",
@@ -2105,8 +2250,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/个人副业与微型业务：从机会筛选到小规模验证.md"
+    ]
   },
   {
     "id": "2105470970689626519",
@@ -2122,8 +2270,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/个人副业与微型业务：从机会筛选到小规模验证.md"
+    ]
   },
   {
     "id": "2105860654951542945",
@@ -2141,8 +2292,11 @@
       "2105470970689626519"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/个人副业与微型业务：从机会筛选到小规模验证.md"
+    ]
   },
   {
     "id": "2099415429831876747",
@@ -2160,8 +2314,12 @@
       "2097276846392111585"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/产品方法/产品早期验证：先验证价值，再打磨细节.md",
+      "知识库/独立开发/精益独立开发：从副业试验到可持续业务.md"
+    ]
   },
   {
     "id": "2100578940054294911",
@@ -2177,8 +2335,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/产品方法/产品早期验证：先验证价值，再打磨细节.md"
+    ]
   },
   {
     "id": "2100157320944881776",
@@ -2194,9 +2355,13 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "知识库/产品方法/AI产品经理全流程：项目事实、需求决策与交付闭环.md",
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2105942771630789050",
@@ -2212,8 +2377,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/产品方法/小程序八类任务界面：信息顺序、交互状态与结果反馈.md"
+    ]
   },
   {
     "id": "2074459150323769843",
@@ -2229,8 +2397,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md",
+      "资源库/AI工具/ChatGPT与Codex工作入口：Work、Codex、Sites、插件与浏览器.md"
+    ]
   },
   {
     "id": "2102018333499707492",
@@ -2246,8 +2418,13 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md",
+      "知识库/学习方法/AI辅助的系统化学习与输出工作流.md",
+      "知识库/知识管理/LLM维护型个人知识库：从RAG到持续演化的Wiki.md"
+    ]
   },
   {
     "id": "2105875657058402344",
@@ -2263,8 +2440,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/AI基础概念：模型、上下文、记忆与Agent体系.md"
+    ]
   },
   {
     "id": "2100439330523361402",
@@ -2280,8 +2460,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/AI产品工程：评测、上下文与系统优化.md"
+    ]
   },
   {
     "id": "2106390643362959715",
@@ -2297,8 +2480,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/影像创作/旅行照片修复与AI二次创作：真实感、提示词与创意玩法.md"
+    ]
   },
   {
     "id": "2064257118220517696",
@@ -2314,8 +2500,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/影像创作/AI图像生成与编辑Prompt：场景描述、文字、参考与可控迭代.md"
+    ]
   },
   {
     "id": "2104401048324743646",
@@ -2333,8 +2522,11 @@
       "2100002993001373810"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/影像创作/AI图像生成与编辑Prompt：场景描述、文字、参考与可控迭代.md"
+    ]
   },
   {
     "id": "2102261485837967482",
@@ -2350,8 +2542,13 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/学习方法/AI辅助的系统化学习与输出工作流.md",
+      "资源库/Skill/Skill收藏与安装清单.md",
+      "资源库/工具库/内容创作、设计与发布工具.md"
+    ]
   },
   {
     "id": "2105594387594121592",
@@ -2367,8 +2564,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/学习方法/AI辅助的系统化学习与输出工作流.md"
+    ]
   },
   {
     "id": "2033587293064204349",
@@ -2384,8 +2584,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/学习方法/AI工程师六个月实践路线：LLM应用、RAG、Agent与部署.md"
+    ]
   },
   {
     "id": "2102339022043668855",
@@ -2401,8 +2604,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/知识管理/LLM维护型个人知识库：从RAG到持续演化的Wiki.md"
+    ]
   },
   {
     "id": "2098321000828150136",
@@ -2418,8 +2624,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI安全/AI Token中转站与转售滥用生态.md"
+    ]
   },
   {
     "id": "2106319977859153935",
@@ -2435,8 +2644,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/独立开发/AI辅助微信小程序商业化：从规划、开发到支付、备案与上线.md",
+      "知识库/独立开发/微信小程序前端十二概念：咖啡点单与真机调试.md"
+    ]
   },
   {
     "id": "2106301911238414635",
@@ -2452,8 +2665,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/独立开发/精益独立开发：从副业试验到可持续业务.md"
+    ]
   },
   {
     "id": "2100069865629606265",
@@ -2469,8 +2685,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/独立开发/精益独立开发：从副业试验到可持续业务.md"
+    ]
   },
   {
     "id": "2101955372583936264",
@@ -2488,8 +2707,11 @@
       "2099415429831876747"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/独立开发/Web出海竞品调研：功能、增长、商业化、技术与用户反馈.md"
+    ]
   },
   {
     "id": "2095180126359105955",
@@ -2505,8 +2727,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/机器人/机器人工程师六个月实践路线：从电子到机器人学习.md",
+      "资源库/学习资源/机器人工程六个月学习资源索引.md"
+    ]
   },
   {
     "id": "2069599178926522741",
@@ -2522,8 +2748,13 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "资源库/Skill/Skill收藏与安装清单.md",
+      "资源库/Skill/Skill教程与实践笔记.md",
+      "资源库/工具库/内容创作、设计与发布工具.md"
+    ]
   },
   {
     "id": "2082706843466633354",
@@ -2539,8 +2770,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "资源库/Skill/Skill教程与实践笔记.md"
+    ]
   },
   {
     "id": "2104819548851753085",
@@ -2556,8 +2790,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "资源库/AI工具/ChatGPT与Codex工作入口：Work、Codex、Sites、插件与浏览器.md"
+    ]
   },
   {
     "id": "2102356964584169783",
@@ -2628,8 +2865,11 @@
       "2083511579992309892"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2106147337827738006",
@@ -2645,8 +2885,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "资源库/工具库/AI、办公与研究工具.md"
+    ]
   },
   {
     "id": "2105474375638307119",
@@ -2676,8 +2919,11 @@
       "2098247019265679405"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "资源库/工具库/系统、文件与协作工具.md"
+    ]
   },
   {
     "id": "2086034016281747894",
@@ -3031,8 +3277,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
+    ]
   },
   {
     "id": "2008884514009784415",
@@ -3466,9 +3715,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2072863949494845896",
@@ -3535,9 +3787,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2081947419487711482",
@@ -3963,9 +4218,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2056935656295899299",
@@ -4035,9 +4293,12 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2097888934122713240",
@@ -4053,9 +4314,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2085610931149816048",
@@ -4071,9 +4335,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2082807620361232528",
@@ -4089,9 +4356,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2099045980221985208",
@@ -4107,9 +4377,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2068613828687085699",
@@ -4125,9 +4398,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2096597663760445631",
@@ -4143,9 +4419,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2087126696646328649",
@@ -4161,9 +4440,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2076604797202161800",
@@ -4182,9 +4464,12 @@
       "2075983981032673480"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2094024760174977084",
@@ -4200,9 +4485,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2093192039051489662",
@@ -4218,9 +4506,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2092127885708718278",
@@ -4236,9 +4527,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2065232309310427565",
@@ -4254,9 +4548,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2096545310969680361",
@@ -4272,9 +4569,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2078803891274273276",
@@ -4290,9 +4590,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2085998099072520246",
@@ -4311,9 +4614,12 @@
       "2083090241683128626"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2102293180729467220",
@@ -4329,9 +4635,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2093165433516085267",
@@ -4347,9 +4656,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2083090241683128626",
@@ -4365,9 +4677,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2095880356818047332",
@@ -4383,9 +4698,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2097979413107528167",
@@ -4401,9 +4719,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2098021126098330099",
@@ -4419,9 +4740,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2098311881811456330",
@@ -4437,9 +4761,12 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2098248375741387234",
@@ -4455,9 +4782,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2094246406907461861",
@@ -4475,9 +4805,12 @@
       "2085700722197438652"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2098630949223428407",
@@ -4493,9 +4826,12 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2059812895803011449",
@@ -4511,9 +4847,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2098357873093038300",
@@ -4529,9 +4868,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2084242161630126551",
@@ -4547,9 +4889,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2101548540418035826",
@@ -4565,9 +4910,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2090766180349030527",
@@ -4585,9 +4933,12 @@
       "2090042239691145589"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2095791816750596304",
@@ -4605,9 +4956,12 @@
       "2095455845823971411"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2096121782063464708",
@@ -4631,9 +4985,12 @@
       "2087451637149483042"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2099663169446969491",
@@ -4649,9 +5006,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2047849326299554017",
@@ -4667,9 +5027,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2065042400150753505",
@@ -4687,9 +5050,12 @@
       "2056894334222610605"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2083511579992309892",
@@ -4705,9 +5071,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2098289393912156369",
@@ -4723,9 +5092,12 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2056909879911284832",
@@ -4741,9 +5113,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2092410274682954143",
@@ -4759,9 +5134,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2095455845823971411",
@@ -4777,9 +5155,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2096410003590774997",
@@ -4795,9 +5176,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2082768976363544895",
@@ -4813,9 +5197,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2095019089257512972",
@@ -4831,9 +5218,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2074728162018152817",
@@ -4849,9 +5239,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2100900762532646924",
@@ -4867,9 +5260,12 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2099748082753937907",
@@ -4885,9 +5281,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2056551528291578288",
@@ -4903,9 +5302,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "资源库/创业运营/AI创作与变现实操资源索引.md"
+    ]
   },
   {
     "id": "2104440978421784906",
@@ -4989,8 +5391,11 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md"
+    ]
   },
   {
     "id": "2105300327729607108",
@@ -5023,8 +5428,11 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md"
+    ]
   },
   {
     "id": "2046749466028601373",
@@ -5142,8 +5550,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md"
+    ]
   },
   {
     "id": "2099462899379150982",
@@ -5159,8 +5570,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md"
+    ]
   },
   {
     "id": "2085700722197438652",

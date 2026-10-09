@@ -279,13 +279,22 @@ codex mcp list
 
 来源：SakuAI（@JackQi82772），《Codex 中文创作者 10 个顶级 Skills》，2026-06-24，https://x.com/JackQi82772/article/2069599178926522741 。本轮核对了五个先前未收录或未明确登记项目的公开目录/实际 SKILL.md，已归并到 [[Skill收藏与安装清单]]；原有技能不重复登记。
  
-## X 收藏补充：视频 Skills 名称与实际来源分离（2026-10-09）
+## X 收藏补充：视频 Skills 来源核对（2026-10-09 第二轮）
 
-来源：[8 个视频 Skills 清单，@lxfater](https://x.com/lxfater/status/2102235224952410287)。这是一条**技能名称线索清单，不是 8 项真实安装验证**：
+来源：[8 个视频 Skills 清单，@lxfater](https://x.com/lxfater/status/2102235224952410287)。**已核实各个候选仓库中对应的 Skill 文件，不等于已经证明它们就是原作者当时指向的全部八个具体来源，更不代表实际运行或安装成功**。
 
-- 已核对并已收藏 `video-use`，详情在 Skill 收藏清单；`HyperFrames` 已在工具库登记为代码视频项目，不因营销文案称“Skill”就重新计数。
-- 尚需确定实际 GitHub 仓库与对应 `SKILL.md` 的名称：`talking-head-editor`、`caption-clip`、`claude-shorts`、`video-wrapper`、`product-launch-video`、`Claude Video`。仅凭名称不能排除同名不同项目，不创建虚假链接。
-- 与新入库的 `yichen-jianying-edit`、原本已有的 `hypit` 不是同一技术路线：前者是可编辑剪映工程桥接，后者是视频生产 DSL/编排，既有素材剪辑工具又是另一路线。
-- 待每项源码及真实 Skill 文件核实后，再逐项升级到主 Skill 表。所有工具均未安装或实际制作验证。
+| 原清单名称 | 可核实的实际文件 / 归类 | 处理边界 |
+|---|---|---|
+| `video-use` | [video-use/SKILL.md](https://github.com/browser-use/video-use/blob/main/SKILL.md) | 已在原 Skill 收藏中，不重复计数 |
+| `HyperFrames` | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 主要是代码视频框架及内置技能体系，已作为工具归档，不按一个泛称 Skill 计数 |
+| `talking-head-editor` | [Speclip 实际 SKILL.md](https://github.com/linyqh/speclip-skills/blob/main/talking-head-editor/SKILL.md) | 口播字幕/逐句稿驱动的精剪方案；与完整自动剪辑不是同一承诺 |
+| `caption-clip` | [awesome-omni-skill 实际 SKILL.md](https://github.com/diegosouzapw/awesome-omni-skill/blob/main/skills/tools/caption-clip/SKILL.md) | 依赖 yt-dlp、FFmpeg、Deepgram；需素材使用权限、环境和 API Key，未运行 |
+| `claude-shorts` | [AgriciDaniel/claude-shorts/SKILL.md](https://github.com/AgriciDaniel/claude-shorts/blob/main/SKILL.md) | 仓库名 claude-shorts，Skill `name: shorts`，不能按两个技能计数 |
+| `video-wrapper` | [Video-Wrapper-Skills/SKILL.md](https://github.com/op7418/Video-Wrapper-Skills/blob/main/SKILL.md) | 视频字幕解析与综艺式视觉包装，执行前需要用户审稿 |
+| `product-launch-video` | [EveryInc 的 Skill](https://github.com/EveryInc/product-launch-video/blob/main/.claude/skills/product-launch-video/SKILL.md)；[HyperFrames 的同名 Skill](https://github.com/heygen-com/hyperframes/blob/main/skills/product-launch-video/SKILL.md) | **存在同名不同实现**，不能仅凭技能名称确定原帖归属或合并为同一个项目 |
+| `Claude Video` | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) 项目内的 [watch/SKILL.md](https://github.com/bradautomates/claude-video/blob/main/skills/watch/SKILL.md) | claude-video 是项目名；`watch` 是实际 Skill 名称。不能证明原帖特指此项目 |
 
-来源与更多工程原则见 [[代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流]]，以及 [2026-10-09 X 收藏覆盖记录](../../.github/audits/2026-10-09-x-67.md)。
+共核对八个**名称/类别线索**；在项目结构中能定位对应实现，原作者的指向关系、运行可用性、许可证和商业使用条件仍须分别判断。主清单只登记确实找到的 `SKILL.md` 和其最新未安装状态。不要把这八个名称写成“八个均已安装”或“八条经过实操验证的生产线”。
+
+来源与可迁移的工程原则仍见 [[代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流]]，以及 [2026-10-09 X 收藏覆盖记录](../../.github/audits/2026-10-09-x-67.md)。
+
