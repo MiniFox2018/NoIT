@@ -13,9 +13,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 1
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#1：补全并融合；九组约束与参数、排版及验收；作者最后一组编号错写为10。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 1,
+    "knowledge_target": "知识库/影像创作/AI图像生成与编辑Prompt：场景描述、文字、参考与可控迭代.md"
   },
   {
     "id": "2106638002672013321",
@@ -31,9 +32,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 2
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#2：双轨吸收；ASD-STE100 清晰技术表达；qiaomu-learning 同步 Skill 收藏。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 2,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "2105666186520227886",
@@ -49,9 +51,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 3
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#3：方法吸收；Scale 创业负一阶段、真实访谈；商业数据和回复串不做已证实事实。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 3,
+    "knowledge_target": "知识库/创业运营/一人公司：小规模、盈利边界、信任与系统化经营.md"
   },
   {
     "id": "2105883855378890884",
@@ -67,9 +70,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 4
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#4：补全引用；Karpathy 四类载体与 HTML/动画的交付检查已补入。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 4,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "2105465474255573231",
@@ -85,9 +89,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 5
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#5：补全并融合；八类学习任务已补齐；宣传时间与排名目标不采信。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 5,
+    "knowledge_target": "知识库/学习方法/AI辅助的系统化学习与输出工作流.md"
   },
   {
     "id": "1986294154549436916",
@@ -103,9 +108,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 6
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#6：融合；论文问题、视角、方法、结论与公式化。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 6,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1932369511602135442",
@@ -121,9 +127,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 7
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#7：融合；数学概念直觉与严格定义；学习文档关联。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 7,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1931526209256780113",
@@ -139,9 +146,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 8
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#8：融合；文学化语言与具体情境。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 8,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1929426696614428831",
@@ -157,9 +165,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 9
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#9：融合；行业承重墙、装饰与路径。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 9,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1927666340355002542",
@@ -175,9 +184,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 10
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#10：融合；文章用途导向重构、真意不歪曲。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 10,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1927566659075596795",
@@ -193,9 +203,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 11
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#11：融合；数学公式的假设、量纲、直觉和适用边界。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 11,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1927391849959792854",
@@ -211,9 +222,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 12
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#12：融合；长录音洞见筛选及事实观点区分。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 12,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1926940099549266207",
@@ -229,9 +241,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 13
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#13：纠偏吸收；身体语言只能描述可能性，不构成读心或测谎。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 13,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1926463553566842946",
@@ -247,9 +260,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 14
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#14：融合；学术大白话需防概念失真。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 14,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1926289996924727411",
@@ -265,9 +279,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 15
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#15：融合；英译中：语义保真与中文自然表达。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 15,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1925924712271483382",
@@ -283,9 +298,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 16
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#16：融合；视觉类比与类比失效边界。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 16,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1923394863707378153",
@@ -301,9 +317,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 17
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#17：案例降级；职场黑话反讽，不作为正面写作模板。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 17,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "2107109142020395185",
@@ -319,9 +336,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 18
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#18：融合；深层问题追问；不得凭空揣测用户内心。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 18,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "2108031659497202107",
@@ -337,9 +355,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 19
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#19：补取并融合；原文为短问题；转为限定论文范围、影响判据及原始出处核验。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 19,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "2100119674562420819",
@@ -355,9 +374,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 20
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#20：工作流吸收；时间冻结广告的镜头、道具、动作、声音与验收。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 20,
+    "knowledge_target": "知识库/AI视频/AI短片资产化制作工作流：角色、场景、道具与逐镜头生成.md"
   },
   {
     "id": "2099873865988247870",
@@ -373,9 +393,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 21
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#21：方法吸收；只读 MCP 让规划可见；性能和额度为个人陈述。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 21,
+    "knowledge_target": "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md"
   },
   {
     "id": "2099720648381837432",
@@ -391,9 +412,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 22
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#22：补全并融合；角色卡、分镜、连续剧复用及实际订单验收已补齐；收益未核实。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 22,
+    "knowledge_target": "知识库/AI视频/AI短片资产化制作工作流：角色、场景、道具与逐镜头生成.md"
   },
   {
     "id": "2099795832539353558",
@@ -409,9 +431,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 23
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#23：方法吸收；实拍声音备份、摩尔纹、结论前置；不承诺某品牌设备绝对最佳。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 23,
+    "knowledge_target": "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
   },
   {
     "id": "2104285265615605918",
@@ -427,9 +450,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 24
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#24：引用补全；相关引文已取得；修辞学出处和理论外推未独立核查。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 24,
+    "knowledge_target": "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
   },
   {
     "id": "2104414578239267314",
@@ -445,9 +469,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 25
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#25：方法吸收；个人造型前后对比、自然身份保护。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 25,
+    "knowledge_target": "知识库/影像创作/AI图像生成与编辑Prompt：场景描述、文字、参考与可控迭代.md"
   },
   {
     "id": "2104478934918410284",
@@ -464,8 +489,9 @@
     "embedded": [],
     "acquired_on": "2026-10-09",
     "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 26
+    "knowledge_note": "原合集审计#26：降级为来源；GitHub/Agent 读码落地的重要性；无法据此证明绝大多数付费工具源于 GitHub。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 26,
+    "knowledge_target": "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md"
   },
   {
     "id": "2097174853707284785",
@@ -481,9 +507,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 27
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#27：方法吸收；手绘旅行日记的构图、笔触与留白。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 27,
+    "knowledge_target": "知识库/影像创作/旅行照片修复与AI二次创作：真实感、提示词与创意玩法.md"
   },
   {
     "id": "2104464709546393672",
@@ -499,9 +526,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 28
+    "knowledge_status": "partially_integrated",
+    "knowledge_note": "原合集审计#28：保留原文缺口；原帖仍为编号1—8、10；第9项未取得，地理语法待实测。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 28,
+    "knowledge_target": "知识库/创业运营/X平台账号运营：定位、冷启动、内容、分发与变现.md"
   },
   {
     "id": "2098963883730129328",
@@ -517,9 +545,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 29
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#29：方法吸收；视觉风格 JSON、三要素和结果对照。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 29,
+    "knowledge_target": "知识库/影像创作/AI图像生成与编辑Prompt：场景描述、文字、参考与可控迭代.md"
   },
   {
     "id": "2098565005730070967",
@@ -535,9 +564,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 30
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#30：观点降级；AI 与编程未来二手总结；具体原话与数字未独立核查。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 30,
+    "knowledge_target": "知识库/学习方法/AI辅助的系统化学习与输出工作流.md"
   },
   {
     "id": "2097940947455906005",
@@ -553,9 +583,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 31
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#31：补全并纠偏；展开引文后区分动画、静态照片与审美偏好；不当作模型实测排名。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 31,
+    "knowledge_target": "知识库/影像创作/AI图像生成与编辑Prompt：场景描述、文字、参考与可控迭代.md"
   },
   {
     "id": "2097246568013566212",
@@ -571,9 +602,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 32
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#32：补取并融合；十类任务的输入、权限与验收；第3、4项在同一续帖。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 32,
+    "knowledge_target": "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md"
   },
   {
     "id": "2097866584639606855",
@@ -589,9 +621,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 33
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#33：方法吸收；知识付费现金流与长期经营资产的区别。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 33,
+    "knowledge_target": "知识库/创业运营/一人公司：小规模、盈利边界、信任与系统化经营.md"
   },
   {
     "id": "2098683651739320420",
@@ -607,9 +640,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 34
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#34：观点降级；软件业趋势是观察而非行业普遍定律。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 34,
+    "knowledge_target": "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md"
   },
   {
     "id": "2099390058067280383",
@@ -625,9 +659,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 35
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#35：纠错吸收；iOS UIKit 与 macOS AppKit；作者同帖更正。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 35,
+    "knowledge_target": "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md"
   },
   {
     "id": "2100476189802746359",
@@ -643,9 +678,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 36
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#36：补全并融合；正文与问题一致、自然搜索标题及四类业务信号；算法与收益未证实。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 36,
+    "knowledge_target": "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
   },
   {
     "id": "2100441337648787854",
@@ -661,9 +697,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 37
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#37：双轨吸收；Hypit 视频工作流，复用现有 Skill 条目。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 37,
+    "knowledge_target": "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
   },
   {
     "id": "2100748639228367257",
@@ -679,9 +716,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 38
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#38：双轨吸收；Jianying Headless 及 Skill 分离、版本与许可更正；回复混入无关广告。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 38,
+    "knowledge_target": "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
   },
   {
     "id": "2100757673784549461",
@@ -697,9 +735,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 39
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#39：双轨吸收；达芬奇 MCP 编辑、样片检查及计划。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 39,
+    "knowledge_target": "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
   },
   {
     "id": "2102559591095734286",
@@ -715,9 +754,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 40
+    "knowledge_status": "resource_indexed",
+    "knowledge_note": "原合集审计#40：资源登记；出海去 Playbook 入口；版本、统计数字属于作者描述。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 40,
+    "knowledge_target": "资源库/独立开发/独立开发与出海工具导航.md"
   },
   {
     "id": "2102666536951726416",
@@ -733,9 +773,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 41
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#41：方法吸收；一人公司窄需求、客户访谈到自动化。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 41,
+    "knowledge_target": "知识库/创业运营/一人公司：小规模、盈利边界、信任与系统化经营.md"
   },
   {
     "id": "2102719990679982214",
@@ -751,9 +792,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 42
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#42：与既有内容去重；播客逐字稿、人工改译与复听；现有文档已有完整专题。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 42,
+    "knowledge_target": "知识库/学习方法/AI辅助的系统化学习与输出工作流.md"
   },
   {
     "id": "2100812870586142880",
@@ -769,9 +811,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 43
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#43：合并；Hypit 复刻实操与 37/38 合并；私有 API、声音授权另标边界。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 43,
+    "knowledge_target": "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
   },
   {
     "id": "2101150537618198552",
@@ -787,9 +830,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 44
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#44：方法吸收；Skill 的输出定义、语义规则、脚本、验收。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 44,
+    "knowledge_target": "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
   },
   {
     "id": "2101484287128207754",
@@ -805,9 +849,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 45
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#45：双轨吸收；OpenCreator/KrillinAI 官方项目；宣传效果不视为验收。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 45,
+    "knowledge_target": "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
   },
   {
     "id": "2101953717721587806",
@@ -823,9 +868,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 46
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#46：观点转方法；获客先于 Vibe Coding 开发；行业盈利断言不采信。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 46,
+    "knowledge_target": "知识库/创业运营/一人公司：小规模、盈利边界、信任与系统化经营.md"
   },
   {
     "id": "2102235224952410287",
@@ -841,9 +887,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 47
+    "knowledge_status": "partially_integrated",
+    "knowledge_note": "原合集审计#47：部分资源吸收；八个视频 Skills：已有 video-use；其余来源或 SKILL 路径缺失需单独核验。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 47,
+    "knowledge_target": "资源库/Skill/Skill教程与实践笔记.md"
   },
   {
     "id": "1980471340919583038",
@@ -859,9 +906,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 48
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#48：补取并融合；叙事转折、页面任务、证据与总框架；保留可检查讲解流程。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 48,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1960346434403992040",
@@ -877,9 +925,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 49
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#49：融合；文字校对、结构、意图三层编辑。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 49,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1957712425064739236",
@@ -895,9 +944,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 50
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#50：融合；英译中的信达雅与术语保真。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 50,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1949319960813297707",
@@ -913,9 +963,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 51
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#51：纠偏吸收；公关稿审读的陈述、未答、证据、假设分离。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 51,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1948017004268650912",
@@ -931,9 +982,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 52
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#52：融合；产品命名与音形意、可注册性。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 52,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1946879194430132273",
@@ -949,9 +1001,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 53
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#53：融合；能力阶梯与可验收练习。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 53,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1946809224727838947",
@@ -967,9 +1020,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 54
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#54：融合；职场邮件目的、行动和简洁。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 54,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "1932792623032402301",
@@ -985,9 +1039,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 55
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#55：融合；标题与内容一致性及认知入口。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 55,
+    "knowledge_target": "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
   },
   {
     "id": "2101665524652687659",
@@ -1003,9 +1058,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 56
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#56：观点吸收；可 SOP 化专业技能的价格竞争，非必然定律。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 56,
+    "knowledge_target": "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
   },
   {
     "id": "2101676379905630655",
@@ -1021,9 +1077,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 57
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#57：观点融合；个人 IP 的能力、经历、判断和责任。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 57,
+    "knowledge_target": "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
   },
   {
     "id": "2101574233226641513",
@@ -1039,9 +1096,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 58
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#58：比喻降级；习惯改变的启动与维护；自我厌恶非循证建议。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 58,
+    "knowledge_target": "知识库/学习方法/AI辅助的系统化学习与输出工作流.md"
   },
   {
     "id": "2100557849281831189",
@@ -1057,9 +1115,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 59
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#59：场景灵感；毛毡文化衫想法，无完整制作流程。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 59,
+    "knowledge_target": "知识库/影像创作/旅行照片修复与AI二次创作：真实感、提示词与创意玩法.md"
   },
   {
     "id": "2100540551540130005",
@@ -1075,9 +1134,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 60
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#60：案例降级；X 文章转公众号的个人运营结果，非普遍收益。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 60,
+    "knowledge_target": "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
   },
   {
     "id": "2104400820133621769",
@@ -1093,9 +1153,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 61
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#61：融合；信任、真实故障驱动学习；商业数字是二手陈述。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 61,
+    "knowledge_target": "知识库/个人发展/自主项目驱动成长：所有权、实践与能力积累.md"
   },
   {
     "id": "2097601909444256252",
@@ -1111,9 +1172,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 62
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#62：目标清单降级；模型与工具学习方向；“变富必会”不成立。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 62,
+    "knowledge_target": "知识库/个人发展/自主项目驱动成长：所有权、实践与能力积累.md"
   },
   {
     "id": "2099553168103502110",
@@ -1129,9 +1191,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 63
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#63：纠偏吸收；受众变量与任务场景，不以社会经济类别刻板推断。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 63,
+    "knowledge_target": "知识库/创业运营/内容创作与一人企业：从探索、信任到变现.md"
   },
   {
     "id": "2104738218252059124",
@@ -1147,9 +1210,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 64
+    "knowledge_status": "partially_integrated",
+    "knowledge_note": "原合集审计#64：补全并拆分；Raven、金融与3D为独立相关帖；Raven方法入工程主题，金融只留来源，3D入既有工程来源。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 64,
+    "knowledge_target": "知识库/AI工作方式/AI产品工程：评测、上下文与系统优化.md"
   },
   {
     "id": "2106506836035727601",
@@ -1165,9 +1229,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 65
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#65：补全引用；招聘方时间约束、事前研究与对应问题的作品证据已补入。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 65,
+    "knowledge_target": "知识库/个人发展/求职增长系统：优势定位、目标公司与转化漏斗.md"
   },
   {
     "id": "2106560439538913536",
@@ -1183,9 +1248,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 66
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#66：补取并融合；语言家教七个动作、混合复测和实际语音验证。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 66,
+    "knowledge_target": "知识库/学习方法/AI辅助的系统化学习与输出工作流.md"
   },
   {
     "id": "2108364325538967967",
@@ -1201,9 +1267,10 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "原合集主题去向见2026-10-09-x-67.md；本轮增量单独记录",
-    "collection_number": 67
+    "knowledge_status": "theme_integrated",
+    "knowledge_note": "原合集审计#67：补全并融合；九种摄影编辑及身份/场景/光线检查；效果不作保证。状态仅表示可核对的主题去向，不证明全部附件、评论或主张经独立核实。",
+    "collection_number": 67,
+    "knowledge_target": "知识库/影像创作/AI图像生成与编辑Prompt：场景描述、文字、参考与可控迭代.md"
   },
   {
     "id": "2087464882656706860",
