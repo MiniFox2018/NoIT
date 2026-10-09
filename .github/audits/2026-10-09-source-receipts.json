@@ -1453,8 +1453,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
+    ]
   },
   {
     "id": "2072417062165635433",
@@ -1470,8 +1473,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
+    ]
   },
   {
     "id": "2103030353174630574",
@@ -1487,8 +1493,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
+    ]
   },
   {
     "id": "2081580929492131947",
@@ -1506,8 +1515,11 @@
       "2081328645524668636"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
+    ]
   },
   {
     "id": "2073752063591473242",
@@ -1525,8 +1537,11 @@
       "2070051136187621452"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/代码生成视频：确定性逐帧渲染、音画统一时间线与Agent工作流.md"
+    ]
   },
   {
     "id": "2104223930253021355",
@@ -1593,8 +1608,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/个人发展/求职增长系统：优势定位、目标公司与转化漏斗.md"
+    ]
   },
   {
     "id": "2100188327500714344",
@@ -1612,8 +1630,11 @@
       "2098684757357859217"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/个人发展/香港银行与券商开户：实操核查、费用与合规风险.md"
+    ]
   },
   {
     "id": "2100929584531390723",
@@ -1629,8 +1650,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/个人发展/通信套餐优化：主号保号、流量分离与办卡核查.md"
+    ]
   },
   {
     "id": "2104504457673511409",
@@ -1646,8 +1670,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/个人发展/AI产品经理求职：岗位匹配、简历、投递与面试.md"
+    ]
   },
   {
     "id": "2105454522558792122",
@@ -1663,8 +1690,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/个人发展/思维阶梯：从证据更新到身份防御.md"
+    ]
   },
   {
     "id": "2106289370567418338",
@@ -2184,8 +2214,11 @@
       "2097276846392111585"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/产品方法/产品早期验证：先验证价值，再打磨细节.md"
+    ]
   },
   {
     "id": "2100578940054294911",
@@ -2201,8 +2234,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/产品方法/产品早期验证：先验证价值，再打磨细节.md"
+    ]
   },
   {
     "id": "2100157320944881776",
@@ -2218,9 +2254,12 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收",
-    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "resource_index": "资源库/创业运营/AI创作与变现实操资源索引.md",
+    "knowledge_targets": [
+      "知识库/产品方法/AI产品经理全流程：项目事实、需求决策与交付闭环.md"
+    ]
   },
   {
     "id": "2105942771630789050",
