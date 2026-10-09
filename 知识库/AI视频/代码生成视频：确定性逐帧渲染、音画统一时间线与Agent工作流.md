@@ -1361,6 +1361,86 @@ ASR / Loudness / Black Frame / Readability 检查
 
 来源：[browser-use/video-use](https://github.com/browser-use/video-use) · [SKILL.md](https://github.com/browser-use/video-use/blob/main/SKILL.md)，核验于 2026-10-09。
 
+## 三十八、Codex + Remotion 日更：模板是代码，节目是结构化数据
+
+Rachel🥥 的视频日更经验解决一个常见生产瓶颈：**内容结构每天类似，却每次从空白时间线重做**。它不等于所有视频都应该代码化。以实拍素材、节奏感、现场情绪为核心的一次性视频，传统剪辑软件仍可能更高效；讲解、卡片、数据可视化、工具教程、课程切片则适合稳定模板。
+
+### 1. 三层职责和一条数据契约
+
+- **人**：决定选题、观点、目标受众、素材真伪、情绪分寸与最终发布。
+- **Codex**：读项目约束，维护 React 组件与数据 schema，把本日脚本转成结构化 JSON，检查字段、错误和版面，执行预览/构建。
+- **Remotion**：按帧时间和结构化输入渲染视频；控制场景、字幕、配音、Logo、动画和不同平台版式。
+
+最小项目形态：
+
+```text
+daily-video/
+  AGENTS.md                 # 持续约束和验收
+  package.json              # 构建/渲染命令
+  src/
+    Root.tsx
+    compositions/DailyExplainer.tsx
+    components/TitleCard.tsx
+    components/Caption.tsx
+    components/ProgressBar.tsx
+    styles/theme.ts
+  content/YYYY-MM-DD-topic.json
+  public/assets/
+  scripts/render-daily.mjs
+  outputs/
+```
+
+例如 `content/YYYY-MM-DD-topic.json` 至少包含标题、时长、开场钩子、scene 列表、各 scene 的配音、文字、画面描述、素材路径及来源。只有 JSON 接口不够、确有理由时才修改长期模板代码，**不要为了每条视频重写组件**。
+
+### 2. 五类稳定组件
+
+1. **开场钩子**：短时建立对象与问题；原文示例 3 秒，不是通用硬规定。
+2. **主体场景**：背景、观点、案例、数据对比和分步示例。
+3. **字幕**：独立组件处理字号、行距、安全区、分句时间和重点词。
+4. **素材**：本地/许可的图片、截图、产品录屏、封面与 B-roll；远程链接需应对失效。
+5. **结尾**：一条总结和下一步，保持可测试而不反复改结构。
+
+原文 60 秒短片参考结构：3 秒问题钩子、8 秒背景、20 秒方法、20 秒案例、9 秒总结。它是**一种内容节奏方案**；真实脚本长短应按目标场景、语速和信息密度调整。
+
+### 3. 把项目规则写进文件，而不是每天重复口述
+
+`AGENTS.md` 可以记录：默认 1080×1920、30fps、45—75 秒，字幕安全区、标题长度、模板复用优先级、输出目录与质量关口。这些数字来自作者演示，须根据账号方向及平台更新。
+
+视觉变量放 `theme.ts`；字幕行为放 `Caption.tsx`；内容结构放 JSON schema；渲染命令放 `package.json`；稳定工序才升级为 Skill。Skill 不等于未经测试可直接复制的插件，应在具体项目中跑通之后再封装。
+
+### 4. 每日端到端制作与验收
+
+```text
+今日主题与受众
+→ 人审观点/脚本
+→ Codex 生成场景 JSON
+→ 校验所需字段和素材授权
+→ 先渲染关键单帧 still 检查标题/安全区
+→ 预览字幕与音画同步
+→ 完整 MP4 渲染
+→ 真人检查事实与版式
+→ 发布记录 → 本周只改最明显的瓶颈
+```
+
+演示命令形式：
+
+```bash
+npx remotion render DailyExplainer
+npm run render:daily -- --input content/YYYY-MM-DD-topic.json
+```
+
+关键区别：**渲染帧数正确不是内容正确，字幕不溢出不等于信息可信**。要同时保存渲染配置、素材版权、内容 JSON、源码版本和最终文件，并让人检查实际设备观感。
+
+### 5. 生产成本和许可证
+
+作者说两个月约在抖音 8K、小红书 2K 粉，仅为自述单例。平台推荐、视频内容与人工投入均可能影响结果，不可将“Codex+Remotion”与涨粉建立因果关系。
+
+Remotion 官方 2026-10-09 可查询的 [License & Pricing](https://www.remotion.dev/docs/license/pricing) 对个人及不超过三人的公司列免费许可（附条款），四人及以上合作/企业用法可能需要相应 Company License；向客户提供自动化渲染等用途还存在不同授权方式。正式商用前以实际条款与项目情况复核，不能仅凭“个人项目免费”推导任意企业免费。
+
+来源：Rachel🥥（@Zesee），《用 Codex + Remotion 实现无痛自媒体视频日更，涨粉过万：把剪视频变成维护一条生产线》，2026-07-02，https://x.com/Zesee/article/2072417062165635433；用户 2026-10-09 上传 Markdown。已覆盖技术定位、适用视频、项目目录、五模块、JSON 数据、AGENTS.md/Skill、每日流水线和复盘；不等于本库已经实际编译作者示例项目。
+
+
+
 ## 来源与版本记录
 
 ### 用户提供文章
