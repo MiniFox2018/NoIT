@@ -1286,8 +1286,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI短片资产化制作工作流：角色、场景、道具与逐镜头生成.md"
+    ]
   },
   {
     "id": "2105627385387171991",
@@ -1305,8 +1308,11 @@
       "2104440978421784906"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI短片资产化制作工作流：角色、场景、道具与逐镜头生成.md"
+    ]
   },
   {
     "id": "2100857704617316717",
@@ -1322,8 +1328,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI内容规模化生产：调查长片、火柴人与儿童绘本.md"
+    ]
   },
   {
     "id": "2101571088891408767",
@@ -1339,8 +1348,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI内容规模化生产：调查长片、火柴人与儿童绘本.md"
+    ]
   },
   {
     "id": "2102311241046008268",
@@ -1359,8 +1371,11 @@
       "2093893997223923822"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI内容规模化生产：调查长片、火柴人与儿童绘本.md"
+    ]
   },
   {
     "id": "2097969091537719717",
@@ -1376,8 +1391,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI内容规模化生产：调查长片、火柴人与儿童绘本.md"
+    ]
   },
   {
     "id": "2104172387575222768",
@@ -1393,8 +1411,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI视频摄影机语言与运镜控制.md"
+    ]
   },
   {
     "id": "2104523576020017575",
@@ -1412,8 +1433,11 @@
       "2104172387575222768"
     ],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI视频/AI视频摄影机语言与运镜控制.md"
+    ]
   },
   {
     "id": "2105619742560276908",
@@ -2229,8 +2253,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md"
+    ]
   },
   {
     "id": "2102018333499707492",
@@ -2246,8 +2273,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/复杂任务提示词与AI写作：任务设计、材料、工具、验收与返工.md"
+    ]
   },
   {
     "id": "2105875657058402344",
@@ -2263,8 +2293,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/AI基础概念：模型、上下文、记忆与Agent体系.md"
+    ]
   },
   {
     "id": "2100439330523361402",
@@ -2280,8 +2313,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/AI产品工程：评测、上下文与系统优化.md"
+    ]
   },
   {
     "id": "2106390643362959715",
@@ -2418,8 +2454,11 @@
     "article": true,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI安全/AI Token中转站与转售滥用生态.md"
+    ]
   },
   {
     "id": "2106319977859153935",
@@ -4989,8 +5028,11 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md"
+    ]
   },
   {
     "id": "2105300327729607108",
@@ -5023,8 +5065,11 @@
     "article": false,
     "embedded": [],
     "acquired_on": "2026-10-09",
-    "knowledge_status": "source_registered",
-    "knowledge_note": "采集来源登记；不以取得正文代替逐章知识吸收"
+    "knowledge_status": "source_linked",
+    "knowledge_note": "现有文档包含精确来源 ID/链接；仅证明出处关联，不等于原文逐章吸收或事实核验。",
+    "knowledge_targets": [
+      "知识库/AI工作方式/工程Agent工作流：从任务边界到可审查交付.md"
+    ]
   },
   {
     "id": "2046749466028601373",
