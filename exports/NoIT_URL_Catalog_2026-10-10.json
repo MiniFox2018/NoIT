@@ -1,0 +1,57 @@
+{
+  "info": {
+    "date": "2026-10-10",
+    "repository": "MiniFox2018/NoIT",
+    "baseTreeSha": "f213247216c00382da52466eb2b8d773d4c9d18b",
+    "scannedFiles": 118,
+    "filesWithUrls": 96,
+    "uniqueUrls": 0,
+    "totalMentions": 0,
+    "invalidCandidates": 2176,
+    "categories": [
+      {
+        "name": "信息获取",
+        "count": 0
+      },
+      {
+        "name": "加工与生产",
+        "count": 0
+      },
+      {
+        "name": "输出与运营",
+        "count": 0
+      },
+      {
+        "name": "专题资源",
+        "count": 0
+      }
+    ],
+    "sourceTypes": [
+      {
+        "name": "书签收录",
+        "count": 0
+      },
+      {
+        "name": "正式资源",
+        "count": 0
+      },
+      {
+        "name": "知识引用",
+        "count": 0
+      },
+      {
+        "name": "审计留痕",
+        "count": 0
+      },
+      {
+        "name": "其他资料",
+        "count": 0
+      },
+      {
+        "name": "技术引用",
+        "count": 0
+      }
+    ]
+  },
+  "items": []
+}
