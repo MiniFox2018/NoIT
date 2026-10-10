@@ -3,9 +3,9 @@
     "updated": "2026-10-10",
     "repository": "MiniFox2018/NoIT",
     "scope": "仅限正式资源清单、独立资源条目及既有 Chrome 书签；排除知识库正文、历史审计、代码注释及资源页旁支引用",
-    "count": 683,
+    "count": 681,
     "bookmarkCount": 272,
-    "resourceCount": 665,
+    "resourceCount": 663,
     "bothCount": 254,
     "groups": [
       {
@@ -14,11 +14,11 @@
       },
       {
         "name": "研究与加工",
-        "count": 332
+        "count": 331
       },
       {
         "name": "创作与输出",
-        "count": 150
+        "count": 149
       },
       {
         "name": "专题资源",
@@ -2313,19 +2313,6 @@
       "sourceFiles": [
         "exports/NoIT_Chrome_Bookmarks_2026-10-08.html",
         "资源库/工具库/AI、办公与研究工具.md"
-      ]
-    },
-    {
-      "url": "https://x.com/0xluffy_eth",
-      "title": "@0xluffy_eth",
-      "description": "",
-      "category": "研究与加工",
-      "group": "2026-10-09 外部清单校核",
-      "sourceTypes": [
-        "资源"
-      ],
-      "sourceFiles": [
-        "资源库/Skill/Skill收藏与安装清单.md"
       ]
     },
     {
@@ -6559,19 +6546,6 @@
       ],
       "sourceFiles": [
         "资源库/创业运营/AI创作与变现实操资源索引.md"
-      ]
-    },
-    {
-      "url": "https://x.com/chuhaiqu/status/2102559591095734286",
-      "title": "来源推文",
-      "description": "。",
-      "category": "创作与输出",
-      "group": "出海去 Playbook：系统化创业与增长实践资源（2026-10-09）",
-      "sourceTypes": [
-        "资源"
-      ],
-      "sourceFiles": [
-        "资源库/独立开发/独立开发与出海工具导航.md"
       ]
     },
     {
