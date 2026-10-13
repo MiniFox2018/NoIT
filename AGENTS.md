@@ -17,3 +17,5 @@
 8. 若进入的子目录存在自己的 `AGENTS.md`，在遵守根目录 `PROJECT_RULES.md` 的前提下，同时读取并遵守该目录的局部规则；局部规则用于补充该主题的具体处理方式，不覆盖用户当前明确指令。
 
 本轮新增的执行检查：资源宽松收录、历史资源仅针对性复核；多章节材料逐章记录知识去向，缺章不得称完整吸收；动态事实核验区分日期和范围，局部核验不等于全文；删除资源先审查关联知识；优先复用 README 三种导航入口，不复制正文。
+
+在正式文档、来源凭据和 Chrome 双表发生变更后，应执行 `python scripts/audit_repository.py`、`python scripts/audit_bookmarks.py`、`python scripts/audit_source_receipts.py` 及 `python -m unittest discover -s scripts -p 'test_*.py' -v`。外链巡检只作提醒，不作为自动删除依据。

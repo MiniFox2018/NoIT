@@ -1,0 +1,15 @@
+# macOS and Python caches
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
