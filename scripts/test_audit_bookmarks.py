@@ -55,6 +55,23 @@ class BookmarkAuditTests(unittest.TestCase):
         self.assertNotEqual(canonical_url("https://example.com/?q=one"), canonical_url("http://example.com/?q=two"))
         self.assertNotEqual(canonical_url("https://example.com/docs#a"), canonical_url("https://example.com/docs#b"))
 
+    def test_approved_selected_set_cannot_change_silently(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            exports = root / "exports"
+            exports.mkdir()
+            a, b = exports / "NoIT_常用书签.html", exports / "NoIT_其他待选书签.html"
+            a.write_text(html("NoIT｜常用书签", [("https://unselected.example", "B")]), encoding="utf-8")
+            b.write_text(html("NoIT｜其他待选", [("https://old.example", "A")]), encoding="utf-8")
+            baseline = root / ".github" / "bookmarks"
+            baseline.mkdir(parents=True)
+            (baseline / "selected-urls.txt").write_text(
+                "# Approved by user\nhttps://old.example\n", encoding="utf-8"
+            )
+            errors, _, _ = audit_exports((a, b))
+            self.assertTrue(any("approved selected URLs missing" in e for e in errors), errors)
+            self.assertTrue(any("absent from approval baseline" in e for e in errors), errors)
+
     def test_extra_export_is_an_error(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             folder = Path(tmp)

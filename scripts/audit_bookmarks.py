@@ -123,6 +123,7 @@ def audit_exports(paths: tuple[Path, Path] = EXPORTS) -> tuple[list[str], list[s
     warnings: list[str] = []
     counts: list[int] = []
     seen: dict[str, str] = {}
+    curated_urls: set[str] = set()
     if not paths[0].parent.is_dir():
         return ["exports/ directory is missing"], [], []
     actual_files = {p.name for p in paths[0].parent.iterdir() if p.is_file()}
@@ -153,6 +154,8 @@ def audit_exports(paths: tuple[Path, Path] = EXPORTS) -> tuple[list[str], list[s
             if len(item.folder) != 3 or item.folder[1] not in CATEGORIES or not item.folder[2]:
                 errors.append(f"{path.name}: invalid folder depth/category for {item.url}: {item.folder}")
             key = canonical_url(item.url)
+            if path == paths[0]:
+                curated_urls.add(key)
             if key in seen:
                 errors.append(f"{path.name}: duplicate bookmark (also in {seen[key]}): {item.url}")
             else:
@@ -166,6 +169,23 @@ def audit_exports(paths: tuple[Path, Path] = EXPORTS) -> tuple[list[str], list[s
                 f"{path.name}: {blank_descriptions} candidate bookmarks lack descriptions; "
                 "add only confirmed, useful purposes rather than inventing them"
             )
+    # The external URL list is not evidence of user selection. A separate approved
+    # snapshot makes accidental removals and promotions detectable in a PR.
+    baseline = paths[0].parent.parent / ".github" / "bookmarks" / "selected-urls.txt"
+    if baseline.is_file():
+        approved_urls = [
+            line.strip() for line in baseline.read_text(encoding="utf-8").splitlines()
+            if line.strip() and not line.startswith("#")
+        ]
+        approved = {canonical_url(url) for url in approved_urls}
+        if len(approved) != len(approved_urls):
+            errors.append("bookmarks selected-urls.txt: duplicate baseline URL")
+        removed = approved - curated_urls
+        promoted = curated_urls - approved
+        if removed:
+            errors.append(f"bookmarks: {len(removed)} approved selected URLs missing from 常用 (update baseline only on explicit choice)")
+        if promoted:
+            errors.append(f"bookmarks: {len(promoted)} selected URLs absent from approval baseline (update baseline only on explicit choice)")
     return errors, warnings, counts
 
 
