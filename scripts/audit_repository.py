@@ -24,7 +24,7 @@ SOURCE_SECTION_RE = re.compile(
 )
 VERIFICATION_EVIDENCE_RE = re.compile(
     r"(?:本次重新核验日期|重新核验日期|核验日期|当前核验|核验于|核验：)"
-    r"\\s*[：:]?\\s*(\\d{4}-\\d{2}-\\d{2})"
+    r"\s*[：:]?\s*(\d{4}-\d{2}-\d{2})"
 )
 
 errors: list[str] = []

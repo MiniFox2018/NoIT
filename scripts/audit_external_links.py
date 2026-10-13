@@ -12,6 +12,8 @@ import urllib.request
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
+
+from audit_bookmarks import EXPORTS, parse_bookmarks
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -152,15 +154,25 @@ def write_report(report: dict) -> None:
 
 
 
-def main() -> int:
+def collect_sources(root: Path = ROOT) -> dict[str, set[str]]:
     sources: dict[str, set[str]] = defaultdict(set)
-    for path in sorted(ROOT.rglob("*.md")):
+    for path in sorted(root.rglob("*.md")):
         if ".git" in path.parts:
             continue
         text = path.read_text(encoding="utf-8")
         for url in extract_urls(text):
-            sources[url].add(path.relative_to(ROOT).as_posix())
+            sources[url].add(path.relative_to(root).as_posix())
+    for export_name in ("NoIT_常用书签.html", "NoIT_其他待选书签.html"):
+        path = root / "exports" / export_name
+        if path.is_file():
+            for entry in parse_bookmarks(path.read_text(encoding="utf-8")).entries:
+                if entry.url.startswith(("https://", "http://")):
+                    sources[entry.url].add(path.relative_to(root).as_posix())
+    return sources
 
+
+def main() -> int:
+    sources = collect_sources()
     results: dict[str, tuple[str, int | None, str]] = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         future_map = {executor.submit(request_url, url): url for url in sorted(sources)}
