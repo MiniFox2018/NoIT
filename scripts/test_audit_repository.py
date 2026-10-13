@@ -61,6 +61,34 @@ class RepositoryAuditTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
         self.assertIn("0 errors", result.stdout)
 
+    def test_resource_date_evidence_is_reported_without_faking_verified(self) -> None:
+        resource = self.root / "资源库" / "工具" / "有日期的工具.md"
+        resource.parent.mkdir(parents=True)
+        resource.write_text(
+            "---\ntitle: 有日期的工具\ntags: [工具]\ntype: resource\n"
+            "status: active\nupdated: 2026-10-09\n---\n\n"
+            "# 有日期的工具\n\n核验日期：2026-10-09\n",
+            encoding="utf-8",
+        )
+        readme = self.root / "README.md"
+        readme.write_text(
+            readme.read_text(encoding="utf-8")
+            + "\n- [有日期的工具](./资源库/工具/有日期的工具.md)\n",
+            encoding="utf-8",
+        )
+        result = self.run_audit()
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertIn("正文存在明确核验日期 2026-10-09", result.stdout)
+        self.assertIn("但 Frontmatter 未记录 verified", result.stdout)
+
+        resource.write_text(
+            resource.read_text(encoding="utf-8").replace("核验日期：2026-10-09", "核验日期：待查"),
+            encoding="utf-8",
+        )
+        result = self.run_audit()
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertNotIn("正文存在明确核验日期", result.stdout)
+
     def test_future_updated_is_an_error(self) -> None:
         self.document.write_text(
             BASE_DOCUMENT.replace("updated: 2026-10-03", "updated: 2999-01-01"),

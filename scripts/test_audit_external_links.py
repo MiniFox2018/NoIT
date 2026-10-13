@@ -12,6 +12,7 @@ from unittest.mock import patch
 
 from audit_external_links import (
     build_report,
+    collect_sources,
     extract_urls,
     non_public_host,
     request_url,
@@ -20,6 +21,23 @@ from audit_external_links import (
 
 
 class ExternalLinkAuditTests(unittest.TestCase):
+    def test_scan_also_includes_chrome_bookmarks(self):
+        from test_audit_bookmarks import html
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "知识库").mkdir()
+            (root / "知识库" / "note.md").write_text(
+                "https://content.example.org", encoding="utf-8"
+            )
+            folder = root / "exports"
+            folder.mkdir()
+            (folder / "NoIT_常用书签.html").write_text(
+                html("NoIT｜常用书签", [("https://bookmark.example.org", "A")]), encoding="utf-8"
+            )
+            sources = collect_sources(root)
+            self.assertEqual(sources["https://bookmark.example.org"], {"exports/NoIT_常用书签.html"})
+            self.assertEqual(sources["https://content.example.org"], {"知识库/note.md"})
+
     def test_extract_urls_ignores_fences_and_strips_punctuation(self):
         text = (
             "Reference: https://example.com/docs.\n"
