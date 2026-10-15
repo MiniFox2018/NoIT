@@ -5,7 +5,7 @@ tags:
   - 工具库
 type: resource-index
 status: active
-updated: 2026-10-09
+updated: 2026-10-15
 ---
 
 # AI、办公与研究工具
@@ -18,6 +18,8 @@ updated: 2026-10-09
 
 | 工具 | 链接 | 用途说明 |
 | --- | --- | --- |
+| Strata（Niko1221） | [GitHub 项目](https://github.com/Niko1221/Strata) | 面向个人硬件运行大规模模型的本地推理引擎，提供浏览器聊天及本机 OpenAI/Anthropic 兼容 API，适合需要本地处理文本、图片和连接编程 Agent 的场景。官方主要安装路线为 Windows/Linux，通常需要显卡至少 12 GB 显存、32 GB 内存及较大 SSD 空间；Apple Silicon Mac 构建路线仍属实验性。不是无需硬件条件的云端大模型，也不保证兼容所有模型。2026-10-15 核查官方 README，未安装或测试推理效果。 |
+| Monid | [官网](https://monid.ai/) | 为 Agent 统一发现、比较和调用第三方工具/API 的聚合服务，可通过 Skill、MCP 或 CLI 对接；官网当前宣称接入 55+ 服务商、1,700+ 工具，并按调用消耗共享余额。它是工具调用与计费入口，而非自行提供全部底层模型；使用前核实接口授权、数据流向、单次费用、成功计费与凭据权限。2026-10-15 核验官网说明，未注册、付费或调用。 |
 | AgentSeal | [GitHub 项目](https://github.com/getagentseal/agentseal) | 面向 Agent、MCP 和 Skill 的安全检查命令行工具；可扫描本机配置、组件链路、可疑权限与密钥暴露，`guard` 不要求云端模型；它是安全工具，不应因文章叫“Skill”就按可安装的单个 SKILL.md 计数。报告可能包含敏感目录与密钥信息，留档前须完全脱敏；部分功能和许可证不同于普通开源。2026-10-09 仅核实仓库未执行。 |
 | Voicebox（jamiepine） | [GitHub 项目](https://github.com/jamiepine/voicebox) · [官方说明](https://voicebox.sh/) | 本地语音工作台：TTS、授权声线克隆、语音输入、多轨编辑和供 Agent 调用的 MCP/本地接口；是独立应用而非视频 Skill，源项目内部自用的 `SKILL.md` 不等于面向用户的可安装语音技能。大模型/声音资源占空间、依赖硬件与权限；只克隆本人或取得明确授权的声音。2026-10-09 核实仓库入口，未安装、未录音或合成。 |
 | ChatGPT | [打开](https://chatgpt.com/) | 通过对话进行问答、写作修改、资料解释和文件分析；可上传文件与图片，网页入口也可使用。具体功能随账号与套餐变化，桌面版不等于离线模型。 |
@@ -51,6 +53,7 @@ updated: 2026-10-09
 | 工具 | 链接 | 用途说明 |
 | --- | --- | --- |
 | Awesome Opus 5.5 Videos | [打开](https://github.com/yihui-dev/awesome-opus5-5-videos) | 持续收集使用 Claude Opus 5.5 以 HTML、Canvas、SVG、Three.js、GLSL 等代码生成的视频案例，并保存创作者公开的原始提示词或原帖。2026-10-03 核验时仓库含 475 份 Prompt，覆盖 motion graphics、explainers、3D scenes、games & interactive，并给出原作与可运行重制对照；适合研究“任务描述 → 技术栈 → 成片”的关系。它是案例与提示词实验库，不把单个爆款案例或简短 Prompt 当成稳定能力证明；可复用规律已同步吸收到代码视频知识文档。 |
+| MkImage | [官网](https://mkimage.ai/) | 第三方 AI 图片提示词图库与生成入口，按摄影、海报、插画/3D、产品/品牌、UI 等分类浏览示例，页面列出 Nano Banana 与 GPT Image 相关案例，可选用提示词并进入生成流程；适合视觉参考与提示词改写。图库案例不保证跨模型复现，登录积分、版权和模型实际来源须分别核实；并非模型厂商官方产品。2026-10-15 核验公开首页，未登录或实测生成。 |
 | AIART.PICS | [打开](https://aiart.pics/) | 展示 AI 生成图像及对应提示词，覆盖人像、产品摄影和艺术风格等场景，支持复制参考；适合从效果图反推描述方式。收录模型标签与案例效果来自社区，不能保证同提示词在不同模型中复现一致。 |
 | awesome-gpt-image-2（freestylefly） | [打开](https://github.com/freestylefly/awesome-gpt-image-2) | 按案例、场景和风格组织 GPT Image 图像提示词、模板及生成记录，并提供在线图库和版本对比示例；适合学习提示词结构与改写应用。与 YouMind 的同名仓库区分，本条收藏资源，附带 Skill 不自动安装。 |
 | EvoLink：GPT Image 2 提示词 | [打开](https://evolink.ai/gpt-image-2-prompts) | 展示图像案例、提示词和场景模板，适合参考商业图、设计及风格化表达，配合 EvoLink 的生成服务入口使用；收藏的是特定提示词页面，不等于已接入其 API，生成成本和模型来源未实测。 |
