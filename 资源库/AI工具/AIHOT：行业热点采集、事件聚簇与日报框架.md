@@ -7,7 +7,7 @@ tags:
   - Agent
 type: resource
 status: active
-updated: 2026-10-09
+updated: 2026-10-17
 ---
 
 # AIHOT：行业热点采集、事件聚簇与日报框架
@@ -37,7 +37,7 @@ updated: 2026-10-09
 
 - [中文 README](https://github.com/KKKKhazix/AIHOT/blob/main/README.md)：项目定位、快速运行、技术栈与使用边界。
 - [定制说明](https://github.com/KKKKhazix/AIHOT/blob/main/docs/customize.md)：按行业更换主题、信源、提示词和评分标准。
-- [部署说明](https://github.com/KKKKhazix/AIHOT/blob/main/docs/deployment.md)：部署、更新、备份与费用；具体路径和参数以当前仓库为准。
+- [部署说明](https://github.com/KKKKhazix/AIHOT/blob/main/docs/deploy.md)：部署、更新与备份；具体路径和参数以当前仓库为准。
 - [事件关系与评测文档目录](https://github.com/KKKKhazix/AIHOT/tree/main/docs)：查找事件归组、精选校准、综述评测等指导。
 - [AGENTS.md](https://github.com/KKKKhazix/AIHOT/blob/main/AGENTS.md)：交给工程 Agent 之前先读取。
 

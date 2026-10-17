@@ -1,7 +1,7 @@
 ---
 title: Skill 收藏与安装清单
 date: 2026-10-01
-updated: 2026-10-09
+updated: 2026-10-17
 tags:
   - Skill
 type: resource-index
@@ -117,7 +117,7 @@ status: active
 | 提供遥感、GIS、空间分析与地球观测机器学习的方法和代码参考；覆盖卫星影像、矢量与栅格、空间统计、点云和云端地理数据工作流。 | `geomaster` | 已安装 |
 | 用 Python 或 R 制作、修改和审阅投稿级科学图表；先明确图的结论与证据逻辑，支持多面板和 SVG、PDF、TIFF 等期刊输出。 | `nature-figure` | 已安装 |
 | 协调 matplotlib、seaborn、plotly 制作发表用图；重点处理多面板、显著性标记、误差线、色盲友好配色和期刊格式。 | `scientific-visualization` | 已安装 |
-| 按 figures4papers 的出版样式制作 Matplotlib 论文、报告与演示图，覆盖柱状、趋势、散点、热图和多面板；提供配色、字体、图例、排版与 PDF/SVG/高分辨率导出规范，并可对照仓库示例。不是通用交互可视化技能，也不以 3D 或 GIS 为主。 | [scientific-figure-making](https://github.com/ChenLiu-1996/figures4papers/blob/main/scientific-figure-making/SKILL.md) · [仓库](https://github.com/ChenLiu-1996/figures4papers) · [原短链](https://t.co/R47oklr7St) | 未安装 |
+| 按 figures4papers 的出版样式制作 Matplotlib 论文、报告与演示图，覆盖柱状、趋势、散点、热图和多面板；提供配色、字体、图例、排版与 PDF/SVG/高分辨率导出规范，并可对照仓库示例。不是通用交互可视化技能，也不以 3D 或 GIS 为主。 | [scientific-figure-making](https://github.com/ChenLiu-1996/figures4papers/blob/main/scientific-figure-making/SKILL.md) · [仓库](https://github.com/ChenLiu-1996/figures4papers) | 未安装 |
 
 ## 技术图与可视化
 
@@ -232,9 +232,9 @@ status: active
 | 作为 video-production 的 Remotion 兼容入口，用于明确指定 Remotion、React 视频组件或旧技能名称的任务；实际制作流程沿用主视频技能。 | `remotion-video-production` | 已安装 |
 | 提供 Remotion 与 React 程序化视频开发方法，覆盖动画、时序、字幕、3D、转场和素材处理；支持命令行、Node.js 及云端渲染。 | `remotion-video-toolkit` | 已安装 |
 | 规划并执行代码、模板或混合方式的视频制作流程；适合批量短视频、个性化视频、字幕与本地化版本及数据驱动视频。 | `video-production` | 已安装 |
-| 下载用户自有或已获授权的抖音原视频，单条可提取并校对 Markdown 逐字稿与 SRT；博主作品可批量归档原片、机器稿、公开指标、标签和封面文字，支持续跑及已有资料库的口播改写。收藏指向 feat/creator-batch-offline 开发分支；批量机器稿未经逐篇听音校对，不能擦除原片已烧录的标识。 | [ah-douyin-clean-downloader](https://github.com/ahang008/ah-douyin-clean-downloader/blob/feat/creator-batch-offline/SKILL.md) · [收藏分支](https://github.com/ahang008/ah-douyin-clean-downloader/tree/feat/creator-batch-offline) · [原短链](https://t.co/BObnXwyvIU) | 未安装 |
+| 下载用户自有或已获授权的抖音原视频，单条可提取并校对 Markdown 逐字稿与 SRT；博主作品可批量归档原片、机器稿、公开指标、标签和封面文字，支持续跑及已有资料库的口播改写。收藏指向 feat/creator-batch-offline 开发分支；批量机器稿未经逐篇听音校对，不能擦除原片已烧录的标识。 | [ah-douyin-clean-downloader](https://github.com/ahang008/ah-douyin-clean-downloader/blob/feat/creator-batch-offline/SKILL.md) · [收藏分支](https://github.com/ahang008/ah-douyin-clean-downloader/tree/feat/creator-batch-offline) | 未安装 |
 | Remotion 官方技能的路由入口，按任务引导到视频创建、React 画面、地图、多媒体处理、Studio 交互与渲染等参考；保留用户已有修改，新视频默认先展示交互预览，不自动等同于导出视频。 | [remotion-best-practices](https://github.com/remotion-dev/skills/blob/main/skills/remotion-best-practices/SKILL.md) · [仓库](https://github.com/remotion-dev/skills) | 未安装 |
-| 用 Hypit 编写和执行视频制作工作流，支持从需求、模板或参考视频组织画面、字幕、B-roll、声音和效果，并组合生成素材与用户提供的素材；包含 SVML/SVS/SVRun 编写、运行环境与服务连接指导。以语义和词语锚点组织时间，生成模型可选，宣传播放量不作为效果保证。 | [hypit](https://github.com/hypit-ai/hypit/blob/main/skills/hypit/SKILL.md) · [仓库](https://github.com/hypit-ai/hypit) · [原短链](https://t.co/TK1gBwFYqP) | 未安装 |
+| 用 Hypit 编写和执行视频制作工作流，支持从需求、模板或参考视频组织画面、字幕、B-roll、声音和效果，并组合生成素材与用户提供的素材；包含 SVML/SVS/SVRun 编写、运行环境与服务连接指导。以语义和词语锚点组织时间，生成模型可选，宣传播放量不作为效果保证。 | [hypit](https://github.com/hypit-ai/hypit/blob/main/skills/hypit/SKILL.md) · [仓库](https://github.com/hypit-ai/hypit) | 未安装 |
 | 把 SRT 字幕转换成暖米黄纸张底的白板手绘 MP4；按字幕叙事做分镜、统一线稿与区域标注，再通过连续笔迹先落墨后上色，并保护后续区域不提前露出。预览台可调整顺序与时序，分镜、线稿、标注和渲染等阶段逐步等待确认。 | [srt-whiteboard-animation](https://github.com/geeklee/srt-whiteboard-animation/blob/main/SKILL.md) · [仓库](https://github.com/geeklee/srt-whiteboard-animation) | 未安装 |
 | **调查长片制作**：从事实链、来源台账、口播稿、素材覆盖表到火山 TTS、Remotion 与多平台发布；需人工审片和素材授权。原 simontalk-investigation 已迁移至 simon-skills。 | [investigation-video](https://github.com/trustfuture/simon-skills/tree/master/skills/investigation-video) | 未核实（仅收藏；未执行安装） |
 | **白板视频讲解**：逐笔绘制、贴纸、字幕与封面，适合信息说明；与调查长片工具共用 video-common。 | [whiteboard-video](https://github.com/trustfuture/simon-skills/blob/master/skills/whiteboard-video/SKILL.md) | 未安装（2026-10-09 核对实际 SKILL.md；未执行） |
@@ -349,7 +349,7 @@ status: active
 | 科研技能合集，覆盖论文阅读、写作与润色、引用核验、科研绘图、统计、实验记录及论文转演示等任务，并提供共享支持包。本机已有 nature-academic-search、nature-citation、nature-figure、nature-reader、nature-response、nature-reviewer、nature-writing 七项对应技能；未安装完整合集，现有版本与当前上游内容有差异。 | [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills) | 已安装（部分） |
 | 面向技术营销人员和创始人的营销技能合集，覆盖转化率优化、文案、SEO 与 AI 搜索优化、广告、数据分析、用户研究、定价、发布及留存增长；以 product-marketing 建立共享的产品、受众与定位背景，各技能据此开展专项任务并相互衔接。 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 未安装 |
 | 花叔开源技能的总目录，既索引独立的旗舰与人物视角技能仓库，也包含可直接使用的内置 SKILL.md；覆盖选题、大纲、审校、研究、设计、配图、文档转换等任务，并提供机器可读 skills.json 和更新检查入口。已单独收藏的 huashu-design 保留为独立条目，不视为已安装整个合集。 | [alchaincyf/huashu-skills](https://github.com/alchaincyf/huashu-skills) | 未安装 |
-| 面向电影、电视剧和舞台剧的编剧技能合集，覆盖故事前提、结构、人物冲突、对白、场景、剧集开发与不同创作传统；sw-workflow 按项目阶段调度具体技能，把结论与下一步记入 story-bible.md，支持跨会话续写。技能正文以中文维护，输出语言随用户问题调整。 | [jtydhr88/screenwriting-skills](https://github.com/jtydhr88/screenwriting-skills) · [流程技能](https://github.com/jtydhr88/screenwriting-skills/blob/main/plugins/screenwriting/skills/sw-workflow/SKILL.md) · [原短链](https://t.co/dkpi73y6o8) | 未安装 |
+| 面向电影、电视剧和舞台剧的编剧技能合集，覆盖故事前提、结构、人物冲突、对白、场景、剧集开发与不同创作传统；sw-workflow 按项目阶段调度具体技能，把结论与下一步记入 story-bible.md，支持跨会话续写。技能正文以中文维护，输出语言随用户问题调整。 | [jtydhr88/screenwriting-skills](https://github.com/jtydhr88/screenwriting-skills) · [流程技能](https://github.com/jtydhr88/screenwriting-skills/blob/main/plugins/screenwriting/skills/sw-workflow/SKILL.md) | 未安装 |
 | 面向 Cursor 工程开发的插件与技能包，包含架构设计、需求追问、TDD、根因排查、验证、技术写作及并行工作等流程；poteto-mode 按任务选择 playbook，setup-pstack 配置角色与模型。已核实位于 Cursor 官方插件仓库，跨工具使用仍需核对 Cursor 规则和运行机制。 | [pstack](https://github.com/cursor/plugins/tree/main/pstack) · [说明](https://github.com/cursor/plugins/blob/main/pstack/README.md) | 未安装 |
 | HumanLayer 的开发技能合集，包含 show-me 可视化解释、visual-pr 结构化 PR 描述、CLAUDE.md 指令整理、React 属性类型收窄，以及迭代 Agent 工作流与控制回路设计；每个技能职责独立，实际动作与运行依赖需按具体技能核对。 | [humanlayer/skills](https://github.com/humanlayer/skills) | 未安装 |
 | 面向设计师与工程师的界面技能合集，覆盖 UI 细节、动画创建与审查、全代码库动效改进计划、动效术语、原型和原生移动界面；重点帮助选择合适的缓动、时长与交互细节。已单独收藏 emil-design-eng 和 review-animations，本行记录整个合集。 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 未安装 |
