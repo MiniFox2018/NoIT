@@ -10,7 +10,6 @@ https://chatimg.ai/gallery?view=comparison
 https://civitai.com/images
 https://creator.douyin.com/creator-micro/home?enter_from=dou_web
 https://creator.xiaohongshu.com/new/home
-https://data.xiguaji.com/
 https://eternity4719.github.io/HowToLiveBetter/
 https://evolink.ai/gpt-image-2-prompts
 https://evolink.ai/seedance-2-5-prompts
@@ -50,19 +49,15 @@ https://www.ahhhhfs.com/
 https://www.analysys.cn/
 https://www.bestblogs.dev/
 https://www.cbndata.com/
-https://www.chanmama.com/
 https://www.cloudocs.top/
 https://www.cocoloop.cn/
 https://www.dmzshequ.com/forum.php
-https://www.feigua.cn/
 https://www.gamsgo.com/zh?promote=QNGdB&category_id=ai
 https://www.goplus.pro/
 https://www.gushiwen.cn/
-https://www.huitun.com/
 https://www.iimedia.cn/
 https://www.iresearch.com.cn/report.shtml
 https://www.iyiou.com/
-https://www.kaogujia.com/home
 https://www.leadleo.com/
 https://www.mckinsey.com/insights/en
 https://www.meigen.ai/
@@ -73,5 +68,4 @@ https://www.qijishow.com/Brand/wechat/index
 https://www.questmobile.com.cn/
 https://www.visualcapitalist.com/
 https://www.wikiart.org/zh
-https://www.youwant.cn/
 https://zh.z-library.sk/
