@@ -125,7 +125,7 @@ status: active
 |---|---|
 | 将架构、流程、时序、数据流或状态关系做成可浏览的独立 HTML 图；支持明暗主题、多种图像导出及 Mermaid 转换，反映代码时核对仓库证据。 | [archify](https://github.com/tt-a1i/archify/blob/main/archify/SKILL.md) |
 | 将技术系统或流程说明绘制为架构图、流程图、时序图、数据流图和概念图；以 SVG 与 PNG 作为导出成果。 | [fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph/blob/main/SKILL.md) |
-| 将 JSON 配置渲染成持续运行风格的动态架构图或 Agent 关系面板：固定布局中呈现连线数据流、日志、计数器和状态变化；支持深色终端与浅色图解、MP4 视频或独立网页。包含真实 `SKILL.md`、渲染脚本和逐帧检查；依赖 Python 3.8+、Chrome/Chromium 与 ffmpeg，非实时遥测或可编辑交互图。复用示例设计须保留相应署名；仅核验公开源码说明，未安装、未运行。 | [live-panel](https://github.com/ythx-101/live-panel-skill/blob/main/SKILL.md) · [仓库](https://github.com/ythx-101/live-panel-skill) |
+| 将 JSON 配置渲染成持续运行风格的动态架构图或 Agent 关系面板：固定布局中呈现连线数据流、日志、计数器和状态变化；支持深色终端与浅色图解、MP4 视频或独立网页。包含真实 `SKILL.md`、渲染脚本和逐帧检查；依赖 Python 3.8+、Chrome/Chromium 与 ffmpeg，非实时遥测或可编辑交互图。复用示例设计须保留相应署名；目前仅据公开源码说明归档，实际效果未经验证。 | [live-panel](https://github.com/ythx-101/live-panel-skill/blob/main/SKILL.md) · [仓库](https://github.com/ythx-101/live-panel-skill) |
 | 提供 Markdown 科学报告和 Mermaid 图表的写作规范；内含多种图表参考与文档模板，适合用可编辑文本表达结构与流程。 | [markdown-mermaid-writing](https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/markdown-mermaid-writing/SKILL.md) |
 | 直接在对话中制作交互图表、模拟、地图或原型；适合比较方案、探索变量变化以及演示“改变条件会怎样”。 | `visualize:visualize` · 公开来源待核实 |
 | 按品牌设计规范制作架构、流程、时序、状态、ER、数据流及多种图表，输出含内联 SVG 的独立 HTML，并支持 SVG、PNG 与 drawio、Excalidraw 导入；首次使用先确认项目风格，突出编辑式版面与品牌一致性。 | [diagram-design](https://github.com/cathrynlavery/diagram-design/blob/main/skills/diagram-design/SKILL.md) · [仓库](https://github.com/cathrynlavery/diagram-design) |
@@ -257,7 +257,7 @@ status: active
 | 通过终端控制真实浏览器，执行导航、表单填写、截图、数据提取和界面流程调试；使用 playwright-cli 或配套封装脚本。 | [playwright](https://github.com/openai/skills/blob/main/skills/.curated/playwright/SKILL.md) |
 | 发现和推荐插件，查看应用权限与依赖，并管理连接或移除；适合需要外部服务能力或排查插件接入问题的任务。 | `plugin-management:plugin-management` · 公开来源待核实 |
 | 从参考文档、演示、表格或其他制品创建可复用的个人模板 Skill，也可更新已有模板技能；适合保存版式与制作规则供后续复用。 | `template-creator:template-creator` · 公开来源待核实 |
-| 通过 playwright-cli 快照与元素引用控制真实浏览器，支持导航、表单、文件上传、截图及 Playwright 测试工作。与本机已安装的 playwright 技能用途相近，但本条是 Microsoft 仓库中的独立 Skill，不将两者混记为已安装。 | [playwright-cli](https://github.com/microsoft/playwright-cli/blob/main/skills/playwright-cli/SKILL.md) · [仓库](https://github.com/microsoft/playwright-cli) |
+| 通过 playwright-cli 快照与元素引用控制真实浏览器，支持导航、表单、文件上传、截图及 Playwright 测试工作。与上方 `playwright` 技能用途相近，但本条是 Microsoft 仓库中的独立 Skill，不应因同名近似而合并。 | [playwright-cli](https://github.com/microsoft/playwright-cli/blob/main/skills/playwright-cli/SKILL.md) · [仓库](https://github.com/microsoft/playwright-cli) |
 | 为当前任务创建或更新 PR，用一句变更原因、少量注意事项和可视化结构大纲帮助审阅者理解实现；可展示调用树、组件或文件结构及差异。仅在明确点名时使用，流程可能涉及提交、推送和发布 PR 描述。 | [visual-pr](https://github.com/humanlayer/skills/blob/main/plugins/visual-pr/skills/visual-pr/SKILL.md) · [仓库](https://github.com/humanlayer/skills) |
 | **真实浏览器自动化**：Tencent BrowserSkill 通过 bsk CLI、守护进程及 Chrome/Edge 扩展在独立 Agent Window 中操作已登录网页、表单和网络调试；借用用户标签页需明确授权，页面指令不可信。安装 Skill 不等于已有 CLI/扩展，也不可提取凭据与 Cookie。 | [browser-skill](https://github.com/Tencent/BrowserSkill/blob/main/crates/bsk-cli/skill/SKILL.md) · [仓库](https://github.com/Tencent/BrowserSkill) |
 
@@ -369,14 +369,14 @@ status: active
 
 - 六个具体 Skill：yichen-web-research、video-use、seedance、browser-skill、life-decision-guide、xhs-visual-director；两个合集：ljg-skills、chubbyskills。合集不按单个 Skill 计数。
 - CardDown 为 Markdown 排版渲染 CLI；ENGSENCE 为英语播客学习 App；grokbot-field-notes 为 Agent 工程经验资料，均不误列为 Skill。
-- 本批仅核对公开源文件、部分配套说明和结构，**没有安装、执行、登录授权或验证实际效果**；其软件工具属性与方法论分别进入既有工具索引和知识主题。
+- 本批仅核对公开源文件、部分配套说明和结构，**未执行、登录授权或验证实际效果**；其软件工具属性与方法论分别进入既有工具索引和知识主题。
 
 ## 2026-10-09 外部清单校核
 
 - 本批来源为用户提供的 [@0xluffy_eth](https://x.com/0xluffy_eth) 整理文字；缺少单条原帖的明确 URL。原帖按“一人公司职能部门”归类，仅是资源组合视角，不能由此认定已有可直接运行的一体化公司系统。
 - 原帖将 `Frontend Design` 误指向 Taste 仓库：Taste 沿用已有记录，新增 Anthropic 官方 `frontend-design` 独立记录。Anthropic `skill-creator` 与本库已有 Codex 同名 Skill 不自动判定为同一安装来源。
 - 已存在 `obra/superpowers`、`nextlevelbuilder/ui-ux-pro-max-skill`、`Leonxlnx/taste-skill`、`coreyhaines31/marketingskills` 等条目，仅复用而不重复新建。Anthropic 六项 Skill 同源不同文件；Transitions 两项同源不同技能；Context7 既包含 MCP，也包含多个 Skill。
-- 本轮核验公开项目、部分 README、实际 Skill 文件和官方插件说明。没有安装、运行、授权或验证效果。动态技能数量以再次核查具体版本为准，不把博主宣传数量当作固定事实。
+- 本轮核验公开项目、部分 README、实际 Skill 文件和官方插件说明。未运行、授权或验证效果。动态技能数量以再次核查具体版本为准，不把博主宣传数量当作固定事实。
 
 
 ## 2026-10-09 批量资料关联项目校核
