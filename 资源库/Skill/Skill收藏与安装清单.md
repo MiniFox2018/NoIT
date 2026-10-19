@@ -19,7 +19,7 @@ status: active
 | 用途 | Skill · 点击查看说明 |
 |---|---|
 | 查询 Codex 设置、技能、自动化及 OpenAI API 的官方说明；强调官方来源核对，适合配置解释、产品使用与故障排查。 | [openai-docs](https://github.com/openai/skills/blob/main/skills/.system/openai-docs/SKILL.md) |
-| 只读审查指定代码变更，覆盖未提交修改、分支差异或某次提交；优先找实际缺陷，并返回可执行的修复意见。 | `review-agent` · 公开来源待核实 |
+| 只读审查指定代码变更，覆盖未提交修改、分支差异或某次提交；优先找实际缺陷，并返回可执行的修复意见。 | [review-agent](https://github.com/openai/codex/blob/main/codex-rs/skills/src/assets/samples/review-agent/SKILL.md) |
 | 创建或更新 Codex Skill，明确任务范围、触发条件和执行指引，并补充所需资源；适合把重复工作整理成可复用技能。 | [skill-creator](https://github.com/openai/skills/blob/main/skills/.system/skill-creator/SKILL.md) |
 | 面向 Claude 的 Agent Skill 创建、修改、触发描述优化和评测，包含测试与验证流程；这是 Anthropic 官方示例版，不要与同名 Codex `skill-creator` 混为同一来源。 | [skill-creator（Anthropic）](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md) · [官方项目](https://github.com/anthropics/skills) |
 | 列出可安装技能，或从精选目录、GitHub 仓库路径安装到 Codex 技能目录；支持来自私有仓库的技能。 | [skill-installer](https://github.com/openai/skills/blob/main/skills/.system/skill-installer/SKILL.md) |
