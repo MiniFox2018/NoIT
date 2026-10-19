@@ -1,7 +1,7 @@
 ---
 title: Skill 网站与导航
 date: 2026-10-01
-updated: 2026-10-03
+updated: 2026-10-19
 tags:
   - Skill
 type: resource-index
@@ -12,7 +12,7 @@ status: active
 
 > 本页保存用于发现、筛选和查找 Skill 的入口。收录某个导航站不等于认可其中全部项目，也不自动把站内 Skill 全量导入 NoIT；具体技能仍按本目录规则逐项核对。
 
-用于发现、筛选和查找 Skill 的网站入口。具体技能及安装状态见 [[Skill收藏与安装清单]]。
+用于发现、筛选和查找 Skill 的网站入口。具体技能用途与公开来源见 [[Skill收藏与安装清单]]。
 
 | 网站 | 用途与特点 |
 |---|---|
@@ -26,4 +26,4 @@ status: active
 
 ## 相关技能合集
 
-花叔的 [huashu-skills 总目录](https://github.com/alchaincyf/huashu-skills) 同时包含外部项目索引和实际内置技能，已收录在 [[Skill收藏与安装清单#收藏的技能合集|技能合集清单]]，安装状态以该清单为准。
+花叔的 [huashu-skills 总目录](https://github.com/alchaincyf/huashu-skills) 同时包含外部项目索引和实际内置技能，已收录在 [[Skill收藏与安装清单#收藏的技能合集|技能合集清单]]，具体 Skill 以该清单的公开来源为准。
