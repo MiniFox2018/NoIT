@@ -218,10 +218,10 @@ status: active
 
 | 用途 | Skill · 点击查看说明 |
 |---|---|
-| 把对话和决策整理为结构化 Notion 页面，如知识库条目、操作指南或 FAQ；强调建立相关页面之间的链接。 | `notion:notion-knowledge-capture` · 公开来源待核实 |
-| 结合 Notion 里的背景资料与补充研究准备会议议程和预读材料；根据参会人员调整内容与重点。 | `notion:notion-meeting-intelligence` · 公开来源待核实 |
-| 跨多个 Notion 来源收集资料并综合成简报、对比或报告；保留引用，适合从已有工作空间提炼结论。 | `notion:notion-research-documentation` · 公开来源待核实 |
-| 将 Notion 需求或 PRD 转成实现计划、任务与进度跟踪；适合把文档中的规格落到可执行工作。 | `notion:notion-spec-to-implementation` · 公开来源待核实 |
+| 把对话和决策整理为结构化 Notion 页面，如知识库条目、操作指南或 FAQ；强调建立相关页面之间的链接。 | [notion:notion-knowledge-capture](https://github.com/openai/plugins/blob/main/plugins/notion/skills/notion-knowledge-capture/SKILL.md) |
+| 结合 Notion 里的背景资料与补充研究准备会议议程和预读材料；根据参会人员调整内容与重点。 | [notion:notion-meeting-intelligence](https://github.com/openai/plugins/blob/main/plugins/notion/skills/notion-meeting-intelligence/SKILL.md) |
+| 跨多个 Notion 来源收集资料并综合成简报、对比或报告；保留引用，适合从已有工作空间提炼结论。 | [notion:notion-research-documentation](https://github.com/openai/plugins/blob/main/plugins/notion/skills/notion-research-documentation/SKILL.md) |
+| 将 Notion 需求或 PRD 转成实现计划、任务与进度跟踪；适合把文档中的规格落到可执行工作。 | [notion:notion-spec-to-implementation](https://github.com/openai/plugins/blob/main/plugins/notion/skills/notion-spec-to-implementation/SKILL.md) |
 
 ## 视频制作
 
